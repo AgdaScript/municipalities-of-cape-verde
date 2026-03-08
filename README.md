@@ -1,56 +1,56 @@
-# API Municípios de Cabo Verde
+# Cape Verde Municipalities API
 
-API REST para consulta de ilhas, municípios, zonas e ruas de Cabo Verde, documentada com Swagger/OpenAPI 3.0.
+REST API for querying islands, municipalities, zones and streets of Cape Verde, documented with Swagger/OpenAPI 3.0.
 
 ## Endpoints
 
-| Método | Endpoint | Descrição |
-|--------|----------|-----------|
-| GET | `/islands` | Lista todas as ilhas |
-| GET | `/islands/{island}/municipalities` | Lista municípios de uma ilha |
-| GET | `/islands/{island}/municipalities/{municipality}/zones` | Lista zonas de um município |
-| GET | `/islands/{island}/municipalities/{municipality}/zones/{zone}/streets` | Lista ruas de uma zona* |
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/islands` | List all islands |
+| GET | `/islands/{island}/municipalities` | List municipalities of an island |
+| GET | `/islands/{island}/municipalities/{municipality}/zones` | List zones of a municipality |
+| GET | `/islands/{island}/municipalities/{municipality}/zones/{zone}/streets` | List streets of a zone* |
 
-\* Os dados de ruas não estão no JSON atual; o endpoint retorna array vazio e está preparado para expansão.
+\* Street data is not available in the current JSON; the endpoint returns an empty array and is prepared for future expansion.
 
-## Exemplos de uso
+## Usage examples
 
 ```bash
-# Listar ilhas
+
 curl http://localhost:3000/islands
 
-# Municípios de Santiago
+
 curl http://localhost:3000/islands/Santiago/municipalities
 
-# Zonas de Praia (Santiago)
+
 curl http://localhost:3000/islands/Santiago/municipalities/Praia/zones
 
-# Ruas de Plateau (dados vazios por agora)
+
 curl "http://localhost:3000/islands/Santiago/municipalities/Praia/zones/Plateau/streets"
 ```
 
-Os parâmetros aceitam nomes com ou sem acentuação (ex: `Sao Vicente` ou `São Vicente`).
+Parameters accept names with or without accents (e.g. `Sao Vicente` or `São Vicente`).
 
-## Instalação
+## Installation
 
 ```bash
 npm install
 ```
 
-## Executar
+## Run
 
 ```bash
 npm start
 ```
 
-Modo desenvolvimento (reinicia ao alterar ficheiros):
+Development mode (restarts on file changes):
 
 ```bash
 npm run dev
 ```
 
-## Documentação Swagger
+## Swagger documentation
 
-Após iniciar o servidor, acesse:
+After starting the server, access:
 
 - **Swagger UI:** http://localhost:3000/api-docs
