@@ -1,0 +1,235 @@
+openapi: 3.0.3
+info:
+  title: API Municípios de Cabo Verde
+  description: |
+    API REST para consulta de ilhas, municípios, zonas e ruas de Cabo Verde.
+    Os nomes nos parâmetros de path aceitam variações com ou sem acentuação
+    (ex: "Sao Vicente" ou "São Vicente").
+  version: 1.0.0
+  contact:
+    name: API Municípios Cabo Verde
+
+servers:
+  - url: http://localhost:3000
+    description: Servidor local
+
+tags:
+  - name: Ilhas
+    description: Operações relacionadas às ilhas
+  - name: Municípios
+    description: Operações relacionadas aos municípios
+  - name: Zonas
+    description: Operações relacionadas às zonas
+  - name: Ruas
+    description: Operações relacionadas às ruas
+
+paths:
+  /islands:
+    get:
+      tags:
+        - Ilhas
+      summary: Lista todas as ilhas
+      description: Retorna a lista de todas as ilhas de Cabo Verde
+      operationId: getIslands
+      responses:
+        '200':
+          description: Lista de ilhas retornada com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IslandsResponse'
+              example:
+                islands:
+                  - Santiago
+                  - São Vicente
+                  - Sal
+                  - Boa Vista
+                  - Maio
+                  - Fogo
+                  - Brava
+                  - Santo Antão
+                  - Nicolau
+
+  /islands/{island}/municipalities:
+    get:
+      tags:
+        - Municípios
+      summary: Lista municípios de uma ilha
+      description: Retorna os municípios da ilha especificada
+      operationId: getMunicipalities
+      parameters:
+        - name: island
+          in: path
+          required: true
+          description: "Nome da ilha (ex: Santiago, São Vicente, Sal)"
+          schema:
+            type: string
+            example: Santiago
+      responses:
+        '200':
+          description: Lista de municípios retornada com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MunicipalitiesResponse'
+              example:
+                municipalities:
+                  - Praia
+                  - Santa Catarina
+                  - Santa Cruz
+                  - São Domingos
+                  - São Lourenço dos Órgãos
+                  - São Miguel
+                  - Tarrafal
+        '404':
+          description: Ilha não encontrada
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /islands/{island}/municipalities/{municipality}/zones:
+    get:
+      tags:
+        - Zonas
+      summary: Lista zonas de um município
+      description: Retorna as zonas do município especificado
+      operationId: getZones
+      parameters:
+        - name: island
+          in: path
+          required: true
+          description: Nome da ilha
+          schema:
+            type: string
+            example: Santiago
+        - name: municipality
+          in: path
+          required: true
+          description: Nome do município
+          schema:
+            type: string
+            example: Praia
+      responses:
+        '200':
+          description: Lista de zonas retornada com sucesso
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ZonesResponse'
+              example:
+                zones:
+                  - Achada Santo António
+                  - Achada Grande
+                  - Plateau
+                  - Palmarejo
+        '404':
+          description: Ilha ou município não encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /islands/{island}/municipalities/{municipality}/zones/{zone}/streets:
+    get:
+      tags:
+        - Ruas
+      summary: Lista ruas de uma zona
+      description: |
+        Retorna as ruas da zona especificada.
+        **Nota:** Os dados de ruas não estão disponíveis no JSON atual.
+        Este endpoint retorna array vazio e está preparado para futuras expansões.
+      operationId: getStreets
+      parameters:
+        - name: island
+          in: path
+          required: true
+          description: Nome da ilha
+          schema:
+            type: string
+            example: Santiago
+        - name: municipality
+          in: path
+          required: true
+          description: Nome do município
+          schema:
+            type: string
+            example: Praia
+        - name: zone
+          in: path
+          required: true
+          description: Nome da zona
+          schema:
+            type: string
+            example: Plateau
+      responses:
+        '200':
+          description: Lista de ruas (vazia - dados não disponíveis)
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StreetsResponse'
+              example:
+                streets: []
+        '404':
+          description: Ilha, município ou zona não encontrado
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+components:
+  schemas:
+    IslandsResponse:
+      type: object
+      required:
+        - islands
+      properties:
+        islands:
+          type: array
+          items:
+            type: string
+          description: Lista de nomes das ilhas
+
+    MunicipalitiesResponse:
+      type: object
+      required:
+        - municipalities
+      properties:
+        municipalities:
+          type: array
+          items:
+            type: string
+          description: Lista de nomes dos municípios
+
+    ZonesResponse:
+      type: object
+      required:
+        - zones
+      properties:
+        zones:
+          type: array
+          items:
+            type: string
+          description: Lista de nomes das zonas
+
+    StreetsResponse:
+      type: object
+      required:
+        - streets
+      properties:
+        streets:
+          type: array
+          items:
+            type: string
+          description: Lista de nomes das ruas
+
+    ErrorResponse:
+      type: object
+      properties:
+        error:
+          type: string
+          example: Recurso não encontrado
+        message:
+          type: string
+          example: A ilha "X" não existe nos dados.
