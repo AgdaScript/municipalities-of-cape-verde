@@ -1,0 +1,263 @@
+{
+    "Santiago": {
+      "Praia": {
+        "zonas": [
+          "Achada Santo António",
+          "Achada Grande",
+          "Achada Mato",
+          "Achada São Filipe",
+          "Bairro",
+          "Casa Branca",
+          "Fazenda",
+          "Horta Seca",
+          "Palmarejo",
+          "Plateau",
+          "Ponta d'Água",
+          "Quebra Canela",
+          "Safende",
+          "São Francisco",
+          "Tira Chapéu",
+          "Várzea"
+        ]
+      },
+      "Santa Catarina": {
+        "zonas": [
+          "Assomada",
+          "Achada Falcão",
+          "Boa Entrada",
+          "Chão de Tanque",
+          "Engenhos",
+          "Figueira das Naus",
+          "Nhagar",
+          "Picos",
+          "Rincão"
+        ]
+      },
+      "Santa Cruz": {
+        "zonas": [
+          "Pedra Badejo",
+          "Calabaceira",
+          "Cruz Grande",
+          "Mata Milho",
+          "Pico Mosquito",
+          "Ribeira da Barca"
+        ]
+      },
+      "São Domingos": {
+        "zonas": [
+          "São Domingos",
+          "Baía",
+          "Bela Vista",
+          "Bolem",
+          "Fundo de Figueiras",
+          "João Evora",
+          "Mangue Dencho"
+        ]
+      },
+      "São Lourenço dos Órgãos": {
+        "zonas": [
+          "João Teves",
+          "Corta Capim",
+          "Montanha",
+          "Órgãos"
+        ]
+      },
+      "São Miguel": {
+        "zonas": [
+          "Calheta de São Miguel",
+          "Praia Baixo",
+          "Ribeira da Prata",
+          "Santo Amaro"
+        ]
+      },
+      "Tarrafal": {
+        "zonas": [
+          "Tarrafal",
+          "Barril",
+          "Chão de Monte",
+          "Figueira do Coi",
+          "Fundo das Ribeiras",
+          "Mangui"
+        ]
+      }
+    },
+    "São Vicente": {
+      "São Vicente": {
+        "zonas": [
+          "Mindelo",
+          "Baía das Gatas",
+          "Calhau",
+          "Fonte Francês",
+          "Lameirão",
+          "Monte Sossego",
+          "Ribeira Bote",
+          "Ribeira de Calhau",
+          "Salamansa",
+          "São Pedro"
+        ]
+      }
+    },
+    "Sal": {
+      "Sal": {
+        "zonas": [
+          "Espargos",
+          "Murdeira",
+          "Palmeira",
+          "Pedra de Lume",
+          "Santa Maria"
+        ]
+      }
+    },
+    "Boa Vista": {
+      "Boa Vista": {
+        "zonas": [
+          "Sal Rei",
+          "Bofareira",
+          "Cabeça dos Tarrafes",
+          "Estância de Baixo",
+          "Funda",
+          "João Barreiro",
+          "João Galego",
+          "Povoação Velha",
+          "Rabil"
+        ]
+      }
+    },
+    "Maio": {
+      "Maio": {
+        "zonas": [
+          "Vila do Maio",
+          "Alcatraz",
+          "Barreiro",
+          "Cascabulho",
+          "Figueira da Horta",
+          "Pedra Vincente",
+          "Pilão Cão",
+          "Porto Inglês",
+          "Ribeira Dom João"
+        ]
+      }
+    },
+    "Fogo": {
+      "São Filipe": {
+        "zonas": [
+          "São Filipe",
+          "Achada Furna",
+          "Atalaia",
+          "Cabeça Fundão",
+          "Campo de Cima",
+          "Chã das Caldeiras",
+          "Corta",
+          "Curral Grande",
+          "Fajãzinha",
+          "Figueira Pavão",
+          "Fonsaco",
+          "Lomba",
+          "Monte Grande"
+        ]
+      },
+      "Santa Catarina do Fogo": {
+        "zonas": [
+          "Cova Figueira",
+          "Achada Tenda",
+          "Cabeça Corredor",
+          "Estância Roque",
+          "Fonte Aleixo",
+          "Mãe Joana",
+          "Moinho",
+          "Ribeira Ilhéu",
+          "Tinteira"
+        ]
+      },
+      "Mosteiros": {
+        "zonas": [
+          "Mosteiros",
+          "Corvo",
+          "Cova Feijoal",
+          "Fajã",
+          "Galinheiros",
+          "Igreja",
+          "Pai António",
+          "Ribeira do Mosteiro"
+        ]
+      }
+    },
+    "Brava": {
+      "Brava": {
+        "zonas": [
+          "Nova Sintra",
+          "Cachaço",
+          "Campo Baixo",
+          "Cova Joana",
+          "Fajã de Agua",
+          "Lime Doce",
+          "Mato Grande",
+          "Nova Sintra do Monte",
+          "Santa Bárbara",
+          "Tantum"
+        ]
+      }
+    },
+    "Santo Antão": {
+      "Ribeira Grande": {
+        "zonas": [
+          "Ponta do Sol",
+          "Chã de Pedras",
+          "Coculi",
+          "Corvo",
+          "Cruzinha",
+          "Figueiral",
+          "Fontainhas",
+          "Lomba da Preguiça",
+          "Lombo de Santo",
+          "Pombas",
+          "Ribeira da Cruz"
+        ]
+      },
+      "Paul": {
+        "zonas": [
+          "Pombas",
+          "Coculi",
+          "Eito",
+          "Lombo Comprido",
+          "Pico da Cruz"
+        ]
+      },
+      "Porto Novo": {
+        "zonas": [
+          "Porto Novo",
+          "Carrical",
+          "Cidade das Pombas",
+          "Curral das Vacas",
+          "Janela",
+          "Lajedos",
+          "Ribeira das Patas",
+          "Topo da Coroa"
+        ]
+      }
+    },
+    "Nicolau": {
+      "Ribeira Brava": {
+        "zonas": [
+          "Ribeira Brava",
+          "Cachaço",
+          "Caleijão",
+          "Carril",
+          "Estância de Brás",
+          "Fajã",
+          "Juncalinho",
+          "Preguiça"
+        ]
+      },
+      "Tarrafal de São Nicolau": {
+        "zonas": [
+          "Tarrafal",
+          "Carriçal",
+          "Cabeçalinho",
+          "Fajã de Baixo",
+          "Fajã de Cima",
+          "Praia Branca"
+        ]
+      }
+    }
+  }
