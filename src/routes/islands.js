@@ -18,8 +18,8 @@ router.get('/:island/municipalities', (req, res) => {
   const municipalities = getMunicipalities(island);
   if (municipalities === null) {
     return res.status(404).json({
-      error: 'Ilha não encontrada',
-      message: `A ilha "${island}" não existe nos dados.`,
+      error: 'Island not found',
+      message: `Island "${island}" does not exist in the data.`,
     });
   }
   res.json({ municipalities });
@@ -30,8 +30,8 @@ router.get('/:island/municipalities/:municipality/zones', (req, res) => {
   const zones = getZones(island, municipality);
   if (zones === null) {
     return res.status(404).json({
-      error: 'Recurso não encontrado',
-      message: `Ilha "${island}" ou município "${municipality}" não encontrado.`,
+      error: 'Resource not found',
+      message: `Island "${island}" or municipality "${municipality}" not found.`,
     });
   }
   res.json({ zones });
@@ -44,8 +44,8 @@ router.get(
     const streets = getStreets(island, municipality, zone);
     if (streets === null) {
       return res.status(404).json({
-        error: 'Recurso não encontrado',
-        message: `Ilha, município ou zona não encontrado.`,
+        error: 'Resource not found',
+        message: 'Island, municipality or zone not found.',
       });
     }
     res.json({ streets });

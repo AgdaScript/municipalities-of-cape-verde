@@ -30,6 +30,6 @@ app.get('/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`API rodando em http://localhost:${PORT}`);
-  console.log(`Documentação Swagger: http://localhost:${PORT}/api-docs`);
+  console.log(`API running at http://localhost:${PORT}`);
+  console.log(`Swagger docs: http://localhost:${PORT}/api-docs`);
 });
