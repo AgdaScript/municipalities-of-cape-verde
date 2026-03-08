@@ -8,19 +8,11 @@ import {
 
 const router = Router();
 
-/**
- * GET /islands
- * Lista todas as ilhas de Cabo Verde
- */
 router.get('/', (req, res) => {
   const islands = getIslands();
   res.json({ islands });
 });
 
-/**
- * GET /islands/:island/municipalities
- * Lista municípios de uma ilha
- */
 router.get('/:island/municipalities', (req, res) => {
   const { island } = req.params;
   const municipalities = getMunicipalities(island);
@@ -33,10 +25,6 @@ router.get('/:island/municipalities', (req, res) => {
   res.json({ municipalities });
 });
 
-/**
- * GET /islands/:island/municipalities/:municipality/zones
- * Lista zonas de um município
- */
 router.get('/:island/municipalities/:municipality/zones', (req, res) => {
   const { island, municipality } = req.params;
   const zones = getZones(island, municipality);
@@ -49,10 +37,6 @@ router.get('/:island/municipalities/:municipality/zones', (req, res) => {
   res.json({ zones });
 });
 
-/**
- * GET /islands/:island/municipalities/:municipality/zones/:zone/streets
- * Lista ruas de uma zona (estrutura preparada - dados não disponíveis no JSON)
- */
 router.get(
   '/:island/municipalities/:municipality/zones/:zone/streets',
   (req, res) => {

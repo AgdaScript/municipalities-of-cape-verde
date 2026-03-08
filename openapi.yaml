@@ -1,39 +1,39 @@
 openapi: 3.0.3
 info:
-  title: API Municípios de Cabo Verde
+  title: Cape Verde Municipalities API
   description: |
-    API REST para consulta de ilhas, municípios, zonas e ruas de Cabo Verde.
-    Os nomes nos parâmetros de path aceitam variações com ou sem acentuação
-    (ex: "Sao Vicente" ou "São Vicente").
+    REST API for querying islands, municipalities, zones and streets of Cape Verde.
+    Path parameter names accept variations with or without accents
+    (e.g. "Sao Vicente" or "São Vicente").
   version: 1.0.0
   contact:
-    name: API Municípios Cabo Verde
+    name: Cape Verde Municipalities API
 
 servers:
   - url: http://localhost:3000
-    description: Servidor local
+    description: Local server
 
 tags:
-  - name: Ilhas
-    description: Operações relacionadas às ilhas
-  - name: Municípios
-    description: Operações relacionadas aos municípios
-  - name: Zonas
-    description: Operações relacionadas às zonas
-  - name: Ruas
-    description: Operações relacionadas às ruas
+  - name: Islands
+    description: Operations related to islands
+  - name: Municipalities
+    description: Operations related to municipalities
+  - name: Zones
+    description: Operations related to zones
+  - name: Streets
+    description: Operations related to streets
 
 paths:
   /islands:
     get:
       tags:
-        - Ilhas
-      summary: Lista todas as ilhas
-      description: Retorna a lista de todas as ilhas de Cabo Verde
+        - Islands
+      summary: List all islands
+      description: Returns the list of all Cape Verde islands
       operationId: getIslands
       responses:
         '200':
-          description: Lista de ilhas retornada com sucesso
+          description: Island list returned successfully
           content:
             application/json:
               schema:
@@ -53,21 +53,21 @@ paths:
   /islands/{island}/municipalities:
     get:
       tags:
-        - Municípios
-      summary: Lista municípios de uma ilha
-      description: Retorna os municípios da ilha especificada
+        - Municipalities
+      summary: List municipalities of an island
+      description: Returns the municipalities of the specified island
       operationId: getMunicipalities
       parameters:
         - name: island
           in: path
           required: true
-          description: "Nome da ilha (ex: Santiago, São Vicente, Sal)"
+          description: "Island name (e.g. Santiago, São Vicente, Sal)"
           schema:
             type: string
             example: Santiago
       responses:
         '200':
-          description: Lista de municípios retornada com sucesso
+          description: Municipality list returned successfully
           content:
             application/json:
               schema:
@@ -82,7 +82,7 @@ paths:
                   - São Miguel
                   - Tarrafal
         '404':
-          description: Ilha não encontrada
+          description: Island not found
           content:
             application/json:
               schema:
@@ -91,28 +91,28 @@ paths:
   /islands/{island}/municipalities/{municipality}/zones:
     get:
       tags:
-        - Zonas
-      summary: Lista zonas de um município
-      description: Retorna as zonas do município especificado
+        - Zones
+      summary: List zones of a municipality
+      description: Returns the zones of the specified municipality
       operationId: getZones
       parameters:
         - name: island
           in: path
           required: true
-          description: Nome da ilha
+          description: Island name
           schema:
             type: string
             example: Santiago
         - name: municipality
           in: path
           required: true
-          description: Nome do município
+          description: Municipality name
           schema:
             type: string
             example: Praia
       responses:
         '200':
-          description: Lista de zonas retornada com sucesso
+          description: Zone list returned successfully
           content:
             application/json:
               schema:
@@ -124,7 +124,7 @@ paths:
                   - Plateau
                   - Palmarejo
         '404':
-          description: Ilha ou município não encontrado
+          description: Island or municipality not found
           content:
             application/json:
               schema:
@@ -133,38 +133,38 @@ paths:
   /islands/{island}/municipalities/{municipality}/zones/{zone}/streets:
     get:
       tags:
-        - Ruas
-      summary: Lista ruas de uma zona
+        - Streets
+      summary: List streets of a zone
       description: |
-        Retorna as ruas da zona especificada.
-        **Nota:** Os dados de ruas não estão disponíveis no JSON atual.
-        Este endpoint retorna array vazio e está preparado para futuras expansões.
+        Returns the streets of the specified zone.
+        **Note:** Street data is not available in the current JSON.
+        This endpoint returns an empty array and is prepared for future expansion.
       operationId: getStreets
       parameters:
         - name: island
           in: path
           required: true
-          description: Nome da ilha
+          description: Island name
           schema:
             type: string
             example: Santiago
         - name: municipality
           in: path
           required: true
-          description: Nome do município
+          description: Municipality name
           schema:
             type: string
             example: Praia
         - name: zone
           in: path
           required: true
-          description: Nome da zona
+          description: Zone name
           schema:
             type: string
             example: Plateau
       responses:
         '200':
-          description: Lista de ruas (vazia - dados não disponíveis)
+          description: Street list (empty - data not available)
           content:
             application/json:
               schema:
@@ -172,7 +172,7 @@ paths:
               example:
                 streets: []
         '404':
-          description: Ilha, município ou zona não encontrado
+          description: Island, municipality or zone not found
           content:
             application/json:
               schema:
@@ -189,7 +189,7 @@ components:
           type: array
           items:
             type: string
-          description: Lista de nomes das ilhas
+          description: List of island names
 
     MunicipalitiesResponse:
       type: object
@@ -200,7 +200,7 @@ components:
           type: array
           items:
             type: string
-          description: Lista de nomes dos municípios
+          description: List of municipality names
 
     ZonesResponse:
       type: object
@@ -211,7 +211,7 @@ components:
           type: array
           items:
             type: string
-          description: Lista de nomes das zonas
+          description: List of zone names
 
     StreetsResponse:
       type: object
@@ -222,14 +222,14 @@ components:
           type: array
           items:
             type: string
-          description: Lista de nomes das ruas
+          description: List of street names
 
     ErrorResponse:
       type: object
       properties:
         error:
           type: string
-          example: Recurso não encontrado
+          example: Resource not found
         message:
           type: string
-          example: A ilha "X" não existe nos dados.
+          example: Island "X" does not exist in the data.
