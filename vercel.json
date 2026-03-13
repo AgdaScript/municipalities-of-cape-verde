@@ -1,8 +1,12 @@
 {
-  "routes": [
+  "version": 2,
+  "headers": [
     {
-      "src": "/(.*)",
-      "dest": "src/server.js"
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Access-Control-Allow-Origin", "value": "*" },
+        { "key": "Access-Control-Allow-Methods", "value": "GET, OPTIONS" }
+      ]
     }
   ]
 }
