@@ -24,6 +24,21 @@ tags:
     description: Operations related to streets
 
 paths:
+  /cabo-verde:
+    get:
+      tags:
+        - Islands
+      summary: Get full hierarchy
+      description: Returns the complete data structure with all islands, municipalities, zones and streets
+      operationId: getCaboVerde
+      responses:
+        '200':
+          description: Full Cape Verde hierarchy returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CaboVerdeResponse'
+
   /islands:
     get:
       tags:
@@ -83,6 +98,71 @@ paths:
                   - Tarrafal
         '404':
           description: Island not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /islands/{island}:
+    get:
+      tags:
+        - Islands
+      summary: Get island with all children
+      description: Returns the island with all its municipalities, zones and streets
+      operationId: getIslandWithChildren
+      parameters:
+        - name: island
+          in: path
+          required: true
+          description: Island name
+          schema:
+            type: string
+            example: Santiago
+      responses:
+        '200':
+          description: Island with full hierarchy returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/IslandWithChildrenResponse'
+        '404':
+          description: Island not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ErrorResponse'
+
+  /islands/{island}/municipalities/{municipality}:
+    get:
+      tags:
+        - Municipalities
+      summary: Get municipality with all children
+      description: Returns the municipality with all its zones and streets
+      operationId: getMunicipalityWithChildren
+      parameters:
+        - name: island
+          in: path
+          required: true
+          description: Island name
+          schema:
+            type: string
+            example: Santiago
+        - name: municipality
+          in: path
+          required: true
+          description: Municipality name
+          schema:
+            type: string
+            example: Praia
+      responses:
+        '200':
+          description: Municipality with full hierarchy returned successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MunicipalityWithChildrenResponse'
+        '404':
+          description: Island or municipality not found
           content:
             application/json:
               schema:
@@ -180,6 +260,65 @@ paths:
 
 components:
   schemas:
+    CaboVerdeResponse:
+      type: object
+      description: Full hierarchical structure of Cape Verde (islands > municipalities > zones > streets)
+      properties:
+        islands:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              municipalities:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    zones:
+                      type: object
+                      additionalProperties:
+                        type: object
+                        properties:
+                          streets:
+                            type: array
+                            items:
+                              type: string
+
+    IslandWithChildrenResponse:
+      type: object
+      properties:
+        island:
+          type: string
+        municipalities:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              zones:
+                type: object
+                additionalProperties:
+                  type: object
+                  properties:
+                    streets:
+                      type: array
+                      items:
+                        type: string
+
+    MunicipalityWithChildrenResponse:
+      type: object
+      properties:
+        municipality:
+          type: string
+        zones:
+          type: object
+          additionalProperties:
+            type: object
+            properties:
+              streets:
+                type: array
+                items:
+                  type: string
+
     IslandsResponse:
       type: object
       required:

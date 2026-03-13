@@ -63,3 +63,51 @@ export function getStreets(islandName, municipalityName, zoneName) {
 export function islandExists(islandName) {
   return findKey(loadData(), islandName) !== null;
 }
+
+function buildZoneWithStreets(zoneName) {
+  return { streets: [] };
+}
+
+function buildMunicipalityWithChildren(municipalityData) {
+  const zones = {};
+  for (const zoneName of municipalityData.zonas || []) {
+    zones[zoneName] = buildZoneWithStreets(zoneName);
+  }
+  return { zones };
+}
+
+function buildIslandWithChildren(islandData) {
+  const municipalities = {};
+  for (const [munName, munData] of Object.entries(islandData)) {
+    municipalities[munName] = buildMunicipalityWithChildren(munData);
+  }
+  return { municipalities };
+}
+
+export function getFullCaboVerde() {
+  const d = loadData();
+  const islands = {};
+  for (const [islandName, islandData] of Object.entries(d)) {
+    islands[islandName] = buildIslandWithChildren(islandData);
+  }
+  return { islands };
+}
+
+export function getIslandWithChildren(islandName) {
+  const d = loadData();
+  const islandKey = findKey(d, islandName);
+  if (!islandKey) return null;
+  const result = buildIslandWithChildren(d[islandKey]);
+  return { island: islandKey, ...result };
+}
+
+export function getMunicipalityWithChildren(islandName, municipalityName) {
+  const d = loadData();
+  const islandKey = findKey(d, islandName);
+  if (!islandKey) return null;
+  const municipalityKey = findKey(d[islandKey], municipalityName);
+  if (!municipalityKey) return null;
+  const munData = d[islandKey][municipalityKey];
+  const result = buildMunicipalityWithChildren(munData);
+  return { municipality: municipalityKey, ...result };
+}

@@ -6,8 +6,11 @@ REST API for querying islands, municipalities, zones and streets of Cape Verde, 
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
+| GET | `/cabo-verde` | Full hierarchy (islands, municipalities, zones, streets) |
 | GET | `/islands` | List all islands |
+| GET | `/islands/{island}` | Island with all children (municipalities, zones, streets) |
 | GET | `/islands/{island}/municipalities` | List municipalities of an island |
+| GET | `/islands/{island}/municipalities/{municipality}` | Municipality with all children (zones, streets) |
 | GET | `/islands/{island}/municipalities/{municipality}/zones` | List zones of a municipality |
 | GET | `/islands/{island}/municipalities/{municipality}/zones/{zone}/streets` | List streets of a zone* |
 
@@ -16,16 +19,25 @@ REST API for querying islands, municipalities, zones and streets of Cape Verde, 
 ## Usage examples
 
 ```bash
+# Full Cape Verde hierarchy
+curl http://localhost:3000/cabo-verde
 
+# Island with all children (municipalities, zones, streets)
+curl http://localhost:3000/islands/Santiago
+
+# Municipality with all children (zones, streets)
+curl http://localhost:3000/islands/Santiago/municipalities/Praia
+
+# List islands
 curl http://localhost:3000/islands
 
-
+# Municipalities of Santiago
 curl http://localhost:3000/islands/Santiago/municipalities
 
-
+# Zones of Praia
 curl http://localhost:3000/islands/Santiago/municipalities/Praia/zones
 
-
+# Streets of Plateau
 curl "http://localhost:3000/islands/Santiago/municipalities/Praia/zones/Plateau/streets"
 ```
 

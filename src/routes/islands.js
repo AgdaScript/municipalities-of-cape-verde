@@ -4,6 +4,8 @@ import {
   getMunicipalities,
   getZones,
   getStreets,
+  getIslandWithChildren,
+  getMunicipalityWithChildren,
 } from '../services/dataService.js';
 
 const router = Router();
@@ -13,16 +15,16 @@ router.get('/', (req, res) => {
   res.json({ islands });
 });
 
-router.get('/:island/municipalities', (req, res) => {
-  const { island } = req.params;
-  const municipalities = getMunicipalities(island);
-  if (municipalities === null) {
+router.get('/:island/municipalities/:municipality/zones/:zone/streets', (req, res) => {
+  const { island, municipality, zone } = req.params;
+  const streets = getStreets(island, municipality, zone);
+  if (streets === null) {
     return res.status(404).json({
-      error: 'Island not found',
-      message: `Island "${island}" does not exist in the data.`,
+      error: 'Resource not found',
+      message: 'Island, municipality or zone not found.',
     });
   }
-  res.json({ municipalities });
+  res.json({ streets });
 });
 
 router.get('/:island/municipalities/:municipality/zones', (req, res) => {
@@ -37,19 +39,40 @@ router.get('/:island/municipalities/:municipality/zones', (req, res) => {
   res.json({ zones });
 });
 
-router.get(
-  '/:island/municipalities/:municipality/zones/:zone/streets',
-  (req, res) => {
-    const { island, municipality, zone } = req.params;
-    const streets = getStreets(island, municipality, zone);
-    if (streets === null) {
-      return res.status(404).json({
-        error: 'Resource not found',
-        message: 'Island, municipality or zone not found.',
-      });
-    }
-    res.json({ streets });
+router.get('/:island/municipalities/:municipality', (req, res) => {
+  const { island, municipality } = req.params;
+  const data = getMunicipalityWithChildren(island, municipality);
+  if (data === null) {
+    return res.status(404).json({
+      error: 'Resource not found',
+      message: `Island "${island}" or municipality "${municipality}" not found.`,
+    });
   }
-);
+  res.json(data);
+});
+
+router.get('/:island/municipalities', (req, res) => {
+  const { island } = req.params;
+  const municipalities = getMunicipalities(island);
+  if (municipalities === null) {
+    return res.status(404).json({
+      error: 'Island not found',
+      message: `Island "${island}" does not exist in the data.`,
+    });
+  }
+  res.json({ municipalities });
+});
+
+router.get('/:island', (req, res) => {
+  const { island } = req.params;
+  const data = getIslandWithChildren(island);
+  if (data === null) {
+    return res.status(404).json({
+      error: 'Island not found',
+      message: `Island "${island}" does not exist in the data.`,
+    });
+  }
+  res.json(data);
+});
 
 export default router;

@@ -5,6 +5,7 @@ import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 import { parse } from 'yaml';
 import islandsRouter from './routes/islands.js';
+import { getFullCaboVerde } from './services/dataService.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -16,6 +17,10 @@ const swaggerPath = join(__dirname, '..', 'openapi.yaml');
 const swaggerDocument = parse(readFileSync(swaggerPath, 'utf-8'));
 
 app.use(express.json());
+
+app.get('/cabo-verde', (req, res) => {
+  res.json(getFullCaboVerde());
+});
 
 app.use('/islands', islandsRouter);
 
