@@ -49,29 +49,46 @@ export function getZones(islandName, municipalityName) {
   const municipalityKey = findKey(d[islandKey], municipalityName);
   if (!municipalityKey) return null;
   const municipality = d[islandKey][municipalityKey];
-  return municipality?.zonas ?? null;
+  const zonas = municipality?.zonas;
+  if (!zonas) return null;
+  return Array.isArray(zonas) ? zonas : Object.keys(zonas);
 }
 
 export function getStreets(islandName, municipalityName, zoneName) {
-  const zones = getZones(islandName, municipalityName);
-  if (!zones) return null;
-  const zoneKey = zones.find((z) => normalize(z) === normalize(zoneName));
+  const d = loadData();
+  const islandKey = findKey(d, islandName);
+  if (!islandKey) return null;
+  const municipalityKey = findKey(d[islandKey], municipalityName);
+  if (!municipalityKey) return null;
+  const zonas = d[islandKey][municipalityKey]?.zonas;
+  if (!zonas || typeof zonas !== 'object') return null;
+  const zoneKey = findKey(zonas, zoneName);
   if (!zoneKey) return null;
-  return [];
+  const zoneData = zonas[zoneKey];
+  return zoneData?.ruas ?? zoneData?.streets ?? [];
 }
 
 export function islandExists(islandName) {
   return findKey(loadData(), islandName) !== null;
 }
 
-function buildZoneWithStreets(zoneName) {
-  return { streets: [] };
+function buildZoneWithStreets(zoneData) {
+  const streets = zoneData?.ruas ?? zoneData?.streets ?? [];
+  return { streets };
 }
 
 function buildMunicipalityWithChildren(municipalityData) {
+  const zonas = municipalityData?.zonas;
+  if (!zonas || typeof zonas !== 'object') return { zones: {} };
   const zones = {};
-  for (const zoneName of municipalityData.zonas || []) {
-    zones[zoneName] = buildZoneWithStreets(zoneName);
+  if (Array.isArray(zonas)) {
+    for (const zoneName of zonas) {
+      zones[zoneName] = buildZoneWithStreets({});
+    }
+  } else {
+    for (const [zoneName, zoneData] of Object.entries(zonas)) {
+      zones[zoneName] = buildZoneWithStreets(zoneData);
+    }
   }
   return { zones };
 }

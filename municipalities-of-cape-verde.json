@@ -1,263 +1,1473 @@
 {
-    "Santiago": {
-      "Praia": {
-        "zonas": [
-          "Achada Santo António",
-          "Achada Grande",
-          "Achada Mato",
-          "Achada São Filipe",
-          "Bairro",
-          "Casa Branca",
-          "Fazenda",
-          "Horta Seca",
-          "Palmarejo",
-          "Plateau",
-          "Ponta d'Água",
-          "Quebra Canela",
-          "Safende",
-          "São Francisco",
-          "Tira Chapéu",
-          "Várzea"
-        ]
-      },
-      "Santa Catarina": {
-        "zonas": [
-          "Assomada",
-          "Achada Falcão",
-          "Boa Entrada",
-          "Chão de Tanque",
-          "Engenhos",
-          "Figueira das Naus",
-          "Nhagar",
-          "Picos",
-          "Rincão"
-        ]
-      },
-      "Santa Cruz": {
-        "zonas": [
-          "Pedra Badejo",
-          "Calabaceira",
-          "Cruz Grande",
-          "Mata Milho",
-          "Pico Mosquito",
-          "Ribeira da Barca"
-        ]
-      },
-      "São Domingos": {
-        "zonas": [
-          "São Domingos",
-          "Baía",
-          "Bela Vista",
-          "Bolem",
-          "Fundo de Figueiras",
-          "João Evora",
-          "Mangue Dencho"
-        ]
-      },
-      "São Lourenço dos Órgãos": {
-        "zonas": [
-          "João Teves",
-          "Corta Capim",
-          "Montanha",
-          "Órgãos"
-        ]
-      },
-      "São Miguel": {
-        "zonas": [
-          "Calheta de São Miguel",
-          "Praia Baixo",
-          "Ribeira da Prata",
-          "Santo Amaro"
-        ]
-      },
-      "Tarrafal": {
-        "zonas": [
-          "Tarrafal",
-          "Barril",
-          "Chão de Monte",
-          "Figueira do Coi",
-          "Fundo das Ribeiras",
-          "Mangui"
-        ]
+  "Santiago": {
+    "Praia": {
+      "zonas": {
+        "Achada Santo António": {
+          "ruas": [
+            "Rua da Achada Santo António",
+            "Rua de São Tomé",
+            "Rua da Boa Vista",
+            "Travessa da Achada"
+          ]
+        },
+        "Achada Grande": {
+          "ruas": [
+            "Rua da Achada Grande",
+            "Rua da Frente",
+            "Rua Trás",
+            "Caminho do Meio",
+            "Rua da Praia"
+          ]
+        },
+        "Achada Mato": {
+          "ruas": [
+            "Rua Principal da Achada Mato",
+            "Rua da Igreja",
+            "Rua de Baixo",
+            "Rua de Cima",
+            "Rua do Matinho"
+          ]
+        },
+        "Achada São Filipe": {
+          "ruas": [
+            "Rua de São Filipe",
+            "Rua da Torre",
+            "Rua do Mirante",
+            "Avenida da Praia",
+            "Rua do Cruzeiro"
+          ]
+        },
+        "Bairro": {
+          "ruas": [
+            "Rua do Bairro",
+            "Rua Nova do Bairro",
+            "Rua Velha",
+            "Travessa do Bairro",
+            "Rua da Paz"
+          ]
+        },
+        "Casa Branca": {
+          "ruas": [
+            "Rua da Casa Branca",
+            "Rua do Hotel",
+            "Rua da Praia",
+            "Rua do Farol",
+            "Rua da Ponta"
+          ]
+        },
+        "Fazenda": {
+          "ruas": [
+            "Rua da Fazenda",
+            "Rua do Mercado",
+            "Rua da Fonte",
+            "Rua do Pasto",
+            "Rua da Agricultura"
+          ]
+        },
+        "Horta Seca": {
+          "ruas": [
+            "Rua da Horta Seca",
+            "Rua da Alfândega",
+            "Rua Banana",
+            "Rua da Madeira",
+            "Rua do Comércio"
+          ]
+        },
+        "Palmarejo": {
+          "ruas": [
+            "Rua do Palmarejo",
+            "Rua da Universidade",
+            "Rua da Praia",
+            "Rua da Atalaia",
+            "Rua do Quebra Mar"
+          ]
+        },
+        "Plateau": {
+          "ruas": [
+            "Avenida Amílcar Cabral",
+            "Avenida Andrade Corvo",
+            "Rua 5 de Julho",
+            "Rua Patrice Lumumba",
+            "Praça Alexandre Albuquerque",
+            "Rua Serpa Pinto",
+            "Rua Pedro Álvares Cabral",
+            "Rua António Lereno",
+            "Rua Cristóvão Colombo"
+          ]
+        },
+        "Ponta d'Água": {
+          "ruas": [
+            "Rua da Ponta d'Água",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua dos Pescadores",
+            "Rua da Marinha"
+          ]
+        },
+        "Quebra Canela": {
+          "ruas": [
+            "Rua de Quebra Canela",
+            "Rua da Igreja",
+            "Rua do Clube",
+            "Rua da Praia",
+            "Rua do Mar"
+          ]
+        },
+        "Safende": {
+          "ruas": [
+            "Rua de Safende",
+            "Rua da Escola",
+            "Rua do Mercado",
+            "Rua Principal de Safende",
+            "Rua de Lém"
+          ]
+        },
+        "São Francisco": {
+          "ruas": [
+            "Rua de São Francisco",
+            "Rua da Associação",
+            "Rua da Fonte",
+            "Rua de Trás",
+            "Rua do Vale"
+          ]
+        },
+        "Tira Chapéu": {
+          "ruas": [
+            "Rua de Tira Chapéu",
+            "Rua da Bica",
+            "Rua do Cruzeiro",
+            "Rua da Elevatória",
+            "Rua da Montanha"
+          ]
+        },
+        "Várzea": {
+          "ruas": [
+            "Rua da Várzea",
+            "Avenida Cidade de Lisboa",
+            "Rua do Estádio",
+            "Rua do Hospital",
+            "Rua de Olímpio",
+            "Rua da Universidade"
+          ]
+        }
       }
     },
+    "Santa Catarina": {
+      "zonas": {
+        "Assomada": {
+          "ruas": [
+            "Rua 5 de Julho",
+            "Avenida da Assomada",
+            "Rua do Comércio",
+            "Rua da Câmara",
+            "Rua do Mercado",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Achada Falcão": {
+          "ruas": [
+            "Rua Principal de Achada Falcão",
+            "Rua de Baixo",
+            "Rua do Lombo",
+            "Rua da Fonte"
+          ]
+        },
+        "Boa Entrada": {
+          "ruas": [
+            "Rua da Boa Entrada",
+            "Rua da Igreja",
+            "Rua da Escola",
+            "Rua do Vale"
+          ]
+        },
+        "Chão de Tanque": {
+          "ruas": [
+            "Rua do Chão de Tanque",
+            "Rua da Fonte",
+            "Rua da Levada",
+            "Rua Principal"
+          ]
+        },
+        "Engenhos": {
+          "ruas": [
+            "Rua dos Engenhos",
+            "Rua do Moinho",
+            "Rua da Cana",
+            "Rua da Ribeira"
+          ]
+        },
+        "Figueira das Naus": {
+          "ruas": [
+            "Rua da Figueira",
+            "Rua das Naus",
+            "Rua do Porto",
+            "Rua da Ribeira"
+          ]
+        },
+        "Nhagar": {
+          "ruas": [
+            "Rua de Nhagar",
+            "Rua do Lombo",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Picos": {
+          "ruas": [
+            "Rua de Picos",
+            "Rua da Ribeira",
+            "Rua da Igreja",
+            "Rua do Cruzeiro"
+          ]
+        },
+        "Rincão": {
+          "ruas": [
+            "Rua do Rincão",
+            "Rua da Cruz",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        }
+      }
+    },
+    "Santa Cruz": {
+      "zonas": {
+        "Pedra Badejo": {
+          "ruas": [
+            "Avenida da Praia",
+            "Rua Principal de Pedra Badejo",
+            "Rua do Porto",
+            "Rua da Igreja",
+            "Rua da Câmara",
+            "Rua dos Pescadores"
+          ]
+        },
+        "Calabaceira": {
+          "ruas": [
+            "Rua da Calabaceira",
+            "Rua da Fonte",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Cruz Grande": {
+          "ruas": [
+            "Rua da Cruz Grande",
+            "Rua do Cruzeiro",
+            "Rua da Capela",
+            "Rua do Lombo"
+          ]
+        },
+        "Mata Milho": {
+          "ruas": [
+            "Rua da Mata Milho",
+            "Rua da Agricultura",
+            "Rua do Milho",
+            "Rua Principal"
+          ]
+        },
+        "Pico Mosquito": {
+          "ruas": [
+            "Rua do Pico Mosquito",
+            "Rua da Montanha",
+            "Rua do Mirante",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira da Barca": {
+          "ruas": [
+            "Rua da Ribeira da Barca",
+            "Rua da Praia",
+            "Rua da Foz",
+            "Rua dos Pescadores"
+          ]
+        }
+      }
+    },
+    "São Domingos": {
+      "zonas": {
+        "São Domingos": {
+          "ruas": [
+            "Rua de São Domingos",
+            "Rua da Igreja",
+            "Rua da Câmara",
+            "Rua Principal",
+            "Rua do Cruzeiro"
+          ]
+        },
+        "Baía": {
+          "ruas": [
+            "Rua da Baía",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua dos Pescadores"
+          ]
+        },
+        "Bela Vista": {
+          "ruas": [
+            "Rua da Bela Vista",
+            "Rua do Miradouro",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Bolem": {
+          "ruas": [
+            "Rua do Bolem",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua da Igreja"
+          ]
+        },
+        "Fundo de Figueiras": {
+          "ruas": [
+            "Rua do Fundo de Figueiras",
+            "Rua das Figueiras",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "João Evora": {
+          "ruas": [
+            "Rua de João Evora",
+            "Rua da Fonte",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Mangue Dencho": {
+          "ruas": [
+            "Rua do Mangue Dencho",
+            "Rua do Mangue",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        }
+      }
+    },
+    "São Lourenço dos Órgãos": {
+      "zonas": {
+        "João Teves": {
+          "ruas": [
+            "Rua de João Teves",
+            "Rua da Igreja",
+            "Rua da Câmara",
+            "Rua Principal",
+            "Rua do Mercado"
+          ]
+        },
+        "Corta Capim": {
+          "ruas": [
+            "Rua de Corta Capim",
+            "Rua da Fonte",
+            "Rua do Capim",
+            "Rua Principal"
+          ]
+        },
+        "Montanha": {
+          "ruas": [
+            "Rua da Montanha",
+            "Rua do Pico",
+            "Rua do Mirante",
+            "Rua Principal"
+          ]
+        },
+        "Órgãos": {
+          "ruas": [
+            "Rua dos Órgãos",
+            "Rua da Igreja",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        }
+      }
+    },
+    "São Miguel": {
+      "zonas": {
+        "Calheta de São Miguel": {
+          "ruas": [
+            "Rua da Calheta",
+            "Avenida de São Miguel",
+            "Rua do Porto",
+            "Rua da Igreja",
+            "Rua dos Pescadores",
+            "Rua Principal"
+          ]
+        },
+        "Praia Baixo": {
+          "ruas": [
+            "Rua da Praia Baixo",
+            "Rua da Praia",
+            "Rua do Mar",
+            "Rua dos Pescadores"
+          ]
+        },
+        "Ribeira da Prata": {
+          "ruas": [
+            "Rua da Ribeira da Prata",
+            "Rua da Prata",
+            "Rua da Ribeira",
+            "Rua Principal"
+          ]
+        },
+        "Santo Amaro": {
+          "ruas": [
+            "Rua de Santo Amaro",
+            "Rua da Igreja",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        }
+      }
+    },
+    "Tarrafal": {
+      "zonas": {
+        "Tarrafal": {
+          "ruas": [
+            "Avenida do Tarrafal",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua da Igreja",
+            "Rua dos Pescadores",
+            "Rua Principal"
+          ]
+        },
+        "Barril": {
+          "ruas": [
+            "Rua do Barril",
+            "Rua da Fonte",
+            "Rua da Praia",
+            "Rua Principal"
+          ]
+        },
+        "Chão de Monte": {
+          "ruas": [
+            "Rua do Chão de Monte",
+            "Rua da Montanha",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Figueira do Coi": {
+          "ruas": [
+            "Rua da Figueira do Coi",
+            "Rua das Figueiras",
+            "Rua do Coi",
+            "Rua Principal"
+          ]
+        },
+        "Fundo das Ribeiras": {
+          "ruas": [
+            "Rua do Fundo das Ribeiras",
+            "Rua das Ribeiras",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Mangui": {
+          "ruas": [
+            "Rua do Mangui",
+            "Rua do Mangue",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        }
+      }
+    }
+  },
+  "São Vicente": {
     "São Vicente": {
-      "São Vicente": {
-        "zonas": [
-          "Mindelo",
-          "Baía das Gatas",
-          "Calhau",
-          "Fonte Francês",
-          "Lameirão",
-          "Monte Sossego",
-          "Ribeira Bote",
-          "Ribeira de Calhau",
-          "Salamansa",
-          "São Pedro"
-        ]
+      "zonas": {
+        "Mindelo": {
+          "ruas": [
+            "Avenida Marginal",
+            "Rua Libertadores de África",
+            "Rua de Lisboa",
+            "Praça Nova",
+            "Rua da Praia",
+            "Avenida 5 de Julho",
+            "Rua de São Paulo",
+            "Rua da República",
+            "Rua de Angola",
+            "Rua de Moçambique"
+          ]
+        },
+        "Baía das Gatas": {
+          "ruas": [
+            "Rua da Baía das Gatas",
+            "Rua da Praia",
+            "Rua do Mar",
+            "Rua dos Pescadores"
+          ]
+        },
+        "Calhau": {
+          "ruas": [
+            "Rua do Calhau",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua Principal"
+          ]
+        },
+        "Fonte Francês": {
+          "ruas": [
+            "Rua da Fonte Francês",
+            "Rua da Fonte",
+            "Rua do Francês",
+            "Rua Principal"
+          ]
+        },
+        "Lameirão": {
+          "ruas": [
+            "Rua do Lameirão",
+            "Rua do Lameiro",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Monte Sossego": {
+          "ruas": [
+            "Rua do Monte Sossego",
+            "Rua do Monte",
+            "Rua do Sossego",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira Bote": {
+          "ruas": [
+            "Rua da Ribeira Bote",
+            "Rua da Ribeira",
+            "Rua do Bote",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira de Calhau": {
+          "ruas": [
+            "Rua da Ribeira de Calhau",
+            "Rua da Ribeira",
+            "Rua do Calhau",
+            "Rua Principal"
+          ]
+        },
+        "Salamansa": {
+          "ruas": [
+            "Rua de Salamansa",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua dos Pescadores"
+          ]
+        },
+        "São Pedro": {
+          "ruas": [
+            "Rua de São Pedro",
+            "Rua da Praia",
+            "Rua do Mar",
+            "Rua da Igreja",
+            "Rua dos Pescadores"
+          ]
+        }
       }
-    },
+    }
+  },
+  "Sal": {
     "Sal": {
-      "Sal": {
-        "zonas": [
-          "Espargos",
-          "Murdeira",
-          "Palmeira",
-          "Pedra de Lume",
-          "Santa Maria"
-        ]
+      "zonas": {
+        "Espargos": {
+          "ruas": [
+            "Avenida Principal dos Espargos",
+            "Rua do Aeroporto",
+            "Rua da Câmara",
+            "Rua da Igreja",
+            "Rua do Mercado",
+            "Rua de Santa Maria"
+          ]
+        },
+        "Murdeira": {
+          "ruas": [
+            "Rua da Murdeira",
+            "Rua da Praia",
+            "Rua do Hotel",
+            "Rua Principal"
+          ]
+        },
+        "Palmeira": {
+          "ruas": [
+            "Rua da Palmeira",
+            "Rua do Porto",
+            "Rua da Praia",
+            "Rua dos Pescadores"
+          ]
+        },
+        "Pedra de Lume": {
+          "ruas": [
+            "Rua de Pedra de Lume",
+            "Rua da Salina",
+            "Rua da Praia",
+            "Rua Principal"
+          ]
+        },
+        "Santa Maria": {
+          "ruas": [
+            "Avenida de Santa Maria",
+            "Rua da Praia",
+            "Rua do Farol",
+            "Rua dos Hotéis",
+            "Rua do Casino",
+            "Rua Principal",
+            "Rua do Mercado"
+          ]
+        }
       }
-    },
+    }
+  },
+  "Boa Vista": {
     "Boa Vista": {
-      "Boa Vista": {
-        "zonas": [
-          "Sal Rei",
-          "Bofareira",
-          "Cabeça dos Tarrafes",
-          "Estância de Baixo",
-          "Funda",
-          "João Barreiro",
-          "João Galego",
-          "Povoação Velha",
-          "Rabil"
-        ]
+      "zonas": {
+        "Sal Rei": {
+          "ruas": [
+            "Avenida de Sal Rei",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua da Câmara",
+            "Rua da Igreja",
+            "Rua do Mercado",
+            "Rua dos Pescadores"
+          ]
+        },
+        "Bofareira": {
+          "ruas": [
+            "Rua da Bofareira",
+            "Rua da Fonte",
+            "Rua da Agricultura",
+            "Rua Principal"
+          ]
+        },
+        "Cabeça dos Tarrafes": {
+          "ruas": [
+            "Rua da Cabeça dos Tarrafes",
+            "Rua dos Tarrafes",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Estância de Baixo": {
+          "ruas": [
+            "Rua da Estância de Baixo",
+            "Rua de Baixo",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Funda": {
+          "ruas": [
+            "Rua da Funda",
+            "Rua da Fonte",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "João Barreiro": {
+          "ruas": [
+            "Rua de João Barreiro",
+            "Rua da Fonte",
+            "Rua do Barreiro",
+            "Rua Principal"
+          ]
+        },
+        "João Galego": {
+          "ruas": [
+            "Rua de João Galego",
+            "Rua da Fonte",
+            "Rua do Galego",
+            "Rua Principal"
+          ]
+        },
+        "Povoação Velha": {
+          "ruas": [
+            "Rua da Povoação Velha",
+            "Rua da Igreja",
+            "Rua Velha",
+            "Rua Principal"
+          ]
+        },
+        "Rabil": {
+          "ruas": [
+            "Rua do Rabil",
+            "Rua da Fonte",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        }
       }
-    },
+    }
+  },
+  "Maio": {
     "Maio": {
-      "Maio": {
-        "zonas": [
-          "Vila do Maio",
-          "Alcatraz",
-          "Barreiro",
-          "Cascabulho",
-          "Figueira da Horta",
-          "Pedra Vincente",
-          "Pilão Cão",
-          "Porto Inglês",
-          "Ribeira Dom João"
-        ]
+      "zonas": {
+        "Vila do Maio": {
+          "ruas": [
+            "Avenida da Vila do Maio",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua da Câmara",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Alcatraz": {
+          "ruas": [
+            "Rua de Alcatraz",
+            "Rua da Praia",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Barreiro": {
+          "ruas": [
+            "Rua do Barreiro",
+            "Rua da Fonte",
+            "Rua da Agricultura",
+            "Rua Principal"
+          ]
+        },
+        "Cascabulho": {
+          "ruas": [
+            "Rua do Cascabulho",
+            "Rua da Fonte",
+            "Rua do Mar",
+            "Rua Principal"
+          ]
+        },
+        "Figueira da Horta": {
+          "ruas": [
+            "Rua da Figueira da Horta",
+            "Rua das Figueiras",
+            "Rua da Horta",
+            "Rua Principal"
+          ]
+        },
+        "Pedra Vincente": {
+          "ruas": [
+            "Rua de Pedra Vincente",
+            "Rua da Pedra",
+            "Rua do Vincente",
+            "Rua Principal"
+          ]
+        },
+        "Pilão Cão": {
+          "ruas": [
+            "Rua do Pilão Cão",
+            "Rua do Pilão",
+            "Rua do Cão",
+            "Rua Principal"
+          ]
+        },
+        "Porto Inglês": {
+          "ruas": [
+            "Rua do Porto Inglês",
+            "Rua do Porto",
+            "Rua da Praia",
+            "Rua dos Ingleses",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira Dom João": {
+          "ruas": [
+            "Rua da Ribeira Dom João",
+            "Rua da Ribeira",
+            "Rua Dom João",
+            "Rua Principal"
+          ]
+        }
+      }
+    }
+  },
+  "Fogo": {
+    "São Filipe": {
+      "zonas": {
+        "São Filipe": {
+          "ruas": [
+            "Avenida de São Filipe",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua da Câmara",
+            "Rua da Igreja",
+            "Rua do Mercado",
+            "Rua Principal",
+            "Rua do Vulcão"
+          ]
+        },
+        "Achada Furna": {
+          "ruas": [
+            "Rua da Achada Furna",
+            "Rua da Furna",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Atalaia": {
+          "ruas": [
+            "Rua da Atalaia",
+            "Rua do Mirante",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Cabeça Fundão": {
+          "ruas": [
+            "Rua da Cabeça Fundão",
+            "Rua do Fundão",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Campo de Cima": {
+          "ruas": [
+            "Rua do Campo de Cima",
+            "Rua do Campo",
+            "Rua de Cima",
+            "Rua Principal"
+          ]
+        },
+        "Chã das Caldeiras": {
+          "ruas": [
+            "Rua da Chã das Caldeiras",
+            "Rua da Chã",
+            "Rua das Caldeiras",
+            "Rua Principal",
+            "Rua do Vulcão"
+          ]
+        },
+        "Corta": {
+          "ruas": [
+            "Rua da Corta",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua Principal"
+          ]
+        },
+        "Curral Grande": {
+          "ruas": [
+            "Rua do Curral Grande",
+            "Rua do Curral",
+            "Rua Grande",
+            "Rua Principal"
+          ]
+        },
+        "Fajãzinha": {
+          "ruas": [
+            "Rua da Fajãzinha",
+            "Rua da Fajã",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Figueira Pavão": {
+          "ruas": [
+            "Rua da Figueira Pavão",
+            "Rua das Figueiras",
+            "Rua do Pavão",
+            "Rua Principal"
+          ]
+        },
+        "Fonsaco": {
+          "ruas": [
+            "Rua do Fonsaco",
+            "Rua da Fonte",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Lomba": {
+          "ruas": [
+            "Rua da Lomba",
+            "Rua do Lombo",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Monte Grande": {
+          "ruas": [
+            "Rua do Monte Grande",
+            "Rua do Monte",
+            "Rua Grande",
+            "Rua Principal"
+          ]
+        }
       }
     },
-    "Fogo": {
-      "São Filipe": {
-        "zonas": [
-          "São Filipe",
-          "Achada Furna",
-          "Atalaia",
-          "Cabeça Fundão",
-          "Campo de Cima",
-          "Chã das Caldeiras",
-          "Corta",
-          "Curral Grande",
-          "Fajãzinha",
-          "Figueira Pavão",
-          "Fonsaco",
-          "Lomba",
-          "Monte Grande"
-        ]
-      },
-      "Santa Catarina do Fogo": {
-        "zonas": [
-          "Cova Figueira",
-          "Achada Tenda",
-          "Cabeça Corredor",
-          "Estância Roque",
-          "Fonte Aleixo",
-          "Mãe Joana",
-          "Moinho",
-          "Ribeira Ilhéu",
-          "Tinteira"
-        ]
-      },
-      "Mosteiros": {
-        "zonas": [
-          "Mosteiros",
-          "Corvo",
-          "Cova Feijoal",
-          "Fajã",
-          "Galinheiros",
-          "Igreja",
-          "Pai António",
-          "Ribeira do Mosteiro"
-        ]
+    "Santa Catarina do Fogo": {
+      "zonas": {
+        "Cova Figueira": {
+          "ruas": [
+            "Rua da Cova Figueira",
+            "Rua da Cova",
+            "Rua das Figueiras",
+            "Rua Principal",
+            "Rua da Igreja"
+          ]
+        },
+        "Achada Tenda": {
+          "ruas": [
+            "Rua da Achada Tenda",
+            "Rua da Tenda",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Cabeça Corredor": {
+          "ruas": [
+            "Rua da Cabeça Corredor",
+            "Rua do Corredor",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Estância Roque": {
+          "ruas": [
+            "Rua da Estância Roque",
+            "Rua da Estância",
+            "Rua do Roque",
+            "Rua Principal"
+          ]
+        },
+        "Fonte Aleixo": {
+          "ruas": [
+            "Rua da Fonte Aleixo",
+            "Rua da Fonte",
+            "Rua do Aleixo",
+            "Rua Principal"
+          ]
+        },
+        "Mãe Joana": {
+          "ruas": [
+            "Rua da Mãe Joana",
+            "Rua da Mãe",
+            "Rua da Joana",
+            "Rua Principal"
+          ]
+        },
+        "Moinho": {
+          "ruas": [
+            "Rua do Moinho",
+            "Rua do Vento",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira Ilhéu": {
+          "ruas": [
+            "Rua da Ribeira Ilhéu",
+            "Rua da Ribeira",
+            "Rua do Ilhéu",
+            "Rua Principal"
+          ]
+        },
+        "Tinteira": {
+          "ruas": [
+            "Rua da Tinteira",
+            "Rua do Tinto",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        }
       }
     },
+    "Mosteiros": {
+      "zonas": {
+        "Mosteiros": {
+          "ruas": [
+            "Rua dos Mosteiros",
+            "Rua da Igreja",
+            "Rua do Porto",
+            "Rua da Praia",
+            "Rua Principal"
+          ]
+        },
+        "Corvo": {
+          "ruas": [
+            "Rua do Corvo",
+            "Rua do Monte",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Cova Feijoal": {
+          "ruas": [
+            "Rua da Cova Feijoal",
+            "Rua da Cova",
+            "Rua do Feijoal",
+            "Rua Principal"
+          ]
+        },
+        "Fajã": {
+          "ruas": [
+            "Rua da Fajã",
+            "Rua da Praia",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Galinheiros": {
+          "ruas": [
+            "Rua dos Galinheiros",
+            "Rua do Galo",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Igreja": {
+          "ruas": [
+            "Rua da Igreja",
+            "Rua do Cruzeiro",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Pai António": {
+          "ruas": [
+            "Rua do Pai António",
+            "Rua do Pai",
+            "Rua do António",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira do Mosteiro": {
+          "ruas": [
+            "Rua da Ribeira do Mosteiro",
+            "Rua da Ribeira",
+            "Rua do Mosteiro",
+            "Rua Principal"
+          ]
+        }
+      }
+    }
+  },
+  "Brava": {
     "Brava": {
-      "Brava": {
-        "zonas": [
-          "Nova Sintra",
-          "Cachaço",
-          "Campo Baixo",
-          "Cova Joana",
-          "Fajã de Agua",
-          "Lime Doce",
-          "Mato Grande",
-          "Nova Sintra do Monte",
-          "Santa Bárbara",
-          "Tantum"
-        ]
+      "zonas": {
+        "Nova Sintra": {
+          "ruas": [
+            "Avenida de Nova Sintra",
+            "Rua da Câmara",
+            "Rua da Igreja",
+            "Rua do Mercado",
+            "Rua Principal",
+            "Rua do Cruzeiro"
+          ]
+        },
+        "Cachaço": {
+          "ruas": [
+            "Rua do Cachaço",
+            "Rua da Fonte",
+            "Rua do Monte",
+            "Rua Principal"
+          ]
+        },
+        "Campo Baixo": {
+          "ruas": [
+            "Rua do Campo Baixo",
+            "Rua do Campo",
+            "Rua de Baixo",
+            "Rua Principal"
+          ]
+        },
+        "Cova Joana": {
+          "ruas": [
+            "Rua da Cova Joana",
+            "Rua da Cova",
+            "Rua da Joana",
+            "Rua Principal"
+          ]
+        },
+        "Fajã de Agua": {
+          "ruas": [
+            "Rua da Fajã de Água",
+            "Rua da Fajã",
+            "Rua da Água",
+            "Rua Principal"
+          ]
+        },
+        "Lime Doce": {
+          "ruas": [
+            "Rua do Lime Doce",
+            "Rua do Lime",
+            "Rua Doce",
+            "Rua Principal"
+          ]
+        },
+        "Mato Grande": {
+          "ruas": [
+            "Rua do Mato Grande",
+            "Rua do Mato",
+            "Rua Grande",
+            "Rua Principal"
+          ]
+        },
+        "Nova Sintra do Monte": {
+          "ruas": [
+            "Rua de Nova Sintra do Monte",
+            "Rua do Monte",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Santa Bárbara": {
+          "ruas": [
+            "Rua de Santa Bárbara",
+            "Rua da Igreja",
+            "Rua da Santa",
+            "Rua Principal"
+          ]
+        },
+        "Tantum": {
+          "ruas": [
+            "Rua do Tantum",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua Principal"
+          ]
+        }
+      }
+    }
+  },
+  "Santo Antão": {
+    "Ribeira Grande": {
+      "zonas": {
+        "Ponta do Sol": {
+          "ruas": [
+            "Rua da Ponta do Sol",
+            "Avenida do Sol",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Chã de Pedras": {
+          "ruas": [
+            "Rua da Chã de Pedras",
+            "Rua da Chã",
+            "Rua das Pedras",
+            "Rua Principal"
+          ]
+        },
+        "Coculi": {
+          "ruas": [
+            "Rua de Coculi",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua Principal"
+          ]
+        },
+        "Corvo": {
+          "ruas": [
+            "Rua do Corvo",
+            "Rua do Monte",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Cruzinha": {
+          "ruas": [
+            "Rua da Cruzinha",
+            "Rua da Cruz",
+            "Rua da Capela",
+            "Rua Principal"
+          ]
+        },
+        "Figueiral": {
+          "ruas": [
+            "Rua do Figueiral",
+            "Rua das Figueiras",
+            "Rua do Figueiral",
+            "Rua Principal"
+          ]
+        },
+        "Fontainhas": {
+          "ruas": [
+            "Rua das Fontainhas",
+            "Rua da Fonte",
+            "Rua das Águas",
+            "Rua Principal"
+          ]
+        },
+        "Lomba da Preguiça": {
+          "ruas": [
+            "Rua da Lomba da Preguiça",
+            "Rua da Lomba",
+            "Rua da Preguiça",
+            "Rua Principal"
+          ]
+        },
+        "Lombo de Santo": {
+          "ruas": [
+            "Rua do Lombo de Santo",
+            "Rua do Lombo",
+            "Rua de Santo",
+            "Rua Principal"
+          ]
+        },
+        "Pombas": {
+          "ruas": [
+            "Rua das Pombas",
+            "Rua da Igreja",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira da Cruz": {
+          "ruas": [
+            "Rua da Ribeira da Cruz",
+            "Rua da Ribeira",
+            "Rua da Cruz",
+            "Rua Principal"
+          ]
+        }
       }
     },
-    "Santo Antão": {
-      "Ribeira Grande": {
-        "zonas": [
-          "Ponta do Sol",
-          "Chã de Pedras",
-          "Coculi",
-          "Corvo",
-          "Cruzinha",
-          "Figueiral",
-          "Fontainhas",
-          "Lomba da Preguiça",
-          "Lombo de Santo",
-          "Pombas",
-          "Ribeira da Cruz"
-        ]
-      },
-      "Paul": {
-        "zonas": [
-          "Pombas",
-          "Coculi",
-          "Eito",
-          "Lombo Comprido",
-          "Pico da Cruz"
-        ]
-      },
-      "Porto Novo": {
-        "zonas": [
-          "Porto Novo",
-          "Carrical",
-          "Cidade das Pombas",
-          "Curral das Vacas",
-          "Janela",
-          "Lajedos",
-          "Ribeira das Patas",
-          "Topo da Coroa"
-        ]
+    "Paul": {
+      "zonas": {
+        "Pombas": {
+          "ruas": [
+            "Rua das Pombas",
+            "Rua da Igreja",
+            "Rua da Câmara",
+            "Rua Principal",
+            "Rua do Vale"
+          ]
+        },
+        "Coculi": {
+          "ruas": [
+            "Rua de Coculi",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua Principal"
+          ]
+        },
+        "Eito": {
+          "ruas": [
+            "Rua do Eito",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua Principal"
+          ]
+        },
+        "Lombo Comprido": {
+          "ruas": [
+            "Rua do Lombo Comprido",
+            "Rua do Lombo",
+            "Rua Comprida",
+            "Rua Principal"
+          ]
+        },
+        "Pico da Cruz": {
+          "ruas": [
+            "Rua do Pico da Cruz",
+            "Rua do Pico",
+            "Rua da Cruz",
+            "Rua Principal"
+          ]
+        }
       }
     },
-    "Nicolau": {
-      "Ribeira Brava": {
-        "zonas": [
-          "Ribeira Brava",
-          "Cachaço",
-          "Caleijão",
-          "Carril",
-          "Estância de Brás",
-          "Fajã",
-          "Juncalinho",
-          "Preguiça"
-        ]
-      },
-      "Tarrafal de São Nicolau": {
-        "zonas": [
-          "Tarrafal",
-          "Carriçal",
-          "Cabeçalinho",
-          "Fajã de Baixo",
-          "Fajã de Cima",
-          "Praia Branca"
-        ]
+    "Porto Novo": {
+      "zonas": {
+        "Porto Novo": {
+          "ruas": [
+            "Avenida do Porto Novo",
+            "Rua do Porto",
+            "Rua da Praia",
+            "Rua da Câmara",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Carrical": {
+          "ruas": [
+            "Rua do Carrical",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua Principal"
+          ]
+        },
+        "Cidade das Pombas": {
+          "ruas": [
+            "Rua da Cidade das Pombas",
+            "Rua das Pombas",
+            "Rua da Cidade",
+            "Rua Principal"
+          ]
+        },
+        "Curral das Vacas": {
+          "ruas": [
+            "Rua do Curral das Vacas",
+            "Rua do Curral",
+            "Rua das Vacas",
+            "Rua Principal"
+          ]
+        },
+        "Janela": {
+          "ruas": [
+            "Rua da Janela",
+            "Rua do Mirante",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Lajedos": {
+          "ruas": [
+            "Rua dos Lajedos",
+            "Rua das Pedras",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Ribeira das Patas": {
+          "ruas": [
+            "Rua da Ribeira das Patas",
+            "Rua da Ribeira",
+            "Rua das Patas",
+            "Rua Principal"
+          ]
+        },
+        "Topo da Coroa": {
+          "ruas": [
+            "Rua do Topo da Coroa",
+            "Rua do Topo",
+            "Rua da Coroa",
+            "Rua Principal",
+            "Rua do Monte"
+          ]
+        }
+      }
+    }
+  },
+  "Nicolau": {
+    "Ribeira Brava": {
+      "zonas": {
+        "Ribeira Brava": {
+          "ruas": [
+            "Avenida da Ribeira Brava",
+            "Rua da Câmara",
+            "Rua da Igreja",
+            "Rua do Porto",
+            "Rua Principal",
+            "Rua da Praia"
+          ]
+        },
+        "Cachaço": {
+          "ruas": [
+            "Rua do Cachaço",
+            "Rua da Fonte",
+            "Rua do Monte",
+            "Rua Principal"
+          ]
+        },
+        "Caleijão": {
+          "ruas": [
+            "Rua do Caleijão",
+            "Rua da Fonte",
+            "Rua do Vale",
+            "Rua Principal"
+          ]
+        },
+        "Carril": {
+          "ruas": [
+            "Rua do Carril",
+            "Rua da Fonte",
+            "Rua da Igreja",
+            "Rua Principal"
+          ]
+        },
+        "Estância de Brás": {
+          "ruas": [
+            "Rua da Estância de Brás",
+            "Rua da Estância",
+            "Rua do Brás",
+            "Rua Principal"
+          ]
+        },
+        "Fajã": {
+          "ruas": [
+            "Rua da Fajã",
+            "Rua da Praia",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Juncalinho": {
+          "ruas": [
+            "Rua do Juncalinho",
+            "Rua do Junco",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Preguiça": {
+          "ruas": [
+            "Rua da Preguiça",
+            "Rua do Porto",
+            "Rua da Praia",
+            "Rua Principal"
+          ]
+        }
+      }
+    },
+    "Tarrafal de São Nicolau": {
+      "zonas": {
+        "Tarrafal": {
+          "ruas": [
+            "Avenida do Tarrafal",
+            "Rua da Praia",
+            "Rua do Porto",
+            "Rua da Igreja",
+            "Rua dos Pescadores",
+            "Rua Principal"
+          ]
+        },
+        "Carriçal": {
+          "ruas": [
+            "Rua do Carriçal",
+            "Rua da Praia",
+            "Rua da Fonte",
+            "Rua Principal"
+          ]
+        },
+        "Cabeçalinho": {
+          "ruas": [
+            "Rua do Cabeçalinho",
+            "Rua da Cabeça",
+            "Rua do Monte",
+            "Rua Principal"
+          ]
+        },
+        "Fajã de Baixo": {
+          "ruas": [
+            "Rua da Fajã de Baixo",
+            "Rua da Fajã",
+            "Rua de Baixo",
+            "Rua Principal"
+          ]
+        },
+        "Fajã de Cima": {
+          "ruas": [
+            "Rua da Fajã de Cima",
+            "Rua da Fajã",
+            "Rua de Cima",
+            "Rua Principal"
+          ]
+        },
+        "Praia Branca": {
+          "ruas": [
+            "Rua da Praia Branca",
+            "Rua da Praia",
+            "Rua Branca",
+            "Rua dos Pescadores",
+            "Rua Principal"
+          ]
+        }
       }
     }
   }
+}
