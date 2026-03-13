@@ -20,25 +20,25 @@ REST API for querying islands, municipalities, zones and streets of Cape Verde, 
 
 ```bash
 # Full Cape Verde hierarchy
-curl http://localhost:3000/cabo-verde
+curl https://municipalities-of-cape-verde.vercel.app/cabo-verde
 
 # Island with all children (municipalities, zones, streets)
-curl http://localhost:3000/islands/Santiago
+curl https://municipalities-of-cape-verde.vercel.app/islands/Santiago
 
 # Municipality with all children (zones, streets)
-curl http://localhost:3000/islands/Santiago/municipalities/Praia
+curl https://municipalities-of-cape-verde.vercel.app/islands/Santiago/municipalities/Praia
 
 # List islands
-curl http://localhost:3000/islands
+curl https://municipalities-of-cape-verde.vercel.app/islands
 
 # Municipalities of Santiago
-curl http://localhost:3000/islands/Santiago/municipalities
+curl https://municipalities-of-cape-verde.vercel.app/islands/Santiago/municipalities
 
 # Zones of Praia
-curl http://localhost:3000/islands/Santiago/municipalities/Praia/zones
+curl https://municipalities-of-cape-verde.vercel.app/islands/Santiago/municipalities/Praia/zones
 
 # Streets of Plateau
-curl "http://localhost:3000/islands/Santiago/municipalities/Praia/zones/Plateau/streets"
+curl "https://municipalities-of-cape-verde.vercel.app/islands/Santiago/municipalities/Praia/zones/Plateau/streets"
 ```
 
 Parameters accept names with or without accents (e.g. `Sao Vicente` or `São Vicente`).
@@ -63,6 +63,4 @@ npm run dev
 
 ## Swagger documentation
 
-After starting the server, access:
-
-- **Swagger UI:** http://localhost:3000/api-docs
+- **Swagger UI:** https://municipalities-of-cape-verde.vercel.app/api-docs

@@ -10,8 +10,8 @@ info:
     name: Cape Verde Municipalities API
 
 servers:
-  - url: http://localhost:3000
-    description: Local server
+  - url: https://municipalities-of-cape-verde.vercel.app
+    description: Production (Vercel)
 
 tags:
   - name: Islands
