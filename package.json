@@ -12,7 +12,6 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.21.0",
-    "swagger-ui-express": "^5.0.0",
     "yaml": "^2.3.4"
   }
 }
