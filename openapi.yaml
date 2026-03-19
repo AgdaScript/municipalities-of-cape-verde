@@ -37,7 +37,10 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/CaboVerdeResponse'
+                type: object
+                properties:
+                  islands:
+                    type: object
 
   /islands:
     get:
@@ -52,7 +55,12 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/IslandsResponse'
+                type: object
+                properties:
+                  islands:
+                    type: array
+                    items:
+                      type: string
               example:
                 islands:
                   - Santiago
@@ -86,7 +94,12 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/MunicipalitiesResponse'
+                type: object
+                properties:
+                  municipalities:
+                    type: array
+                    items:
+                      type: string
               example:
                 municipalities:
                   - Praia
@@ -101,7 +114,12 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                type: object
+                properties:
+                  error:
+                    type: string
+                  message:
+                    type: string
 
   /islands/{island}:
     get:
@@ -124,13 +142,23 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/IslandWithChildrenResponse'
+                type: object
+                properties:
+                  island:
+                    type: string
+                  municipalities:
+                    type: object
         '404':
           description: Island not found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                type: object
+                properties:
+                  error:
+                    type: string
+                  message:
+                    type: string
 
   /islands/{island}/municipalities/{municipality}:
     get:
@@ -160,13 +188,23 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/MunicipalityWithChildrenResponse'
+                type: object
+                properties:
+                  municipality:
+                    type: string
+                  zones:
+                    type: object
         '404':
           description: Island or municipality not found
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                type: object
+                properties:
+                  error:
+                    type: string
+                  message:
+                    type: string
 
   /islands/{island}/municipalities/{municipality}/zones:
     get:
@@ -196,7 +234,12 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ZonesResponse'
+                type: object
+                properties:
+                  zones:
+                    type: array
+                    items:
+                      type: string
               example:
                 zones:
                   - Achada Santo António
@@ -208,7 +251,12 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
+                type: object
+                properties:
+                  error:
+                    type: string
+                  message:
+                    type: string
 
   /islands/{island}/municipalities/{municipality}/zones/{zone}/streets:
     get:
@@ -248,7 +296,12 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/StreetsResponse'
+                type: object
+                properties:
+                  streets:
+                    type: array
+                    items:
+                      type: string
               example:
                 streets: []
         '404':
@@ -256,119 +309,124 @@ paths:
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/ErrorResponse'
-
-components:
-  schemas:
-    CaboVerdeResponse:
-      type: object
-      description: Full hierarchical structure of Cape Verde (islands > municipalities > zones > streets)
-      properties:
-        islands:
-          type: object
-          additionalProperties:
-            type: object
-            properties:
-              municipalities:
                 type: object
-                additionalProperties:
-                  type: object
-                  properties:
-                    zones:
-                      type: object
-                      additionalProperties:
-                        type: object
-                        properties:
-                          streets:
-                            type: array
-                            items:
-                              type: string
+                properties:
+                  error:
+                    type: string
+                  message:
+                    type: string
 
-    IslandWithChildrenResponse:
-      type: object
-      properties:
-        island:
-          type: string
-        municipalities:
-          type: object
-          additionalProperties:
-            type: object
-            properties:
-              zones:
-                type: object
-                additionalProperties:
-                  type: object
-                  properties:
-                    streets:
-                      type: array
-                      items:
-                        type: string
-
-    MunicipalityWithChildrenResponse:
-      type: object
-      properties:
-        municipality:
-          type: string
-        zones:
-          type: object
-          additionalProperties:
-            type: object
-            properties:
-              streets:
-                type: array
-                items:
-                  type: string
-
-    IslandsResponse:
-      type: object
-      required:
-        - islands
-      properties:
-        islands:
-          type: array
-          items:
-            type: string
-          description: List of island names
-
-    MunicipalitiesResponse:
-      type: object
-      required:
-        - municipalities
-      properties:
-        municipalities:
-          type: array
-          items:
-            type: string
-          description: List of municipality names
-
-    ZonesResponse:
-      type: object
-      required:
-        - zones
-      properties:
-        zones:
-          type: array
-          items:
-            type: string
-          description: List of zone names
-
-    StreetsResponse:
-      type: object
-      required:
-        - streets
-      properties:
-        streets:
-          type: array
-          items:
-            type: string
-          description: List of street names
-
-    ErrorResponse:
-      type: object
-      properties:
-        error:
-          type: string
-          example: Resource not found
-        message:
-          type: string
-          example: Island "X" does not exist in the data.
+# components:
+#   schemas:
+#     CaboVerdeResponse:
+#       type: object
+#       description: Full hierarchical structure of Cape Verde (islands > municipalities > zones > streets)
+#       properties:
+#         islands:
+#           type: object
+#           additionalProperties:
+#             type: object
+#             properties:
+#               municipalities:
+#                 type: object
+#                 additionalProperties:
+#                   type: object
+#                   properties:
+#                     zones:
+#                       type: object
+#                       additionalProperties:
+#                         type: object
+#                         properties:
+#                           streets:
+#                             type: array
+#                             items:
+#                               type: string
+#
+#     IslandWithChildrenResponse:
+#       type: object
+#       properties:
+#         island:
+#           type: string
+#         municipalities:
+#           type: object
+#           additionalProperties:
+#             type: object
+#             properties:
+#               zones:
+#                 type: object
+#                 additionalProperties:
+#                   type: object
+#                   properties:
+#                     streets:
+#                       type: array
+#                       items:
+#                         type: string
+#
+#     MunicipalityWithChildrenResponse:
+#       type: object
+#       properties:
+#         municipality:
+#           type: string
+#         zones:
+#           type: object
+#           additionalProperties:
+#             type: object
+#             properties:
+#               streets:
+#                 type: array
+#                 items:
+#                   type: string
+#
+#     IslandsResponse:
+#       type: object
+#       required:
+#         - islands
+#       properties:
+#         islands:
+#           type: array
+#           items:
+#             type: string
+#           description: List of island names
+#
+#     MunicipalitiesResponse:
+#       type: object
+#       required:
+#         - municipalities
+#       properties:
+#         municipalities:
+#           type: array
+#           items:
+#             type: string
+#           description: List of municipality names
+#
+#     ZonesResponse:
+#       type: object
+#       required:
+#         - zones
+#       properties:
+#         zones:
+#           type: array
+#           items:
+#             type: string
+#           description: List of zone names
+#
+#     StreetsResponse:
+#       type: object
+#       required:
+#         - streets
+#       properties:
+#         streets:
+#           type: array
+#           items:
+#             type: string
+#           description: List of street names
+#
+#     ErrorResponse:
+#       type: object
+#       properties:
+#         error:
+#           type: string
+#           example: Resource not found
+#         message:
+#           type: string
+#           example: Island "X" does not exist in the data.
