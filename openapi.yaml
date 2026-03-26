@@ -71,7 +71,7 @@ paths:
                   - Fogo
                   - Brava
                   - Santo Antão
-                  - Nicolau
+                  - São Nicolau
 
   /islands/{island}/municipalities:
     get:

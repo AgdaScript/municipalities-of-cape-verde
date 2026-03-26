@@ -128,7 +128,15 @@
             "Rua da Associação",
             "Rua da Fonte",
             "Rua de Trás",
-            "Rua do Vale"
+            "Rua do Vale",
+            "Mundo Novo",
+            "Ponta Lopes",
+            "Ponta Mendes",
+            "Portete de Cima",
+            "Sao Francisco",
+            "Agostinho Alves",
+            "Fundo Brota",
+            "Ponta Baixo"
           ]
         },
         "Tira Chapéu": {
@@ -149,6 +157,38 @@
             "Rua de Olímpio",
             "Rua da Universidade"
           ]
+        },
+        "Cidade da Praia": {
+          "ruas": []
+        },
+        "Costa Achada": {
+          "ruas": []
+        },
+        "Palmarejo Grande": {
+          "ruas": []
+        },
+        "Pedregal": {
+          "ruas": []
+        },
+        "Sao Martinho Grande - Nsgraça": {
+          "ruas": [
+            "Isabel Lopes",
+            "Palmarejo Grande"
+          ]
+        },
+        "Sao Martinho Pequeno": {
+          "ruas": []
+        },
+        "Sao Tome": {
+          "ruas": []
+        },
+        "Lem Dias": {
+          "ruas": []
+        },
+        "Ponta do Sol": {
+          "ruas": [
+            "Ponta do Sol"
+          ]
         }
       }
     },
@@ -162,7 +202,31 @@
             "Rua da Câmara",
             "Rua do Mercado",
             "Rua da Igreja",
-            "Rua Principal"
+            "Rua Principal",
+            "Achada Riba",
+            "Vila de Assomada",
+            "Bairro",
+            "Bolanha",
+            "Cha de Santos",
+            "Covao Ribeiro",
+            "Cutelo",
+            "Nhagar",
+            "Lem Vieira",
+            "Pedra Barro",
+            "Portaozinho",
+            "Tarafalinho",
+            "Cumbem",
+            "Traz Empa",
+            "Espinho Branco",
+            "Centro Vila",
+            "Covão",
+            "Rua S.o.s.",
+            "Rua Farp",
+            "Cruz Vermelha",
+            "Leiria",
+            "Atrás Banco",
+            "Chão de Espinho",
+            "Ponta Calabaceira"
           ]
         },
         "Achada Falcão": {
@@ -178,7 +242,22 @@
             "Rua da Boa Entrada",
             "Rua da Igreja",
             "Rua da Escola",
-            "Rua do Vale"
+            "Rua do Vale",
+            "Canico",
+            "Carreira",
+            "Covao da Veiga",
+            "Cutelo",
+            "Galeao",
+            "Julangue",
+            "Lem Grande",
+            "Poilao",
+            "Escola (boa Entrada)",
+            "Chororo",
+            "Covão de Melo",
+            "Cutelo Vaz",
+            "Monte",
+            "Cutelo Moreira",
+            "Lém Almado"
           ]
         },
         "Chão de Tanque": {
@@ -194,7 +273,24 @@
             "Rua dos Engenhos",
             "Rua do Moinho",
             "Rua da Cana",
-            "Rua da Ribeira"
+            "Rua da Ribeira",
+            "Bica",
+            "Cha de Assougue",
+            "Cha de Coelho",
+            "Chaozinho",
+            "Joao Goto",
+            "Pinha",
+            "Mantaba",
+            "Chã de Curral",
+            "Quelem",
+            "Tanque",
+            "Chã de Guerra",
+            "Tortodjo",
+            "Tamarino",
+            "Chã Lém Jorge",
+            "Alentejano",
+            "Cutelinho",
+            "Quebrada"
           ]
         },
         "Figueira das Naus": {
@@ -202,7 +298,34 @@
             "Rua da Figueira",
             "Rua das Naus",
             "Rua do Porto",
-            "Rua da Ribeira"
+            "Rua da Ribeira",
+            "Achada da Agua",
+            "Achada Hilario",
+            "Achada Nho Marco",
+            "Achadinha",
+            "Bole",
+            "Cacheu",
+            "Cha de Cuba",
+            "Cha de Curral",
+            "Cha de Figueira",
+            "Cha de Lagoa",
+            "Chao de Lorna",
+            "Chao de Pinto",
+            "Covao Baixo",
+            "Cruz",
+            "Curral de Cabra",
+            "Feital",
+            "Figueira das Naus",
+            "Ganchumba",
+            "Garganta",
+            "Marmulano",
+            "Monte Mosca",
+            "Pedra Branco",
+            "Ponta Poco",
+            "Rufeu",
+            "Figueira Mesa",
+            "Cabeça Bode",
+            "Monte Feital"
           ]
         },
         "Nhagar": {
@@ -218,7 +341,11 @@
             "Rua de Picos",
             "Rua da Ribeira",
             "Rua da Igreja",
-            "Rua do Cruzeiro"
+            "Rua do Cruzeiro",
+            "Castelo",
+            "Covao Portal",
+            "Entre Picos",
+            "Mato D'onca"
           ]
         },
         "Rincão": {
@@ -226,7 +353,792 @@
             "Rua do Rincão",
             "Rua da Cruz",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Baixo La",
+            "Riba Chã"
+          ]
+        },
+        "Achada Galego": {
+          "ruas": [
+            "Achada Carapate",
+            "Achada Galego",
+            "Caldeira",
+            "Gudo",
+            "Ponta Fundo",
+            "Ponta Lopes",
+            "Assomadinha"
+          ]
+        },
+        "Achada Gomes": {
+          "ruas": [
+            "Achada Camelo",
+            "Cha de Baixo",
+            "Chao de Riba",
+            "Ladeira",
+            "Chao Santos",
+            "Chao Taverna",
+            "Viuva"
+          ]
+        },
+        "Achada Lazao": {
+          "ruas": [
+            "Achada Lazao",
+            "Lém Varela",
+            "Achada Baixo",
+            "Inheu",
+            "Cutelo",
+            "Covão Zimbrão"
+          ]
+        },
+        "Achada Leite": {
+          "ruas": [
+            "Achada Leite",
+            "Riba de Achada",
+            "Lém da Veiga",
+            "Pizarra",
+            "Lém Fidalgo",
+            "Cutelo",
+            "Lém Monteiro"
+          ]
+        },
+        "Achada Lem": {
+          "ruas": [
+            "Achada Baixo",
+            "Alto Joao do",
+            "Berbel",
+            "Cavaleiro",
+            "Cha de Lagoa",
+            "Chao Baixo",
+            "Chiqueirinho",
+            "Curral Velho",
+            "Funco Guarda",
+            "Fundura",
+            "Jagau",
+            "Lage",
+            "Lem Dias",
+            "Lem dos Reis",
+            "Lem Fortes",
+            "Lem Martins",
+            "Lem Semedo",
+            "Lem Silva",
+            "Lem Tavares",
+            "Mato Fundura",
+            "Passo de Vaca",
+            "Pizarra",
+            "Portal de Furna",
+            "Quintal Varela",
+            "Sarradao",
+            "Sobrado",
+            "Tabanca",
+            "Taberna",
+            "Vila Nova",
+            "Volta de Monte",
+            "Lém Pereira",
+            "Santos Carvalho",
+            "Lém Monteiro"
+          ]
+        },
+        "Achada Ponta": {
+          "ruas": [
+            "Achada Ponta",
+            "Ponta"
+          ]
+        },
+        "Achada Tossa": {
+          "ruas": [
+            "Achada Pelado",
+            "Achada Tossa",
+            "Assomadinho",
+            "Barreira",
+            "Boca Mato",
+            "Carvoeiro",
+            "Chao Oliveira",
+            "Cutelo",
+            "Lem Almeida",
+            "Malveira",
+            "Monte",
+            "Manipo",
+            "Covão Gonçalves",
+            "Carrapato",
+            "Lém Rocha",
+            "Lém Borrada",
+            "Covão de Papaia"
+          ]
+        },
+        "Aguas Podres": {
+          "ruas": [
+            "Achada Fora",
+            "Chao de Monte",
+            "Ribeirao Areia",
+            "Cutelão"
+          ]
+        },
+        "Arribada": {
+          "ruas": [
+            "Arribada Cima",
+            "Arribada Coelho",
+            "Covão Jorge",
+            "Cutelo",
+            "Arribada",
+            "Conteira"
+          ]
+        },
+        "Banana Semedo": {
+          "ruas": [
+            "Banana Semedo",
+            "Cova Furtado",
+            "Fonte Semedo",
+            "Foga Gato",
+            "Ilheu"
+          ]
+        },
+        "Boa Entradinha": {
+          "ruas": [
+            "Alentejano",
+            "Boa Entradinha",
+            "Carreira",
+            "Chao Formosa",
+            "Cutelo",
+            "Cutelo Djabe",
+            "Djabe",
+            "Fonte Grande",
+            "Fundao",
+            "Lapa Coruja",
+            "Lem Moreira",
+            "Longueira",
+            "Palha Carga",
+            "Purgueira",
+            "Ribeira Grande",
+            "Romao",
+            "Subida Grande",
+            "Romba",
+            "Noneira",
+            "Culumban",
+            "Subida Fontona",
+            "Lém Vaz",
+            "Em Cima Monte",
+            "Casa Escola",
+            "Cutelo Lopes",
+            "Rabo Mula",
+            "Covão Pereira"
+          ]
+        },
+        "Bombardeiro (ENGENHOS)": {
+          "ruas": [
+            "Beco",
+            "Bombardeiro",
+            "Carreira",
+            "Carrico",
+            "Cha de Carreira",
+            "Cha de Pinha",
+            "Cha de Riba",
+            "Hungria",
+            "Laranjinha",
+            "Mamonda",
+            "Manipo",
+            "Ribeirao Carrico",
+            "Telhal",
+            "Travessa",
+            "Volta de Ouro",
+            "Chã de Nona",
+            "Alta Mera",
+            "Voltador",
+            "Travessa Baixo",
+            "Casa Grande",
+            "Chã de Cana"
+          ]
+        },
+        "Cha de Lagoa": {
+          "ruas": [
+            "Cha de Cruz",
+            "Lem de Parede",
+            "Lem Monteiro",
+            "Lem Vieira",
+            "Cutelo",
+            "Chã Pereira",
+            "Lém Gomes",
+            "Chão Gomes",
+            "Chão Cabral"
+          ]
+        },
+        "Cha de Tanque": {
+          "ruas": [
+            "Achada Grande",
+            "Achada Gregorio",
+            "Boa Vista",
+            "Cha de Pombal",
+            "Cha de Tanque",
+            "Desdes",
+            "Gamboa",
+            "Mina de Ouro",
+            "Romao",
+            "Ribeirao Engracia",
+            "Songo",
+            "Pombal",
+            "Ponta Cruz"
+          ]
+        },
+        "Charco": {
+          "ruas": [
+            "Charco",
+            "Rib Isca",
+            "Loca Le",
+            "Taberna",
+            "Covão Dentro",
+            "Terra Vermelho",
+            "Figueira Coxo",
+            "Lém Freire"
+          ]
+        },
+        "Cruz Grande": {
+          "ruas": [
+            "Cruz Grande",
+            "Portal de Furna",
+            "Quatro Caminho",
+            "Covao Robalo"
+          ]
+        },
+        "Entre Picos de Reda": {
+          "ruas": [
+            "Entre Picos de Cima",
+            "Entre Picos de Baixo",
+            "Entre Picos de Meio"
+          ]
+        },
+        "Fonteana": {
+          "ruas": [
+            "Achada Braz",
+            "Cabeca Carreira",
+            "Tchroro",
+            "Cruz de Cima",
+            "Fonteana",
+            "Fontianinho",
+            "Fotaleza",
+            "Ilheu",
+            "Lem Gomes",
+            "Massape",
+            "Monte Tiro",
+            "Vila Cantor",
+            "Vivenda",
+            "Pedraca",
+            "Lém de Almada",
+            "F.aninho",
+            "Riba Cutelo"
+          ]
+        },
+        "Fonte Lima": {
+          "ruas": [
+            "Banana",
+            "Cha de Moreira",
+            "Colegio",
+            "Fonte Lima",
+            "Lem de Almeida",
+            "Nona",
+            "Pedra Vermelha",
+            "Covão Dentro",
+            "Coberta",
+            "Cutelinho",
+            "Chã de Baixo",
+            "Covon",
+            "Cha Ferreira",
+            "Chã",
+            "Curral",
+            "Lapa",
+            "Beguera",
+            "Ponta Fonte Lima",
+            "Ribeira Pote"
+          ]
+        },
+        "Furna": {
+          "ruas": [
+            "Boqueirao",
+            "Cada Vez",
+            "Cativo",
+            "Cha de Ouro",
+            "Covao Ribeiro",
+            "Cutelo Varela",
+            "Funco",
+            "Furna Abaixo",
+            "Pico Rebelo",
+            "Ribeirão Constantina",
+            "Vista Nova",
+            "Chão de Pinha",
+            "Costa Mato",
+            "Furna Cima",
+            "Alto Galo",
+            "Cutelo da Veiga",
+            "Lém da Mora",
+            "Arribada",
+            "Arribada Acima",
+            "Arribada Coelho"
+          ]
+        },
+        "Gamchemba": {
+          "ruas": [
+            "Chao Grande",
+            "Cruz",
+            "Gamchemba",
+            "Manipo",
+            "Ribeira Baixo",
+            "Chã de Curral"
+          ]
+        },
+        "Gil Bispo": {
+          "ruas": [
+            "Achada Riba",
+            "Carrapate",
+            "Covao Martins",
+            "Cutelo Semedo",
+            "Lem Teixeira",
+            "Ponta Lopes",
+            "Rabolo",
+            "Serra Pau",
+            "Vila Nova",
+            "Lém Varela",
+            "Ponta Furna",
+            "Betore",
+            "Ponta Travessa",
+            "Joaquim Vieira"
+          ]
+        },
+        "Japluma": {
+          "ruas": [
+            "Cidreira",
+            "Covao de Goiaba",
+            "Covao Robalo",
+            "Cutelo de Hortinha",
+            "Cutelo Moreira",
+            "Fonte Goncalves",
+            "Japluma",
+            "Bragança"
+          ]
+        },
+        "Joao Bernardo": {
+          "ruas": [
+            "Achadinha",
+            "Covao Vaz",
+            "Lem Moreira",
+            "Mancanha",
+            "Ponta Mendes",
+            "Campanada",
+            "Lém Semedo",
+            "Cutelo Mendes",
+            "Djanbam",
+            "Riba Ponta",
+            "Cutelo Pau",
+            "Riba Cutelo",
+            "Lém Pereira",
+            "Fontiana",
+            "Ponta Bizero",
+            "Achadinha Riba",
+            "Achadinha Baixo",
+            "Chão de Nona",
+            "Cruz / Cruz Marco",
+            "Tcham"
+          ]
+        },
+        "Joao Dias": {
+          "ruas": [
+            "Joao Dias",
+            "Ribeira Grande",
+            "Chão de Banana",
+            "Chão de Gudim / Gudim",
+            "Mato",
+            "Cutelo Mato",
+            "Massapé",
+            "Chão de Limão",
+            "Achada Piloto",
+            "Cutelo Mendes",
+            "Mafafa",
+            "Cutelão",
+            "Chã de Paulo",
+            "Chã de Banana",
+            "Lém Furtado",
+            "Chã Tavares",
+            "Chã de Loraja",
+            "Cruz Serra",
+            "Chaminé",
+            "Sossa",
+            "Rib Nono",
+            "Basteão",
+            "Chão Correia",
+            "São Caetano",
+            "Lém Lopi"
+          ]
+        },
+        "Junco": {
+          "ruas": [
+            "Aguada",
+            "Chao Banana",
+            "Junco Cima",
+            "Cruz de Picos",
+            "Junco Baixo",
+            "Curral Grande"
+          ]
+        },
+        "Librao": {
+          "ruas": [
+            "Librao dos Engenhos",
+            "Baca Corrente",
+            "Chã de Casa",
+            "Lém Batalha",
+            "Tchupana",
+            "Aldeia",
+            "Lém de Reda",
+            "Cutelo (PARIBA)",
+            "Mercador",
+            "Lém Lopes",
+            "Cada Vez",
+            "Sarado Riba",
+            "Librão Riba",
+            "Cutelo",
+            "Penedo (SARRADO)"
+          ]
+        },
+        "Lugar Velho": {
+          "ruas": [
+            "Laranjeira",
+            "Ponta Ribeira",
+            "Rincuada",
+            "Lugar Velho",
+            "Pia"
+          ]
+        },
+        "Mancholy": {
+          "ruas": [
+            "Chao Tavares",
+            "Chiqueiro Barbosa",
+            "Fundo Baixo",
+            "Lem Garcia",
+            "Lem Silva",
+            "Mancholy",
+            "Monte Moreira",
+            "Achada Borges"
+          ]
+        },
+        "Mato Baixo": {
+          "ruas": [
+            "Banco D'ouro",
+            "Calbeceira",
+            "Chao Gomes",
+            "Chao Semedo",
+            "Feixo",
+            "Malgos",
+            "Mato Baixo",
+            "Meio Mundo",
+            "Covao Traz"
+          ]
+        },
+        "Mato Gege": {
+          "ruas": [
+            "Aguinho",
+            "Camastouro",
+            "Casa Grande",
+            "Chao de Casa",
+            "Chao de Espinho",
+            "Chao Mendes",
+            "Chao Marmulano",
+            "Chao Mendes",
+            "Convento",
+            "Cumbem",
+            "Cutelo Correia",
+            "Ilheu",
+            "Olho D'agua",
+            "Poilao",
+            "Ponta Lopes",
+            "Prenca",
+            "Travessa",
+            "C.redonda",
+            "C.portal",
+            "Covão Gomes",
+            "Fontinha",
+            "Chã Latada",
+            "C.vassoura",
+            "Covão Meio",
+            "Chupana",
+            "Ponta Sol",
+            "Chã Correia",
+            "Branca",
+            "Libari",
+            "Piquinho",
+            "Lém da Veiga",
+            "Cutelo",
+            "Cutelão",
+            "Lém de Murro",
+            "Covão Bento",
+            "Chão da Veiga"
+          ]
+        },
+        "Mato Sancho": {
+          "ruas": [
+            "Achada Conde",
+            "Achadinha",
+            "Batateira",
+            "Cabeca Carreira",
+            "Cha de Forno",
+            "Chao de Penedo",
+            "Chocalho",
+            "Corre Pedra",
+            "Coqueiro",
+            "Rabo de Horta",
+            "Ribeirao Breu",
+            "Rombado",
+            "Tabuleiro",
+            "Chã"
+          ]
+        },
+        "Palha Carga": {
+          "ruas": [
+            "Boca Mato",
+            "Casa Branca",
+            "Cha Almada",
+            "Cha Duarte",
+            "Cha Semedo",
+            "Cha de Babosa",
+            "Cha de Mau Passo",
+            "Covada",
+            "Cutelo Vaz",
+            "Lem Cabral",
+            "Lem Moreira",
+            "Ramuda",
+            "Ribeira Riba",
+            "Cutelo Mascarenhas",
+            "Lém Vaz",
+            "Covão Barro",
+            "Chã Gonçalves",
+            "Cabana",
+            "Tamareira",
+            "Labora",
+            "Cutelo Pau",
+            "Lém Almeida"
+          ]
+        },
+        "Pata Brava": {
+          "ruas": [
+            "Chao de Nono",
+            "Cutelo da Veiga",
+            "Gelado Cabral",
+            "Pata Brava",
+            "Pinha Doce",
+            "Bica",
+            "Lém Rodrigues",
+            "Ponto",
+            "Rabo de Horta"
+          ]
+        },
+        "Pau Verde": {
+          "ruas": [
+            "Achadinha",
+            "Covada",
+            "Cutelo",
+            "Lem D'achada",
+            "Padjero",
+            "Pau Verde",
+            "Riba Monte",
+            "Ponta D'achada",
+            "Corno Baixo",
+            "Chã de Fonte"
+          ]
+        },
+        "Pedra Barro": {
+          "ruas": [
+            "Caris Morto",
+            "Covao da Veiga",
+            "Cutelo de Covao da Veiga",
+            "Joao Preto",
+            "Pedra Barro",
+            "Chafariz",
+            "Cutelo Torre"
+          ]
+        },
+        "Pingo Chuva": {
+          "ruas": [
+            "Chao Gomes",
+            "Covao de Tras",
+            "Lem Gomes",
+            "Pingo Chuva",
+            "Redonda",
+            "Ribeirao Cavalo",
+            "Romao",
+            "Simao Nunes",
+            "Cruz de Bedja",
+            "Batcharé",
+            "Sidreia",
+            "Ponta"
+          ]
+        },
+        "Ribeira Acima": {
+          "ruas": [
+            "Alto Bemba",
+            "Capela",
+            "Chão de Curral",
+            "Covão",
+            "Piquinho",
+            "Ribeirão Pavão"
+          ]
+        },
+        "Ribeira da Barca": {
+          "ruas": [
+            "Porto 1",
+            "Porto 2",
+            "Ribeira da Barca",
+            "L. de Estrada",
+            "M. Sossego",
+            "L. Rocha",
+            "Farrol",
+            "Piquinho",
+            "C. Fom",
+            "L. Mendes",
+            "Sobrado"
+          ]
+        },
+        "Ribeirao Isabel": {
+          "ruas": [
+            "Achadinha",
+            "Baixo Carreira",
+            "Bica",
+            "Covao Lopes",
+            "Da Cruz",
+            "Figueira de Ferro",
+            "Massape de Baixo Carreira",
+            "Mato Garca",
+            "Mato Real",
+            "Ribeirao Isabel",
+            "Ilhéu",
+            "Chã de Laranja"
+          ]
+        },
+        "Ribeirao Manuel": {
+          "ruas": [
+            "Achada Mato",
+            "Cha de Capela",
+            "Chao de Monte",
+            "Chao Tavares",
+            "Ilheu",
+            "Lem Vieira",
+            "Monte Vermelho",
+            "Ponta do Sol",
+            "Ponta Fundao",
+            "Ponta Lopi",
+            "Ribeirao Manuel",
+            "Ponta Passinho",
+            "Covão Pereira",
+            "Monte",
+            "Ponta de Oliveira",
+            "Taberna",
+            "Cova Figueira",
+            "Ribeirão Bode",
+            "Ponta D'água"
+          ]
+        },
+        "Saltos Acima": {
+          "ruas": [
+            "Bianga",
+            "Carreira",
+            "Carrical",
+            "Chao Beira",
+            "Chao Nona",
+            "Chao de Papaia",
+            "Covao de Agua",
+            "Cutelo Mendes",
+            "Da Cruz",
+            "Lem da Veiga",
+            "Lem Gomes",
+            "Limoeiro",
+            "Monte Sal",
+            "Montinho",
+            "Saltos Acima",
+            "Sole",
+            "Ululu",
+            "Chão de Curral/covão de Curral",
+            "C.lopes",
+            "Chã de Espinho",
+            "Lugar Baixo",
+            "Bareiro",
+            "Mergulho",
+            "Cutelo Santos",
+            "M. Branco",
+            "Cutelo Pingo Chuva",
+            "Forno",
+            "Monte Domingos",
+            "Barreiro",
+            "Cutelo M. Graça"
+          ]
+        },
+        "Sedeguma": {
+          "ruas": [
+            "Vassoura",
+            "Chao de Casa Grande",
+            "Chao Moreno",
+            "Covao de Limao",
+            "Covao Tarafe",
+            "Curral de Boi",
+            "Espinho Branco",
+            "Galo Canta",
+            "Manipo",
+            "Oure",
+            "Ourinho",
+            "Ourizinho",
+            "Palacio",
+            "Quintal",
+            "Ribeirinha",
+            "Quintalona",
+            "Sedguma"
+          ]
+        },
+        "Serra Malagueta": {
+          "ruas": [
+            "Cha Baixo",
+            "Cha de Casa",
+            "Cha de Curral",
+            "Cha de Figueira",
+            "Cutelo Lopes",
+            "Ilheu de Carrico",
+            "Lem Leal",
+            "Locotano",
+            "Rosto Branco",
+            "Saquinho",
+            "Ovo Bode",
+            "Quintal Leal",
+            "Posto",
+            "Cutelo Gomes",
+            "Ponta Cham",
+            "Mato",
+            "Pizada",
+            "Sechane",
+            "Montona"
+          ]
+        },
+        "Tomba Touro": {
+          "ruas": [
+            "Chao de Horta",
+            "Chao Coelho",
+            "Chao de Capela",
+            "Cutelo",
+            "Lem da Mora",
+            "Lem Pereira",
+            "Lem Tavares",
+            "Lem Varela",
+            "Lem Vieira",
+            "Passinho",
+            "Quintalona",
+            "Portal",
+            "Chão de Simbrão",
+            "Chão de Pariba",
+            "Tomba Touro",
+            "Luís Damão"
+          ]
+        },
+        "Fundura": {
+          "ruas": [
+            "Sarradona",
+            "Sobrado",
+            "Chão de Lagoa",
+            "Cavaleiro",
+            "Achada Belbel",
+            "Achada Baixo",
+            "Passo Vaca",
+            "Taberna"
           ]
         }
       }
@@ -240,7 +1152,16 @@
             "Rua do Porto",
             "Rua da Igreja",
             "Rua da Câmara",
-            "Rua dos Pescadores"
+            "Rua dos Pescadores",
+            "Achada Fatima",
+            "Covao de Barro",
+            "Cutelinho",
+            "Monte Bode",
+            "Ponta Achada",
+            "Porto Abaixo",
+            "Porto Acima",
+            "Salina",
+            "Logoagil"
           ]
         },
         "Calabaceira": {
@@ -282,6 +1203,461 @@
             "Rua da Foz",
             "Rua dos Pescadores"
           ]
+        },
+        "Achada Belbel": {
+          "ruas": [
+            "Achada Belbel",
+            "Achada Belbel Acima",
+            "Aguada",
+            "Casona",
+            "Chao Poilao",
+            "Djeu",
+            "Manipo",
+            "Mato Boi",
+            "Sarrado",
+            "Varzea Laranja",
+            "Cham de Manduco",
+            "Cham",
+            "M.preto",
+            "Lapa Pau",
+            "Cruz",
+            "P.manipo",
+            "Achada Belbel Baixo",
+            "Monte Rabelados"
+          ]
+        },
+        "Achada Fazenda": {
+          "ruas": [
+            "Achada Fazenda",
+            "Cha de Curral",
+            "Zimbrom"
+          ]
+        },
+        "Achada Ponta": {
+          "ruas": [
+            "Achada Casunda",
+            "Achada Ponta",
+            "Cutelo"
+          ]
+        },
+        "Boaventura": {
+          "ruas": [
+            "Boa Esperanca",
+            "Boaventura",
+            "Casona",
+            "Cha de Casa",
+            "Cruz de Aguada",
+            "Cutelo Salto",
+            "Formosa",
+            "Horta Nova",
+            "Oril",
+            "Orissinho",
+            "Pedra Sarrado",
+            "Pole",
+            "Toril",
+            "Traz de Monte",
+            "Covão de Milagre",
+            "Achada Toril"
+          ]
+        },
+        "Boca Larga": {
+          "ruas": [
+            "Achadinha",
+            "Achadona",
+            "Andecal",
+            "Bom Bida",
+            "Cao Bruto",
+            "Casa Grande",
+            "Cutelo Mendes",
+            "Fontinho",
+            "Godelha",
+            "Joao Lobo",
+            "Lem Coelho",
+            "Lem da Costa",
+            "Lem de Mato",
+            "Mato Correia",
+            "Matona",
+            "Pedra Parede",
+            "Ponta Ribeira",
+            "Djulangue",
+            "Convento"
+          ]
+        },
+        "Cancelo": {
+          "ruas": [
+            "Achada Abaixo",
+            "Assomada",
+            "Cancelo",
+            "Covao Sanches",
+            "Ponta Coqueiro",
+            "Pinga Mel",
+            "Ponta Cancelo",
+            "Ponta Achada Belbel",
+            "Sopra Bola"
+          ]
+        },
+        "Cha de Silva": {
+          "ruas": [
+            "Boqueirao",
+            "Cha de Casa",
+            "Cha da Silva",
+            "Cha de Gui",
+            "Fonte Machado",
+            "Ilheu",
+            "Joao Touro",
+            "Maiama",
+            "Maria Pereira",
+            "Polonzinho",
+            "Ponta Ribeira",
+            "Sechana",
+            "Sambacote",
+            "Tamareira",
+            "Varzea Nova",
+            "Varzona",
+            "Cutelo",
+            "Ilheta"
+          ]
+        },
+        "Julangue": {
+          "ruas": [
+            "Covao Dentro",
+            "Lem Gomes",
+            "Lem Rocha",
+            "Lem Vaz",
+            "Massape",
+            "Monte",
+            "Papaia"
+          ]
+        },
+        "Librao": {
+          "ruas": [
+            "Baixo Rocha",
+            "Bonina",
+            "Cha de Laranjeira",
+            "Coqueiro",
+            "Covao Comprido",
+            "Cutelo da Veiga",
+            "Latada",
+            "Lem Correia",
+            "Lem da Costa",
+            "Lem Monteiro",
+            "Lem Semedo",
+            "Lima",
+            "Macurta",
+            "Mancelo",
+            "Mancholy",
+            "Mato Raia",
+            "Ponta Semedo",
+            "Librão",
+            "Djulangue",
+            "Travessa"
+          ]
+        },
+        "Matinho": {
+          "ruas": [
+            "Aguada",
+            "Banana",
+            "Bandeira",
+            "Carrical",
+            "Ilheu",
+            "Laranjeira",
+            "Lem Sanches",
+            "Matinho",
+            "Matinho Acima",
+            "Mato Madeira",
+            "Quebrada",
+            "Ribeira dos Porcos",
+            "Ribeira Gil",
+            "Sao Jacinto",
+            "Nona",
+            "Casa Grande",
+            "Cruz",
+            "Godelha",
+            "Matinho Abaixo"
+          ]
+        },
+        "Monte Negro": {
+          "ruas": [
+            "Achadinha",
+            "Aguada",
+            "Bolanha",
+            "Cha de Boi",
+            "Cha de Figueira",
+            "Cha de Pomba",
+            "Cha de Zimbrao",
+            "Cha Semedo",
+            "Covao de Poilao",
+            "Gil Andre",
+            "Lem Lopes",
+            "Limeira",
+            "Longueira",
+            "Mangue",
+            "Matinho",
+            "Monte",
+            "Para Rapaz",
+            "Ponta Achada",
+            "Ponta Diante",
+            "Ponta Reienta",
+            "Traz dos Montes",
+            "Casona",
+            "Chão Freire",
+            "Achada Riba",
+            "Belém"
+          ]
+        },
+        "Porto Madeira": {
+          "ruas": [
+            "Achadinha",
+            "Belem",
+            "Cha Baixo",
+            "Cha Carreira",
+            "Cha de Beira",
+            "Covao Grande",
+            "Cruz de Riba Gato",
+            "Fonte Leme",
+            "Lem Barbosa",
+            "Lugar Grande",
+            "Ma Domingas",
+            "Monte Badio",
+            "Pizarra",
+            "Sala",
+            "Serrado Freire",
+            "Sole",
+            "Telha",
+            "Travessa",
+            "Caiumbra",
+            "Janeiro",
+            "Bonina",
+            "Santa Helena",
+            "Lém Varela",
+            "Lém Almeida"
+          ]
+        },
+        "Rebelo": {
+          "ruas": [
+            "Rebelo Acima",
+            "Rebelo Baixo",
+            "Alto Achada",
+            "Robelo",
+            "Cutelo"
+          ]
+        },
+        "Renque Purga": {
+          "ruas": [
+            "Bamdim",
+            "Capela de Sao Jose",
+            "Cha de Nispe",
+            "Cha de Tossa",
+            "Cutelo",
+            "Cutelo Malagueta",
+            "Cutelo Miguel Sanches",
+            "Cruz de Barajo",
+            "Dja Cafu",
+            "Guarda Vento",
+            "Pedra Barro",
+            "Planeta",
+            "Ponta de Cumba",
+            "Renque Acima",
+            "Renque Baixo",
+            "Salva Terra",
+            "Vassoura",
+            "Renque / Renque Purga"
+          ]
+        },
+        "Ribeira Seca": {
+          "ruas": [
+            "Achada Braz",
+            "Bargado",
+            "B.choncoron",
+            "Cutelo de Coelho",
+            "Cutelo Maria",
+            "Estancia",
+            "Fazenda Grande",
+            "Forno",
+            "Leria",
+            "Lem Drigues",
+            "Lem Jorge",
+            "Lem Vieira",
+            "Libencha",
+            "Macati",
+            "Mitra",
+            "Paulado",
+            "Poilao Fonseca",
+            "Ribeirao Moura",
+            "Taberna",
+            "Vila Quente",
+            "Chã Tambor",
+            "Cutelo Dias",
+            "F. Grande",
+            "Achada Colaço",
+            "Ribeira dos Órfãos"
+          ]
+        },
+        "Ribeirao Almaco": {
+          "ruas": [
+            "Chao de Babosa",
+            "Cha de Fundao",
+            "Covao Esqueira",
+            "Cutelinho",
+            "Encontrada",
+            "Jaracunda",
+            "Lem Grande",
+            "Macurta",
+            "Mato Raia",
+            "Ribeirao Almaco",
+            "Garçote"
+          ]
+        },
+        "Ribeirao Boi": {
+          "ruas": [
+            "Cha de Agua",
+            "Cha da Silva",
+            "Chao de Limao",
+            "Covao Correira",
+            "Figueira Gorda",
+            "Fornalha",
+            "Lem Vieira",
+            "Pizarra",
+            "Ponta Ribeira Acima",
+            "Ponte Riba",
+            "Ribeirao Boi",
+            "Ribeirao Boi Acima",
+            "Ribeirao Boi Baixo",
+            "Ribeirao Egua",
+            "Ribeirao Fundo",
+            "R.deco",
+            "Chã Capela",
+            "Cutelinho",
+            "Pema"
+          ]
+        },
+        "Rocha Lama": {
+          "ruas": [
+            "Achada Igreja",
+            "Covada",
+            "Rocha Lama"
+          ]
+        },
+        "Saltos Abaixo": {
+          "ruas": [
+            "Aboboreira",
+            "Cha de Azedinha",
+            "Cha de Pinha",
+            "Cha Grande",
+            "Cha Quente",
+            "Coqueiro",
+            "Covao Ramos",
+            "Cruz Tavares",
+            "Fonte Tras",
+            "Imperador",
+            "Lem Dias",
+            "Margosa",
+            "Pau Grande",
+            "Pinchosa",
+            "Ribeirao D'asno",
+            "Ribeirao Feijao",
+            "Ribeirao Pereira",
+            "Rombado",
+            "Sarradinho",
+            "Atrás Monte",
+            "Rufeu",
+            "Piquinho",
+            "Ribeira Salto",
+            "Cutelo Gomes",
+            "Saltos Abaixo",
+            "Penador",
+            "Saltos",
+            "Lém de Cinza"
+          ]
+        },
+        "Santa Cruz": {
+          "ruas": [
+            "Carrical",
+            "Cha de Abobora",
+            "Cha de Agua",
+            "Cha de Camelo",
+            "Cha de Taberna",
+            "Cha Fernandes",
+            "Cha Fernando",
+            "Chupana",
+            "Lem Cachorro",
+            "Lem de Mato",
+            "Lem Pereira",
+            "Pinga Mel",
+            "Ponta Ribeira",
+            "Portalinho",
+            "Ribeirao Egua",
+            "Ribeirao Fundo",
+            "Pedra Branca",
+            "Loja",
+            "Covinha",
+            "Cutelo",
+            "Ponta Alto",
+            "Monte",
+            "Capela",
+            "Ilhéu / Djeu"
+          ]
+        },
+        "São Cristovao": {
+          "ruas": [
+            "Achada Soares",
+            "Babosa",
+            "Bonina",
+            "Canibra Hortinha",
+            "Capela",
+            "Casa Nova",
+            "Chao Baixo",
+            "Cha de Bonco",
+            "Chao Formosa",
+            "Cibe Novo",
+            "Cutelo Verde",
+            "Damasco",
+            "Espinho Preto",
+            "Galiao",
+            "Janeiro",
+            "Lem Almeida",
+            "Lem de Horta",
+            "Lem Gomes",
+            "Lem Pereira",
+            "Lem Quebra",
+            "Lem Varela",
+            "Manipo",
+            "Mato Vaz",
+            "Ribeirao Abobora",
+            "Santa Helena",
+            "Rio",
+            "Cruz",
+            "Careira",
+            "Pinheiro",
+            "Chã Tavares",
+            "Chão de Flores"
+          ]
+        },
+        "Serelho": {
+          "ruas": [
+            "Banana",
+            "Covao Dentro",
+            "Covao Escuro",
+            "Covao Pereira",
+            "Cutelinho",
+            "Cutelo Duarte",
+            "Cutelo Selada",
+            "Galiao",
+            "Lapa",
+            "Lem Fernandes",
+            "Ponta Maiama",
+            "Serelho Abaixo",
+            "Serelho Acima",
+            "Telha",
+            "Serelho",
+            "Lém Vieira"
+          ]
+        },
+        "Achada Laje": {
+          "ruas": [
+            "Achada Lage",
+            "Cutelinho"
+          ]
         }
       }
     },
@@ -301,7 +1677,13 @@
             "Rua da Baía",
             "Rua da Praia",
             "Rua do Porto",
-            "Rua dos Pescadores"
+            "Rua dos Pescadores",
+            "Achada Baixo",
+            "Achada Riba",
+            "Castelinho",
+            "Covao Santana",
+            "Lem da Veiga",
+            "Moia Moia"
           ]
         },
         "Bela Vista": {
@@ -343,6 +1725,346 @@
             "Rua da Fonte",
             "Rua Principal"
           ]
+        },
+        "Achada Baleia": {
+          "ruas": [
+            "Achada Baleia"
+          ]
+        },
+        "Cancelo": {
+          "ruas": [
+            "Achada Lama Abaixo",
+            "Cancelo Baixo",
+            "Cancelo Riba"
+          ]
+        },
+        "Chao de Coqueiro": {
+          "ruas": [
+            "Achadinha",
+            "Coqueiro",
+            "Cutelo de Jatar",
+            "Lage Vermelho",
+            "Limeira",
+            "Grazote"
+          ]
+        },
+        "Dobe": {
+          "ruas": [
+            "Dobe",
+            "Tinca"
+          ]
+        },
+        "Milho Branco": {
+          "ruas": [
+            "Cabeca Horta",
+            "Cha Cardoso",
+            "Cutelo Tavares",
+            "Grazote",
+            "Limao",
+            "Milho Branco",
+            "Ribeirao Jeronimo",
+            "Sezimbra",
+            "Tamarinha",
+            "Telha",
+            "Terra Branca",
+            "Varanda",
+            "Cutelo Jatar",
+            "Achada Garzote",
+            "Chanzinha"
+          ]
+        },
+        "Portal": {
+          "ruas": [
+            "Achada Lama Acima",
+            "Capela",
+            "Portal",
+            "Chã Tanque",
+            "Achada Lama",
+            "Achada Lama Baixo"
+          ]
+        },
+        "Praia Baixo": {
+          "ruas": [
+            "Castelo Grande",
+            "Cha de Mosquito",
+            "Ponta da Achada",
+            "Ponta Porto / Porto",
+            "Praia Baixo",
+            "Rochinha",
+            "Fontinha",
+            "Castelinho",
+            "Castelo"
+          ]
+        },
+        "Praia Formosa": {
+          "ruas": [
+            "Achada Cativo",
+            "Achada Cavalo",
+            "Belem",
+            "Cha de Oliveira",
+            "Covada",
+            "Cruz",
+            "Dabreu",
+            "Doreda",
+            "Faial",
+            "Jardim",
+            "Lem Ferreira",
+            "Nazare",
+            "Ribeirinha"
+          ]
+        },
+        "Vale da Custa": {
+          "ruas": [
+            "Vale Cachopo",
+            "Lem de Brito",
+            "Ponta Baixo",
+            "Ponta Riba",
+            "Fundo",
+            "Ponta"
+          ]
+        },
+        "Achada Mitra": {
+          "ruas": [
+            "Achada Vassoura",
+            "Barnabe",
+            "Cancelo",
+            "Fabrica",
+            "Figueira Portugal",
+            "Pedra Galinha",
+            "Ponta de Forno",
+            "Mato Serrado"
+          ]
+        },
+        "Agua de Gato": {
+          "ruas": [
+            "Achadinha",
+            "Caiada",
+            "Chaozinho",
+            "Curral",
+            "Laranjeira",
+            "Lem Freire",
+            "Lem Mendoca",
+            "Lem Pereira",
+            "Monte",
+            "Rema Rema",
+            "Travessa Baixo",
+            "Covão D'água",
+            "Mitra"
+          ]
+        },
+        "Banana": {
+          "ruas": [
+            "Aldeia",
+            "Banana",
+            "Chancona",
+            "Lem Fonseca",
+            "Lem de Zimbrao",
+            "Mato Vaz",
+            "Pombal Acima",
+            "Ponta Ribeira",
+            "Taberna",
+            "Varzea Grande"
+          ]
+        },
+        "Chamine": {
+          "ruas": [
+            "Cha de Chiqueiro",
+            "Costa de Nora",
+            "Cutelo Goiaba",
+            "Leal",
+            "Lem da Cruz",
+            "Lem Semedo",
+            "Mato Soeiro",
+            "Pe de Subida",
+            "Videla",
+            "Lém Garcia",
+            "Lém Fernandes",
+            "Chaminé",
+            "Lém Correio",
+            "Monte"
+          ]
+        },
+        "Dacabalaio": {
+          "ruas": [
+            "Carredinha",
+            "Guarda Vento",
+            "Massapé / Massapé de Cima",
+            "Mostarda",
+            "Rochinha",
+            "Chã de Tambra",
+            "Dacabalaio",
+            "Curral Serra"
+          ]
+        },
+        "Fonte Almeida": {
+          "ruas": [
+            "Achada Pedra",
+            "Achada Ventreiro",
+            "Agua Panelo",
+            "Cha de Cardoso",
+            "Cutelo Babosa",
+            "Fonte Almeida de Cima",
+            "Fonte Acima",
+            "Massape",
+            "Monte Queimado",
+            "Montinhos",
+            "Nove Casas",
+            "Olho de Agua",
+            "Quebrada",
+            "Ribeirao Areia",
+            "Ribeirao Sana",
+            "Taberna",
+            "Ventreiro"
+          ]
+        },
+        "Gudim": {
+          "ruas": [
+            "Cutelo Acima",
+            "Gudim",
+            "Mundo Grande",
+            "Telha",
+            "Cruz"
+          ]
+        },
+        "Lagoa": {
+          "ruas": [
+            "Lagoa"
+          ]
+        },
+        "Mato Afonso": {
+          "ruas": [
+            "Covao Vicente",
+            "Cutelo Gomes",
+            "Mato Afonso",
+            "Mato Martins",
+            "Sole",
+            "Tamarindo",
+            "Volta Romao"
+          ]
+        },
+        "Mendes Faleiro Cabral": {
+          "ruas": [
+            "Cha de Mangui",
+            "Cha de Tamara",
+            "Covao Delgado",
+            "Cruz",
+            "Laranjo",
+            "Pizarro",
+            "Telha",
+            "Cabral"
+          ]
+        },
+        "Mendes Faleiro Rendeiro": {
+          "ruas": [
+            "Covao",
+            "Cutelo",
+            "Lem Morreira",
+            "Lem Sanches",
+            "Lem Soares",
+            "Massape",
+            "Sacramento",
+            "Sibe",
+            "Travessa",
+            "Volta Romao",
+            "Romao"
+          ]
+        },
+        "Nora": {
+          "ruas": [
+            "Barreira",
+            "Neta Gomes",
+            "Nora",
+            "Travessa",
+            "Chopana",
+            "Fundo",
+            "Tonon",
+            "R.baixo",
+            "R.cão"
+          ]
+        },
+        "Po de Saco": {
+          "ruas": [
+            "Cha de Vassoura",
+            "Pó de Saco"
+          ]
+        },
+        "Ribeirao Chiqueiro": {
+          "ruas": [
+            "Bassoura",
+            "Cha de Baixo",
+            "Cha de Cachorro",
+            "Curral Grande",
+            "Ribeirao Chiqueiro",
+            "Vazagua",
+            "Val Cachopo",
+            "Monte Parada",
+            "Brasil"
+          ]
+        },
+        "Robao de Cal": {
+          "ruas": [
+            "Boa Vista",
+            "Caldeira",
+            "Cha de Coelho",
+            "Costa Capela",
+            "Fael",
+            "Lem Fernandes",
+            "Lem Gomes",
+            "Noneira",
+            "Pinga Mel",
+            "Ponta Mendes",
+            "Robao de Cal",
+            "Sarradão",
+            "Casa Grande"
+          ]
+        },
+        "Rui Vaz": {
+          "ruas": [
+            "Cancelo",
+            "Cidreira",
+            "Covao de Rui Vaz",
+            "Curralinho",
+            "Cutelo Mendes",
+            "Lem da Veiga",
+            "Lem Vieira",
+            "Monte Fundo",
+            "Monte Leao",
+            "Ponta Baixo",
+            "Vila",
+            "Monte Tchota",
+            "C.vento",
+            "Ponta Cruz",
+            "Cutelo Cidreira",
+            "C.vicente",
+            "Café"
+          ]
+        },
+        "Varzea da Igreja": {
+          "ruas": [
+            "Boa Vista",
+            "Colegio",
+            "Cova de Barro",
+            "Covao Engenho",
+            "Covao Lourenco",
+            "Cutelo Branco",
+            "Figueira Branco",
+            "Joao Garrido",
+            "Lem Lopes",
+            "Pinha",
+            "Sarradinho",
+            "Tamareira",
+            "Tenda",
+            "Varanda",
+            "Jardim",
+            "Pousada",
+            "Várzea Igreja",
+            "Aldeia"
+          ]
+        },
+        "Veneza": {
+          "ruas": [
+            "Veneza"
+          ]
         }
       }
     },
@@ -380,6 +2102,48 @@
             "Rua da Fonte",
             "Rua Principal"
           ]
+        },
+        "Achada Costa": {
+          "ruas": []
+        },
+        "Boca Larga": {
+          "ruas": []
+        },
+        "Fundura": {
+          "ruas": []
+        },
+        "Joao Goto": {
+          "ruas": []
+        },
+        "Vila de Joao Teves (URBANO)": {
+          "ruas": []
+        },
+        "Lage": {
+          "ruas": []
+        },
+        "Levada": {
+          "ruas": []
+        },
+        "Longueira": {
+          "ruas": []
+        },
+        "Orgaos Pequeno": {
+          "ruas": []
+        },
+        "Pico Antonia": {
+          "ruas": []
+        },
+        "Pedra Molar": {
+          "ruas": []
+        },
+        "Poilao Cabral": {
+          "ruas": []
+        },
+        "Sao Jorge": {
+          "ruas": []
+        },
+        "Montanhinha": {
+          "ruas": []
         }
       }
     },
@@ -418,6 +2182,478 @@
             "Rua da Fonte",
             "Rua Principal"
           ]
+        },
+        "Achada Monte": {
+          "ruas": [
+            "Achada Bolanha",
+            "Achada Monte",
+            "Achadona",
+            "Bolanha",
+            "Cha de Cruz",
+            "Cha Tome",
+            "Dacalinha",
+            "Lem Ferreira",
+            "Manguinho",
+            "Meio D'achada",
+            "Pedra Barro",
+            "Ponta Manguinho"
+          ]
+        },
+        "Calheta de S.miguel (SU)": {
+          "ruas": [
+            "Achada Batalha",
+            "Achada Portinho",
+            "Cutelo Miranda",
+            "Galiao",
+            "Manguinho",
+            "Monte Terra",
+            "Pizarra",
+            "Ponta Calheta",
+            "Ponta Calhetona",
+            "Ponto",
+            "Porto",
+            "Veneza",
+            "Variante"
+          ]
+        },
+        "Casa Branca": {
+          "ruas": [
+            "Batibamba",
+            "Carreira",
+            "Casa Branca",
+            "Cha Baixo",
+            "Chao Formoso",
+            "Chiqueiro Velho",
+            "Covada",
+            "Covao Grande",
+            "Cutelo Coco",
+            "Forno",
+            "Fundo Rebelo",
+            "Fundo Ribeira",
+            "Limao",
+            "Pe Bedja",
+            "Pe de Rocha",
+            "Quelem de Fonte",
+            "Selada",
+            "Suave",
+            "Torril",
+            "Zimbrao"
+          ]
+        },
+        "Cha de Ponta": {
+          "ruas": [
+            "Boca Ribeira",
+            "Chao de Nona",
+            "Chao Dentro",
+            "Cutelo de Meio",
+            "Cutelo Redondo",
+            "Fonte S.joao",
+            "Garcote",
+            "Lem Gomes",
+            "Pe de Monte",
+            "Ponta de Aguada",
+            "Ponta Mato",
+            "Rua Comprida",
+            "Achada Garsote",
+            "Quarto Pico",
+            "Ferol",
+            "Cutelo"
+          ]
+        },
+        "Cutelo Gomes": {
+          "ruas": [
+            "Achada Barril",
+            "Aguadinha",
+            "Cha de Mato",
+            "Covao Pertado",
+            "Cutelo de Riba",
+            "Cutelo Gomes",
+            "Cutelo Moreno",
+            "Cutelo Vassoura",
+            "Figueira Grande",
+            "Fonton",
+            "Forno",
+            "Lagoa",
+            "Lagoa Baixo",
+            "Laranja",
+            "Lem Varela",
+            "Lem Vieira",
+            "Mato",
+            "Mato Grande",
+            "Mato Piquinho",
+            "Monte Branco",
+            "Pai Antonio",
+            "Romao",
+            "Vassoura",
+            "Caricel",
+            "Chão Nune",
+            "Mondo Bua",
+            "Lém Liveira",
+            "Pé de Rocha"
+          ]
+        },
+        "Espinho Branco": {
+          "ruas": [
+            "Cagarro",
+            "Cha Baixo",
+            "Lem Cardoso",
+            "Lem Pereira",
+            "Po Fino",
+            "Ponta Cabral",
+            "Tabuleiro",
+            "Espinho Branco",
+            "Achada Espinho Branco",
+            "Achada Rabelado",
+            "Achada Brufa",
+            "Chã de Carrapate"
+          ]
+        },
+        "Gongon": {
+          "ruas": [
+            "Cabaceira",
+            "Cantada",
+            "Cha Riba",
+            "Chao Grande",
+            "Cutelo",
+            "Cutelo Baixo",
+            "Cutelo Pupa",
+            "Cutelo Vermelho",
+            "Fobero",
+            "Lem Ramos",
+            "Lem Varela",
+            "Quebrada",
+            "Rubom Pupa",
+            "Serra Po",
+            "Malagueta"
+          ]
+        },
+        "Machado": {
+          "ruas": [
+            "Carreira",
+            "Fonte Rocha",
+            "Lem Sanches",
+            "Terra Vermelha",
+            "Travessa Baixo",
+            "Viega",
+            "Machado",
+            "Cruz Baixo",
+            "Viega Riba"
+          ]
+        },
+        "Mato Correia": {
+          "ruas": [
+            "Agua de Boi",
+            "Belem",
+            "Cutelo Mato Correia",
+            "Cutelo Purgona",
+            "Fazenda",
+            "Fundao",
+            "Lem Cardoso",
+            "Pedra Macho",
+            "Ponta de Mafafa",
+            "Portal",
+            "Rebelo",
+            "Sarrimba",
+            "Selada",
+            "Madjeba",
+            "Portal Deriba",
+            "Diogo Velho",
+            "Mato Correia",
+            "Cutelo Mendes",
+            "Ponta Covão",
+            "Covão",
+            "Chã Mato",
+            "Ponta Cã",
+            "Pousada"
+          ]
+        },
+        "Monte Bode": {
+          "ruas": [
+            "Achada Cavalo",
+            "Lem Tavares",
+            "Milho Branco",
+            "Monte Bode",
+            "Sole",
+            "Pia",
+            "Limum",
+            "Covinha"
+          ]
+        },
+        "Monte Pousada": {
+          "ruas": [
+            "Cha Calipto",
+            "Cha de Guerra",
+            "Joao Goncalves",
+            "Lem Sanches",
+            "Monte",
+            "Monte Riba",
+            "Ponta",
+            "Ponta Brufa",
+            "Portal",
+            "Ribeirao Cruz",
+            "Rocha Branca",
+            "Chã Baixo",
+            "Monte Pousada",
+            "Achada Mangue",
+            "Variante",
+            "Lém Tavares",
+            "Chã de Dencho",
+            "Ponta Cão",
+            "Fazenda"
+          ]
+        },
+        "Palha Carga": {
+          "ruas": [
+            "Casona",
+            "Cha de Papaia",
+            "Chao Atras",
+            "Cutelo de Pinha",
+            "Cutelo Landim",
+            "Cutelo Mendes",
+            "Laranjeira",
+            "Lem Casona",
+            "Magima",
+            "Ponta Rochinha",
+            "Ponta Lavada",
+            "Santo Antonio",
+            "Sinta",
+            "Palha Carga",
+            "Cutelo",
+            "Pedra Barro"
+          ]
+        },
+        "Pedra Barro": {
+          "ruas": [
+            "Cantada",
+            "Chao Freire",
+            "Chao Vaz",
+            "Couco",
+            "Espinho Branco",
+            "Lem Lopes",
+            "Ribao Bandeira",
+            "Ribeirao Po",
+            "Chão de Curral",
+            "Lém Pereira",
+            "Pedra Barro"
+          ]
+        },
+        "Pedra Serrado": {
+          "ruas": [
+            "Casa Grande",
+            "Chocalho",
+            "Covao de Agua",
+            "Cutelo de Saltos",
+            "Djeu Ribeira Grande",
+            "Lem Pereira",
+            "Lem Mendes",
+            "Malhada Velha",
+            "Monte Baixo",
+            "Pedra Larga",
+            "Ribeira Grande",
+            "Santa Cruz",
+            "Cutelo Rodrigues",
+            "Fonte Nova",
+            "Pedra Serrada",
+            "Milho Branco",
+            "Maria Pardo",
+            "Laço da Veiga",
+            "Saltos Acima",
+            "Chã de Cimbrão",
+            "Pertado",
+            "Cha de Areia",
+            "Cutelo"
+          ]
+        },
+        "Pilao Cao": {
+          "ruas": [
+            "Bacio",
+            "Canto de Ladeira",
+            "Carreira",
+            "Cha Cardoso",
+            "Cha de Figueira",
+            "Cha de Pereira",
+            "Cha de Tacho",
+            "Cha de Torril",
+            "Chao de Carreira",
+            "Covao Montinho",
+            "Covao Pereira",
+            "Cutelo de Tinta",
+            "Esquerdo",
+            "Janiane",
+            "Lapa Simao",
+            "Lem Cardoso",
+            "Lem Lopes",
+            "Mato Garca",
+            "Montinho",
+            "Nona Branco",
+            "Pilao Cao Cima",
+            "Purgueira",
+            "Redondeira",
+            "Rochinha",
+            "Sao Domingos",
+            "Talho",
+            "Tambarina",
+            "Tossa",
+            "Robão Cal",
+            "Tossa S.domingos",
+            "Pizara",
+            "Chã de Banana",
+            "Coco",
+            "Cutelo Talho",
+            "Chã de Ferro",
+            "Lém Vaz",
+            "Cutelo Janeane"
+          ]
+        },
+        "Ponta Verde": {
+          "ruas": [
+            "Ponta Verde"
+          ]
+        },
+        "Principal": {
+          "ruas": [
+            "Chao Beira",
+            "Chao de Horta",
+            "Chao Grande",
+            "Chao Tavares",
+            "Chao Ilheu",
+            "Chao Sololo",
+            "Coruja",
+            "Cova Passarinho",
+            "Cutelinho",
+            "Cutelo Baixo",
+            "Cutelo Largo",
+            "Dragoeiro",
+            "Farroba",
+            "Figueirona",
+            "Fundinho",
+            "Jaqueitao",
+            "Lacacao",
+            "Lem Martins",
+            "Lem Tavares",
+            "Mafafa",
+            "Mato Curral",
+            "Mato Galego",
+            "Mulona",
+            "Penedo Vermelho",
+            "Pedra Serrado",
+            "Ponta Belem",
+            "Ponta Ribeira",
+            "Renque Tapume",
+            "Subidinha",
+            "Tancon",
+            "Loloda",
+            "Lém Fêmea",
+            "Cutelo de Lugar",
+            "Covão Cima",
+            "Hortelao"
+          ]
+        },
+        "Ribeirao Milho": {
+          "ruas": [
+            "Guincho",
+            "Lage",
+            "Lem Mendes",
+            "Lem Tavares",
+            "Mato",
+            "Mato Boi",
+            "Ribeira Lagoa",
+            "Ribeira Milho",
+            "Zingue"
+          ]
+        },
+        "Ribeireta": {
+          "ruas": [
+            "Cha de Brito",
+            "Cha de Gambia",
+            "Cha Garrida",
+            "Cha Tavares",
+            "Cha de Bobra",
+            "Coqueiro",
+            "Cutelo Covoada",
+            "Cutelo Mendes",
+            "Cruz Poilom",
+            "Fazendinho",
+            "Jambam",
+            "Lem de Almeida",
+            "Lem de Fogo",
+            "Lem Gomes",
+            "Lem Semedo",
+            "Lem Tavares",
+            "Lem Varela",
+            "Lem Vaz",
+            "Pia",
+            "Ponta Ribeira",
+            "Travessa",
+            "Cutelo D'enva",
+            "Taberna"
+          ]
+        },
+        "Tagarra": {
+          "ruas": [
+            "Babosa",
+            "Casona",
+            "Chao Grande",
+            "Chanzinha",
+            "Coqueiro",
+            "Cruz de Poilao",
+            "Cruz Nova",
+            "Figueira Muita",
+            "Lem Cabral",
+            "Lem Coelho",
+            "Lem Lopes",
+            "Lem Santo",
+            "Lem Tavares",
+            "Pedra Bolo",
+            "Pedra Comprida",
+            "Poilao",
+            "Ribeirao Miguel",
+            "Ribeirao Velho",
+            "Rochinha",
+            "Tagarra",
+            "Vila Cantor",
+            "Cutelinho",
+            "Covão de Fonte",
+            "Djedje Vermelho",
+            "Espinho Branco"
+          ]
+        },
+        "Varanda": {
+          "ruas": [
+            "Achada Queimado",
+            "Cantada",
+            "Cutelo Baixo",
+            "Cutelo de Funco",
+            "Cutelo Lopes",
+            "Lem Pereira",
+            "Marmulano",
+            "Mato Grande",
+            "Quebrada",
+            "Teimala",
+            "Poilão",
+            "Varanda",
+            "Cruz",
+            "Chã de Paneta",
+            "Lugar Grande",
+            "Parede Velho",
+            "Cutelinho",
+            "Lém Libeira",
+            "Varanda"
+          ]
+        },
+        "Xaxa": {
+          "ruas": [
+            "Cutelo Xaxa",
+            "Moron Grosso",
+            "Ponta Curral",
+            "Xaxa Acima",
+            "Xaxa Baixo",
+            "Serrapó",
+            "Lebanceira"
+          ]
+        },
+        "Igreja": {
+          "ruas": []
         }
       }
     },
@@ -472,6 +2708,469 @@
             "Rua da Fonte",
             "Rua Principal"
           ]
+        },
+        "Achada Biscanhos": {
+          "ruas": [
+            "Achada Biscanhos",
+            "Bimbirim",
+            "Lapa Cachorro"
+          ]
+        },
+        "Achada Lagoa": {
+          "ruas": [
+            "Chao Tavares",
+            "Cutelo Nunes",
+            "Lem da Costa",
+            "Lem Varela",
+            "Rua Comprida",
+            "Achada Lagoa",
+            "Tcham",
+            "Riba La",
+            "Covao Mendes",
+            "Fonte Banana",
+            "Lem Monteiro",
+            "Mato Galo",
+            "Ponta Vital",
+            "Rabo Dagu",
+            "Subida Espinho",
+            "Lagoa",
+            "Travessa Baixo",
+            "Chão Frada"
+          ]
+        },
+        "Achada Longueira": {
+          "ruas": [
+            "Achada Longueira",
+            "Achada Pilao Cao",
+            "Achada Ponciano",
+            "Aguadinha",
+            "Baixo Casa Branca",
+            "Cabeca Vaca",
+            "Cantador",
+            "Casa Choca",
+            "Cutelo Mendes",
+            "Cutelo Moreira",
+            "Guindao",
+            "Monte Vermelho",
+            "Montinho",
+            "Pagigalo",
+            "Passo",
+            "Ponta",
+            "Travessa Vaz",
+            "Vala",
+            "Cutelinho"
+          ]
+        },
+        "Achada Meio": {
+          "ruas": [
+            "Achada Cruz",
+            "Achada Meio",
+            "Fundo Portal",
+            "Maricota",
+            "Ponta Chao Bom",
+            "Portal Baixo",
+            "Riba Cutelo",
+            "Portal Riba",
+            "Ponta Lemba Lemba",
+            "Chão Diante"
+          ]
+        },
+        "Achada Moirao": {
+          "ruas": [
+            "Achada Moirao/riba Tchã",
+            "Baixo",
+            "Belem",
+            "Carreira",
+            "Cutelo",
+            "Gamchemba",
+            "Lontigueiro",
+            "Pe de Monte",
+            "Ponta Baixo",
+            "Portal",
+            "Ribeirao Carrasco",
+            "Tamareira",
+            "Lem Morreira",
+            "Achada Limanipo",
+            "Morão Dentro",
+            "Ponta"
+          ]
+        },
+        "Achada Tenda": {
+          "ruas": [
+            "Achada Porto",
+            "Achada Tenda / Tenda",
+            "Bilimboa",
+            "Achada Baixo",
+            "Sala Bandeira",
+            "Kelem",
+            "Baixo"
+          ]
+        },
+        "Biscainhos": {
+          "ruas": [
+            "Chao de Junco",
+            "Cutelo",
+            "Escada",
+            "Fanhoza",
+            "Guarda Sanches",
+            "Monte",
+            "Pedra Ferro",
+            "Renque Meio",
+            "Renque Traz",
+            "Rocha Branca",
+            "Sombra de Monte",
+            "Ponta Bassora",
+            "C. Correia",
+            "Tagarra"
+          ]
+        },
+        "Chao Bom": {
+          "ruas": [
+            "Baixo da Estrada",
+            "Cabeca Carreira",
+            "Campo Trabalho",
+            "Chao Bom",
+            "Colunato",
+            "Estrada",
+            "Lem de Tchada",
+            "Lem Mendes",
+            "Lem Tavares",
+            "Monte de Mosca",
+            "Pecheco",
+            "Perdigoto",
+            "Ponta Ribeira",
+            "Quintal",
+            "Riba Estrada",
+            "Rua D'horta/riba D'horta",
+            "Chão de Lavada"
+          ]
+        },
+        "Curral Velho": {
+          "ruas": [
+            "Curral Velho",
+            "Cutelo Laxido",
+            "Acima Cutelo",
+            "Ribeira Limão",
+            "Pedra Cumprida",
+            "Cutelo Gomes",
+            "Pedra Juntado"
+          ]
+        },
+        "Fazenda": {
+          "ruas": [
+            "Achada Bilim",
+            "Fazenda",
+            "Assomada"
+          ]
+        },
+        "Figueira Muita": {
+          "ruas": [
+            "Caldeira",
+            "Figueira Muita",
+            "Ponta Alto",
+            "Chã Tavares"
+          ]
+        },
+        "Mato Brazil": {
+          "ruas": [
+            "Chao de Quebrada",
+            "Massape",
+            "Mato Brazil",
+            "Mato Fava",
+            "Monte Vermelho",
+            "Montinho",
+            "Quebrada",
+            "Cutelo D'achada"
+          ]
+        },
+        "Mato Mendes": {
+          "ruas": [
+            "Achadinha",
+            "Chao de Mato",
+            "Coco Sanches",
+            "Cutelo Baixo",
+            "Fundo",
+            "Lapa Porco",
+            "Lem Borges",
+            "Mato Baixo",
+            "Peornel"
+          ]
+        },
+        "Milho Branco": {
+          "ruas": [
+            "Achada Milho Branco",
+            "Pe de Rocha",
+            "Ponta Alta",
+            "Quebrada"
+          ]
+        },
+        "Ponta Lobrao": {
+          "ruas": [
+            "Ponta do Lobrao",
+            "Ponta Furna"
+          ]
+        },
+        "Ribeira da Prata": {
+          "ruas": [
+            "Achadinha",
+            "Bongolon",
+            "Cuba de Baixo",
+            "Ribeira da Prata",
+            "Achada Cuba",
+            "Cutelo"
+          ]
+        },
+        "Ribeirao Sal": {
+          "ruas": [
+            "Chao de Cafe",
+            "Cutelo Baixo",
+            "Cutelo de Portal",
+            "Funda Portal",
+            "Ribeirao Sal"
+          ]
+        },
+        "Tras Os Montes": {
+          "ruas": [
+            "Achada Carreira",
+            "Achada Igreja",
+            "Joao Varela",
+            "Tras Os Montes",
+            "Travessa Pinha",
+            "Covão de Estrada",
+            "Lem Barela",
+            "Lã Varela",
+            "Djagui-djagui",
+            "Prinda Catchor",
+            "Fundo Loja",
+            "Riba Li",
+            "Chão Grande"
+          ]
+        },
+        "Vila do Tarrafal (US)": {
+          "ruas": [
+            "Colhe Bicho",
+            "Covao Sanches",
+            "Monte Iria",
+            "Ponta Gato",
+            "Ponta Lagoa",
+            "Vila (CENTRO)",
+            "Mdr",
+            "Chã de Capela",
+            "Monte Bode",
+            "Sorrado Cabinda",
+            "Sarrada",
+            "Achada Baixo",
+            "Ponta de Atum",
+            "Alto Estrada"
+          ]
+        }
+      }
+    },
+    "São Salvador do Mundo": {
+      "zonas": {
+        "Aboboreiro": {
+          "ruas": [
+            "Aboboreiro",
+            "Baila Minhoto",
+            "Chao de Carvalho",
+            "Cha Rodrigues",
+            "Covao Grande",
+            "Cruz dos Picos",
+            "Cutelinho",
+            "Cutelo Barraca",
+            "Cutelo Tavares",
+            "Fumaca",
+            "Gambia",
+            "Goiaba",
+            "Lem Varela",
+            "Rocha Preta",
+            "Seminguinho",
+            "Sopra Boli",
+            "Tagarra",
+            "Terra Branca",
+            "Cruz",
+            "Pé Di Subida",
+            "Cutelo - Alto Soca"
+          ]
+        },
+        "Vila de Achada Igreja (URBANO)": {
+          "ruas": [
+            "Achada Igreja",
+            "Betania",
+            "Boa Esperanca",
+            "Cacheu",
+            "Casa Grande",
+            "Chao de Taberna",
+            "Cruz de Portal",
+            "Cutelinho",
+            "Fonte Leao",
+            "Gundao",
+            "Lem da Rua",
+            "Lem de Monte",
+            "Murro",
+            "Penedo",
+            "Penedo Acima",
+            "Ponta",
+            "Sete Semanas",
+            "Telha",
+            "Descida Monte",
+            "Subida Monte",
+            "Leitão",
+            "Legrete"
+          ]
+        },
+        "Achada Leitao": {
+          "ruas": []
+        },
+        "Babosa": {
+          "ruas": []
+        },
+        "Burbur": {
+          "ruas": []
+        },
+        "Covao Grande": {
+          "ruas": []
+        },
+        "Degredo": {
+          "ruas": []
+        },
+        "Faveta": {
+          "ruas": []
+        },
+        "Jalalo Ramos": {
+          "ruas": []
+        },
+        "Leitao Grande": {
+          "ruas": []
+        },
+        "Leitaozinho": {
+          "ruas": []
+        },
+        "Manhanga": {
+          "ruas": []
+        },
+        "Mato Fortes": {
+          "ruas": []
+        },
+        "Mato Limao": {
+          "ruas": []
+        },
+        "Picos Acima": {
+          "ruas": []
+        },
+        "Pico Freire": {
+          "ruas": []
+        },
+        "Purgueira": {
+          "ruas": []
+        },
+        "Rebelo": {
+          "ruas": []
+        }
+      }
+    },
+    "Ribeira Grande de Santiago": {
+      "zonas": {
+        "Calabaceira": {
+          "ruas": [
+            "Calabaceira",
+            "Cha de Zimbrao"
+          ]
+        },
+        "Cidade de Santiago de Cabo Verde (URBANO)": {
+          "ruas": [
+            "Escada Branca",
+            "Laranjeira",
+            "Monte Sossego",
+            "P. Mendes",
+            "Rua Banana",
+            "Rua Calhau",
+            "Sao Braz",
+            "Sao Sebastiao",
+            "S. Marta",
+            "Rua Terra P.",
+            "Achada Forte",
+            "Sucupira",
+            "Pedra Paxencha",
+            "Rua Carreia",
+            "Ponta Se",
+            "Lem Cachorro",
+            "Beco",
+            "Porto Baixo"
+          ]
+        },
+        "Joao Varela": {
+          "ruas": [
+            "Djobe",
+            "Joao Varela",
+            "Bota Rama",
+            "Ponta Baixo"
+          ]
+        },
+        "Salineiro": {
+          "ruas": []
+        },
+        "Costa Achada": {
+          "ruas": [
+            "Calheta São Martinho"
+          ]
+        },
+        "Sao Martinho Grande - Snjesus": {
+          "ruas": [
+            "Barce Barce",
+            "Vale de São Martinho Grande"
+          ]
+        },
+        "Belem": {
+          "ruas": []
+        },
+        "Cha de Igreja": {
+          "ruas": []
+        },
+        "Cha Goncalves": {
+          "ruas": []
+        },
+        "Delgado": {
+          "ruas": []
+        },
+        "Gouveia": {
+          "ruas": []
+        },
+        "Loura": {
+          "ruas": []
+        },
+        "Mosquito D'horta": {
+          "ruas": []
+        },
+        "Pico Leao": {
+          "ruas": []
+        },
+        "Porto Mosquito": {
+          "ruas": []
+        },
+        "Santana": {
+          "ruas": [
+            "Achadinha",
+            "Chupana",
+            "Errado",
+            "Lem Gomes",
+            "Madjada",
+            "Ponta D'achada",
+            "Quebrada",
+            "Chã de Quintal"
+          ]
+        },
+        "Tronco": {
+          "ruas": [
+            "Cassengal",
+            "Terra Branca",
+            "Tronco Baixo",
+            "Tronco Riba",
+            "Vassoura"
+          ]
+        },
+        "Chuva Chove": {
+          "ruas": []
         }
       }
     }
@@ -490,7 +3189,38 @@
             "Rua de São Paulo",
             "Rua da República",
             "Rua de Angola",
-            "Rua de Moçambique"
+            "Rua de Moçambique",
+            "Matiota / Cais Acostável",
+            "Alto Miramar / Alto Santo António",
+            "Zona Militar",
+            "Torrada",
+            "Alto São Nicolau",
+            "Forca",
+            "Chã de Monte Sossego",
+            "Lazareto",
+            "Morro Branco",
+            "Bela Vista / Pedreira",
+            "Campinho",
+            "Centro Cidade / Morada",
+            "Chã de Alecrim",
+            "Chã de Cemitério",
+            "Cruz João Evora",
+            "Dji D'sal",
+            "Fonte Inês / Espia",
+            "Fernando Pó / Horta Seca",
+            "Fonte Cónego",
+            "Fonte Filipe",
+            "Fonte Françês",
+            "Monte / Craca",
+            "Monte Sossego",
+            "Madeiralzinho",
+            "Pedra Rolada",
+            "Ribeira Bote",
+            "Ribeira da Craquinha",
+            "Ribeira de Julião",
+            "Ribeirinha",
+            "Vila Nova / Lombo Tanque",
+            "Fortinho"
           ]
         },
         "Baía das Gatas": {
@@ -522,7 +3252,10 @@
             "Rua do Lameirão",
             "Rua do Lameiro",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Lameirão",
+            "Mato Inglês",
+            "Pé de Verde"
           ]
         },
         "Monte Sossego": {
@@ -546,7 +3279,16 @@
             "Rua da Ribeira de Calhau",
             "Rua da Ribeira",
             "Rua do Calhau",
-            "Rua Principal"
+            "Rua Principal",
+            "Bairro Branco",
+            "Calhau",
+            "Chã de Madeiral",
+            "Madeiral",
+            "Km 10",
+            "Km 11",
+            "Km 12",
+            "Km 13",
+            "Km 14"
           ]
         },
         "Salamansa": {
@@ -554,7 +3296,10 @@
             "Rua de Salamansa",
             "Rua da Praia",
             "Rua do Porto",
-            "Rua dos Pescadores"
+            "Rua dos Pescadores",
+            "Baía das Gatas",
+            "Norte da Baía",
+            "Salamansa"
           ]
         },
         "São Pedro": {
@@ -563,7 +3308,19 @@
             "Rua da Praia",
             "Rua do Mar",
             "Rua da Igreja",
-            "Rua dos Pescadores"
+            "Rua dos Pescadores",
+            "São Pedro / Santo Andre"
+          ]
+        },
+        "Ribeira Julião": {
+          "ruas": [
+            "Km 6",
+            "Ribeira Juliao"
+          ]
+        },
+        "Ribeira da Vinha": {
+          "ruas": [
+            "Ribeira da Vinha"
           ]
         }
       }
@@ -616,6 +3373,44 @@
             "Rua Principal",
             "Rua do Mercado"
           ]
+        },
+        "Pedra do Lume": {
+          "ruas": []
+        },
+        "Vila de Santa Maria (RU)": {
+          "ruas": []
+        },
+        "Vila de Santa Maria (US)": {
+          "ruas": []
+        },
+        "Vila dos Espargos (RURAL)": {
+          "ruas": []
+        },
+        "Vila dos Espargos (US)": {
+          "ruas": [
+            "Alto Santa Cruz",
+            "Alto S. João",
+            "Bairro Novo",
+            "Boavista",
+            "Chã de Matias",
+            "Força Aerea",
+            "Fortinho",
+            "Hortelão",
+            "Lomba Branca",
+            "Morro Curral",
+            "Preguiça",
+            "Ribeira Funda",
+            "Santa Cruz",
+            "África",
+            "Pré-fabricada",
+            "Ilha Madeira",
+            "Alto Electra",
+            "Pretoria",
+            "Bairro Novo I",
+            "Ferradura",
+            "I.f.h.",
+            "Bairro Militar 8/24"
+          ]
         }
       }
     }
@@ -647,7 +3442,8 @@
             "Rua da Cabeça dos Tarrafes",
             "Rua dos Tarrafes",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Cabeça dos Tarrafes"
           ]
         },
         "Estância de Baixo": {
@@ -655,7 +3451,8 @@
             "Rua da Estância de Baixo",
             "Rua de Baixo",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Estância de Baixo"
           ]
         },
         "Funda": {
@@ -679,7 +3476,8 @@
             "Rua de João Galego",
             "Rua da Fonte",
             "Rua do Galego",
-            "Rua Principal"
+            "Rua Principal",
+            "João Galego"
           ]
         },
         "Povoação Velha": {
@@ -687,7 +3485,8 @@
             "Rua da Povoação Velha",
             "Rua da Igreja",
             "Rua Velha",
-            "Rua Principal"
+            "Rua Principal",
+            "Povoação Velha"
           ]
         },
         "Rabil": {
@@ -695,7 +3494,35 @@
             "Rua do Rabil",
             "Rua da Fonte",
             "Rua da Igreja",
-            "Rua Principal"
+            "Rua Principal",
+            "Rabil",
+            "Boaventura",
+            "Cabeçada"
+          ]
+        },
+        "Fundo das Figueiras": {
+          "ruas": [
+            "Fundo das Figueiras"
+          ]
+        },
+        "Bofarreira": {
+          "ruas": [
+            "Bofarreira"
+          ]
+        },
+        "Vila de Sal Rei (US)": {
+          "ruas": [
+            "Sal Rei",
+            "Bom Sossego",
+            "Ponta D'areia",
+            "Padre Varela",
+            "Riba D'alto",
+            "Rua de Caboque",
+            "Santa Barbara",
+            "Farinação",
+            "Rua de Cruz",
+            "Ribeirinha",
+            "Largo Santa Isabel"
           ]
         }
       }
@@ -719,7 +3546,9 @@
             "Rua de Alcatraz",
             "Rua da Praia",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Alcatraz",
+            "Pilão Cão"
           ]
         },
         "Barreiro": {
@@ -727,7 +3556,9 @@
             "Rua do Barreiro",
             "Rua da Fonte",
             "Rua da Agricultura",
-            "Rua Principal"
+            "Rua Principal",
+            "Lém Barrela",
+            "Banda Riba"
           ]
         },
         "Cascabulho": {
@@ -735,7 +3566,8 @@
             "Rua do Cascabulho",
             "Rua da Fonte",
             "Rua do Mar",
-            "Rua Principal"
+            "Rua Principal",
+            "Cascabulho"
           ]
         },
         "Figueira da Horta": {
@@ -759,7 +3591,8 @@
             "Rua do Pilão Cão",
             "Rua do Pilão",
             "Rua do Cão",
-            "Rua Principal"
+            "Rua Principal",
+            "Pilão Cão"
           ]
         },
         "Porto Inglês": {
@@ -776,7 +3609,64 @@
             "Rua da Ribeira Dom João",
             "Rua da Ribeira",
             "Rua Dom João",
-            "Rua Principal"
+            "Rua Principal",
+            "Ribeira Dom João"
+          ]
+        },
+        "Calheta": {
+          "ruas": [
+            "Calheta de Baixo",
+            "Calheta de Cima",
+            "Lém Tavares"
+          ]
+        },
+        "Figueira": {
+          "ruas": [
+            "Figueira Horta",
+            "Figueira Seca"
+          ]
+        },
+        "Morrinho": {
+          "ruas": [
+            "Morrinho"
+          ]
+        },
+        "Morro": {
+          "ruas": [
+            "Morro"
+          ]
+        },
+        "Pedro Vaz": {
+          "ruas": [
+            "Pedro Vaz"
+          ]
+        },
+        "Praia Gonçalo": {
+          "ruas": [
+            "Praia Gonçalo",
+            "Santo António"
+          ]
+        },
+        "Vila do Porto Ingles (US)": {
+          "ruas": [
+            "Zona Central",
+            "Zona Ciclo",
+            "Zona Correio",
+            "Zona Empa",
+            "Calhetinha",
+            "Casa Carvalho",
+            "Capelinha",
+            "Zona Farol",
+            "Fontona",
+            "Biche Rocha",
+            "Casa Gafanhoto",
+            "Zona Ampliada",
+            "Club Ondas do Mar"
+          ]
+        },
+        "Santo António": {
+          "ruas": [
+            "Santo António"
           ]
         }
       }
@@ -794,7 +3684,21 @@
             "Rua da Igreja",
             "Rua do Mercado",
             "Rua Principal",
-            "Rua do Vulcão"
+            "Rua do Vulcão",
+            "Achada S.filipe",
+            "Congresso",
+            "Fonte Aleixao",
+            "Lem de Baixo",
+            "Lem de Cima",
+            "Lem de Meio",
+            "Pe de Campo",
+            "S.filipe (centro da Cidade)",
+            "Santa Filomena",
+            "Xaguate",
+            "Beltches",
+            "Praia Nossa Senhora",
+            "Cobom",
+            "Cutelinho"
           ]
         },
         "Achada Furna": {
@@ -851,7 +3755,25 @@
             "Rua do Curral Grande",
             "Rua do Curral",
             "Rua Grande",
-            "Rua Principal"
+            "Rua Principal",
+            "Achada Santana",
+            "Algodoeiro",
+            "Assomada",
+            "Bianga",
+            "Congo",
+            "Curral Grande",
+            "Diniz Eanes",
+            "João Garrido",
+            "Hortinha",
+            "Monte Travesso",
+            "Monte Machado",
+            "Mosquito",
+            "Renque",
+            "Ribeira Grande",
+            "Pico Gomes",
+            "Pé de Monte",
+            "Sanha",
+            "Neté"
           ]
         },
         "Fajãzinha": {
@@ -883,7 +3805,23 @@
             "Rua da Lomba",
             "Rua do Lombo",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Aleixo Gomes",
+            "Curral Fumo",
+            "Domingos Ledo",
+            "Italiano",
+            "Jorge Dias",
+            "Lomba de Cima",
+            "Mira Mira",
+            "Monte Diogo",
+            "Pé de Monte",
+            "Pedra Preto",
+            "Tamareira",
+            "Velho Manuel",
+            "Vera Cruz",
+            "Valicho",
+            "Lomba",
+            "Renque"
           ]
         },
         "Monte Grande": {
@@ -891,8 +3829,272 @@
             "Rua do Monte Grande",
             "Rua do Monte",
             "Rua Grande",
-            "Rua Principal"
+            "Rua Principal",
+            "Cutelo Capado",
+            "Fugido",
+            "Monte Grande"
           ]
+        },
+        "Achada Mentirosa": {
+          "ruas": [
+            "Achada",
+            "Achada Mentirosa",
+            "As Hortas",
+            "Calabaceira",
+            "Joao Garrido",
+            "Laranjeira",
+            "Lomba Baixo",
+            "Poio",
+            "Ramache",
+            "Rufina",
+            "Terra Nova",
+            "Tortolho",
+            "Ribeira Mulato",
+            "Subango"
+          ]
+        },
+        "Campanas Baixo": {
+          "ruas": [
+            "Achada Espinho",
+            "Campanas Baixo",
+            "Djezinho",
+            "Fagundo",
+            "Ladeira Grande",
+            "Monte Velha",
+            "Pedra Branco",
+            "Sao Joao",
+            "Boca Pia",
+            "Ribeira da Cruz",
+            "São Pedro",
+            "São Francisco",
+            "Fundango",
+            "Mamé",
+            "Cutelo Cruz"
+          ]
+        },
+        "Campanas Cima": {
+          "ruas": [
+            "Baluarte",
+            "Curralinho",
+            "Cutelo Djezinho/djezinho",
+            "São João",
+            "Campanas de Cima",
+            "Cova Fundo",
+            "Boca de Aguada",
+            "Coicoi",
+            "Djeu de Matadde",
+            "Monte Lorna",
+            "Pé de Monte",
+            "Achada Ramo",
+            "Mangircan"
+          ]
+        },
+        "Galinheiro": {
+          "ruas": [
+            "Ameixoeiro",
+            "Cova Tabua",
+            "Galinheiro",
+            "Monte Ripa",
+            "Outra Banda",
+            "Ramacheu",
+            "Outra Banda de Cima",
+            "Patomé",
+            "Limeira",
+            "Figueira Tché",
+            "Ratcham"
+          ]
+        },
+        "Inhuco": {
+          "ruas": [
+            "Achada Fora",
+            "Chã de Monte",
+            "Inhuco Alto",
+            "Inhuco Baixo",
+            "Monte Inhuco",
+            "Passagem",
+            "Pico Pires",
+            "São Braz",
+            "São Martinho",
+            "Santana",
+            "Zambugeiro",
+            "Inhuco"
+          ]
+        },
+        "Monte Tabor": {
+          "ruas": [
+            "Alvito",
+            "Monte Tabor"
+          ]
+        },
+        "Ponta Verde": {
+          "ruas": [
+            "Achada Afonseca",
+            "Afonso Gil",
+            "Boca Larga",
+            "Casa Velha",
+            "Coroa",
+            "Fontinha",
+            "Lugar Grande",
+            "Piasco",
+            "Ponta Verde",
+            "Renda",
+            "Roqueira",
+            "Alto Renda",
+            "Coba Monte",
+            "Cumba"
+          ]
+        },
+        "Ribeira Filipe": {
+          "ruas": [
+            "Albarca",
+            "Ilheu das Contendas",
+            "Monte Preto",
+            "Monte Vaca",
+            "Ribeira Filipe",
+            "Monte Preço Baixo"
+          ]
+        },
+        "Sao Jorge": {
+          "ruas": [
+            "Palhal",
+            "Ribeira",
+            "São Jorge",
+            "Salinas",
+            "Cutelo",
+            "Achada Pato",
+            "Canalinho",
+            "Cruz de Quemada",
+            "Tenda",
+            "Quemadinha / Queimada",
+            "Peneiro",
+            "Achada Mancarra"
+          ]
+        },
+        "Santo António": {
+          "ruas": [
+            "Nossa Senhora da Luz",
+            "Pachangue",
+            "Pé de Monte",
+            "Pico Gomes",
+            "Pombal",
+            "Ribeira Grande",
+            "Sanha",
+            "Santo António",
+            "Tambarina Nha Loba",
+            "Achada Malva",
+            "Lugarinho",
+            "Santa Cruz",
+            "Santa Enus",
+            "Rui Pereira",
+            "Miguel Correia",
+            "Baldaia",
+            "Galindo",
+            "Santa Clara",
+            "Ligeirão"
+          ]
+        },
+        "São Domingos": {
+          "ruas": [
+            "Bernardo Gomes",
+            "Fronteira",
+            "Lugar Novo",
+            "Pedro Homem",
+            "Pico da Veiga",
+            "Pico Lopes",
+            "São Domingos",
+            "Santa Marta",
+            "São Pedro",
+            "Serrado Norte",
+            "Betânia",
+            "Ribeirinha",
+            "C. Betânia",
+            "Santana",
+            "Orgao"
+          ]
+        },
+        "Brandao": {
+          "ruas": [
+            "Brandão / Brandãozinho",
+            "Joao da Noly de Baixo",
+            "Morato",
+            "Lapa Cavalo",
+            "Maria Chaves",
+            "Monte Barro",
+            "Salto Gato",
+            "Santa Cruz",
+            "Ramargosa",
+            "Cutelo",
+            "Cancelo",
+            "João da Noly Cima",
+            "Vila Dade",
+            "Talho",
+            "Pedra Branca"
+          ]
+        },
+        "Cabeca do Monte": {
+          "ruas": [
+            "Cabeca do Monte",
+            "Cidreira Norte",
+            "Cidreira Sul",
+            "M.b. Lopes",
+            "Passagem",
+            "Achada Lapa",
+            "Ilheu",
+            "Fonte Nova",
+            "Pilão Cão",
+            "Cidreira",
+            "Montado"
+          ]
+        },
+        "Lagarica": {
+          "ruas": [
+            "Achada Lapa",
+            "Cerco Grande",
+            "Cisterno Baixo",
+            "Coxo",
+            "Ilheu",
+            "Joao da Noly",
+            "Lagarica",
+            "Ribeira Isabel",
+            "Cisterno Alto",
+            "Cisterno Meio",
+            "Cisterno"
+          ]
+        },
+        "Luzia Nunes": {
+          "ruas": [
+            "Alfarrobeira",
+            "Forno",
+            "Luzia Nunes",
+            "Cabaceira",
+            "Ribeira Nhó Braz"
+          ]
+        },
+        "Monte Largo": {
+          "ruas": [
+            "Lacaca",
+            "Monte Chica",
+            "Monte Largo",
+            "Queimada",
+            "Casona"
+          ]
+        },
+        "Patim": {
+          "ruas": [
+            "Batente",
+            "Jardim",
+            "Patim",
+            "Curralinho"
+          ]
+        },
+        "Salto": {
+          "ruas": []
+        },
+        "Tongom": {
+          "ruas": []
+        },
+        "Vicente Dias": {
+          "ruas": []
         }
       }
     },
@@ -970,6 +4172,21 @@
             "Rua da Fonte",
             "Rua Principal"
           ]
+        },
+        "Achada Furna": {
+          "ruas": []
+        },
+        "Cha das Caldeiras": {
+          "ruas": []
+        },
+        "Vila de Cova Figueira (URBANO)": {
+          "ruas": []
+        },
+        "Figueira Pavao": {
+          "ruas": []
+        },
+        "Rocadas": {
+          "ruas": []
         }
       }
     },
@@ -981,7 +4198,10 @@
             "Rua da Igreja",
             "Rua do Porto",
             "Rua da Praia",
-            "Rua Principal"
+            "Rua Principal",
+            "Igreja",
+            "Sao Miguel",
+            "Laranjo"
           ]
         },
         "Corvo": {
@@ -989,7 +4209,8 @@
             "Rua do Corvo",
             "Rua do Monte",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Corvo"
           ]
         },
         "Cova Feijoal": {
@@ -997,7 +4218,9 @@
             "Rua da Cova Feijoal",
             "Rua da Cova",
             "Rua do Feijoal",
-            "Rua Principal"
+            "Rua Principal",
+            "Feijoal",
+            "Cova Feijoal"
           ]
         },
         "Fajã": {
@@ -1029,7 +4252,13 @@
             "Rua do Pai António",
             "Rua do Pai",
             "Rua do António",
-            "Rua Principal"
+            "Rua Principal",
+            "Cova Feijoal",
+            "Monte Barro",
+            "Monte Velha",
+            "Pai Antonio",
+            "Cutelo Banana",
+            "Boca Curral"
           ]
         },
         "Ribeira do Mosteiro": {
@@ -1038,6 +4267,89 @@
             "Rua da Ribeira",
             "Rua do Mosteiro",
             "Rua Principal"
+          ]
+        },
+        "Achada Grande": {
+          "ruas": [
+            "Achada Grande"
+          ]
+        },
+        "Atalaia": {
+          "ruas": [
+            "Atalaia",
+            "Achada Maurício",
+            "Atalaia Trás"
+          ]
+        },
+        "Fajãnzinha": {
+          "ruas": [
+            "Achada Bongolon",
+            "Cha de Cruz",
+            "Fajanzinha",
+            "Achada",
+            "Boca Fonte",
+            "Achada Lopes"
+          ]
+        },
+        "Mosteiros Tras": {
+          "ruas": [
+            "Mosteiros Tras",
+            "Queimada Trás",
+            "Cutelo",
+            "Degolada",
+            "Casa Cutelo",
+            "Fonsaco",
+            "Achadinha",
+            "Achada Malva",
+            "Malhada",
+            "Fonte Cabra"
+          ]
+        },
+        "Queimada Guincho": {
+          "ruas": [
+            "Queimada Guincho"
+          ]
+        },
+        "Relva": {
+          "ruas": [
+            "Relva",
+            "Queimadinha"
+          ]
+        },
+        "Ribeira do Ilheu": {
+          "ruas": [
+            "Aldeia",
+            "Barreira",
+            "Casinha",
+            "Pedra Choupana",
+            "Monte Verde",
+            "Monte Gongon",
+            "Ribeira do Ilheu"
+          ]
+        },
+        "Sumbango": {
+          "ruas": [
+            "Sumbango",
+            "Aeroporto"
+          ]
+        },
+        "Rocha Fora": {
+          "ruas": [
+            "Palha Carga",
+            "Achada Canto",
+            "Ligeirao",
+            "Achada Lopes"
+          ]
+        },
+        "Murro": {
+          "ruas": [
+            "Murro",
+            "Canal"
+          ]
+        },
+        "Cutelo Alto": {
+          "ruas": [
+            "Cutelo Alto"
           ]
         }
       }
@@ -1061,7 +4373,20 @@
             "Rua do Cachaço",
             "Rua da Fonte",
             "Rua do Monte",
-            "Rua Principal"
+            "Rua Principal",
+            "Achada Monteiro",
+            "Orgãos",
+            "Poio",
+            "Ponta Canal",
+            "Ponta Verde",
+            "Ribeira Lapa",
+            "Vaqueiro",
+            "Monte Vermelho",
+            "Lomba",
+            "Montinho",
+            "Pedra D'água",
+            "Pe de Monte",
+            "Ribeira de Lapa"
           ]
         },
         "Campo Baixo": {
@@ -1069,7 +4394,14 @@
             "Rua do Campo Baixo",
             "Rua do Campo",
             "Rua de Baixo",
-            "Rua Principal"
+            "Rua Principal",
+            "Cha de Covao",
+            "Campo Baixo",
+            "Campo das Fontes",
+            "Escovinha",
+            "Matinho",
+            "Morro de Vento",
+            "Ribeira da Garça"
           ]
         },
         "Cova Joana": {
@@ -1101,7 +4433,14 @@
             "Rua do Mato Grande",
             "Rua do Mato",
             "Rua Grande",
-            "Rua Principal"
+            "Rua Principal",
+            "Chã de Grande",
+            "Baleia",
+            "Garca",
+            "Mato Grande",
+            "Pai Luiz",
+            "Teal",
+            "Cutelo Pelone"
           ]
         },
         "Nova Sintra do Monte": {
@@ -1117,7 +4456,8 @@
             "Rua de Santa Bárbara",
             "Rua da Igreja",
             "Rua da Santa",
-            "Rua Principal"
+            "Rua Principal",
+            "Santa Barbara"
           ]
         },
         "Tantum": {
@@ -1126,6 +4466,158 @@
             "Rua da Fonte",
             "Rua do Vale",
             "Rua Principal"
+          ]
+        },
+        "Cova Rodela": {
+          "ruas": [
+            "Banda de Traz",
+            "Cova Rodela de Baixo",
+            "Cova Rodela de Cima",
+            "Fadjado",
+            "Monte",
+            "Monteiro",
+            "Morgaida",
+            "Paul",
+            "Traz de Cova",
+            "Cova Rodela",
+            "Figueira Grande",
+            "Figueiral",
+            "Figueira Grande de Baixo",
+            "Figueira Grande de Cima"
+          ]
+        },
+        "Furna": {
+          "ruas": [
+            "Furna",
+            "Rasca"
+          ]
+        },
+        "Joao da Noly": {
+          "ruas": [
+            "Joao da Noly"
+          ]
+        },
+        "Lem Rural": {
+          "ruas": [
+            "Braga",
+            "Covinha",
+            "Lugarinho",
+            "Pedra Martins",
+            "Ribeira de Gato",
+            "Boa Esperança",
+            "S.pedro",
+            "Formengo"
+          ]
+        },
+        "Vila Nova Sintra (US)": {
+          "ruas": [
+            "Achada Igreja",
+            "Achada Losna",
+            "Calvario",
+            "Covada",
+            "Covao",
+            "Cutelo",
+            "Cutelo Mentira",
+            "Cruz",
+            "Cruz das Almas",
+            "Cruz Grande",
+            "Geracunda / Djacunda",
+            "Lem",
+            "Minhoto",
+            "Pe de Rocha",
+            "Ponta Achada",
+            "Ponta Baixo",
+            "Ribeira Abaixo",
+            "Santana",
+            "Santo Antonio",
+            "Pedra Martins",
+            "Rua dos Trabalhadores",
+            "Rua Direita",
+            "Avenida Amilcar Cabral",
+            "Largo Praça"
+          ]
+        },
+        "Vila Nova Sintra (RU)": {
+          "ruas": [
+            "Belem",
+            "Fundo",
+            "Raiz",
+            "Matinho"
+          ]
+        },
+        "Vinagre": {
+          "ruas": [
+            "Vinagre"
+          ]
+        },
+        "Cova de Joana": {
+          "ruas": [
+            "Cantinho",
+            "Cova de Joana",
+            "Cutelo Nho Domingos",
+            "Lomba-lomba",
+            "Risco Vermelho"
+          ]
+        },
+        "Faja D'agua": {
+          "ruas": [
+            "Achada Sancaetano",
+            "Cambada",
+            "Chao de Curral",
+            "Chanzinha",
+            "Espradinha",
+            "Faja D'agua",
+            "Lagoa",
+            "Lavadura",
+            "Portete",
+            "Travessa"
+          ]
+        },
+        "Lomba Tamtum": {
+          "ruas": [
+            "Chanzinha de Ferreiros",
+            "Lomba Tamtum",
+            "Palhal",
+            "Lomba",
+            "Ferreiro"
+          ]
+        },
+        "Mato": {
+          "ruas": [
+            "Mato/tcheda de Mato",
+            "Costa Peru",
+            "Cova Galinha",
+            "Cutelo Mane Cota",
+            "Cutelo Moinho",
+            "Lima Doce",
+            "Lomba Comprida",
+            "Mato de Cima/mato Riba",
+            "Mato de Frente",
+            "Tapume",
+            "Rua Lourença",
+            "Campo das Fontes",
+            "Pé de Lombo",
+            "Boston"
+          ]
+        },
+        "Nossa Senhora do Monte": {
+          "ruas": [
+            "Nossa Senhora do Monte",
+            "Pedra Molar",
+            "Clara Gonçalves",
+            "Achada Candinho"
+          ]
+        },
+        "Tome Barraz": {
+          "ruas": [
+            "Brienga",
+            "Chã de Souza",
+            "Lomba de Nhanha",
+            "Pau",
+            "Pedra Molar",
+            "Tomé Barraz",
+            "Matinho",
+            "Laranjeira"
           ]
         }
       }
@@ -1141,7 +4633,17 @@
             "Rua da Praia",
             "Rua do Porto",
             "Rua da Igreja",
-            "Rua Principal"
+            "Rua Principal",
+            "Cavouquinho das Tintas",
+            "Lombinho",
+            "Lombo da Cruz",
+            "Os Orgaos",
+            "Ponta do Sol",
+            "Ribeira da Ponta do Sol",
+            "Chã de Cemitério",
+            "Casinhas",
+            "Lombo de Paço",
+            "Chã de Ponta de Sol"
           ]
         },
         "Chã de Pedras": {
@@ -1149,7 +4651,33 @@
             "Rua da Chã de Pedras",
             "Rua da Chã",
             "Rua das Pedras",
-            "Rua Principal"
+            "Rua Principal",
+            "Agrioes",
+            "Aguada",
+            "Bento",
+            "Borda de Agrioes",
+            "Cha de Pedras",
+            "Faja de Barreira",
+            "Lagedinho",
+            "Lombo Patricio",
+            "Pardinha",
+            "Pia de Baixo",
+            "Pia de Cima",
+            "Tabuleiro",
+            "Varzea de Pia",
+            "Chãnzinha",
+            "Lombinho",
+            "Lombo Sancha",
+            "Chã de Baixo",
+            "Lombo Bruno",
+            "Lombo Mato",
+            "Sabidela",
+            "Fundo Chã de Pedra",
+            "Travessado",
+            "Lombo de Chã",
+            "Ponta de Meradinha",
+            "Tebúzio",
+            "Fonte Fresquinho"
           ]
         },
         "Coculi": {
@@ -1157,7 +4685,30 @@
             "Rua de Coculi",
             "Rua da Fonte",
             "Rua do Vale",
-            "Rua Principal"
+            "Rua Principal",
+            "Boca de Figueiral",
+            "Campinho",
+            "Coculi",
+            "Curral",
+            "Faja de Coculi",
+            "Faja de Matos",
+            "Flores",
+            "Furnas",
+            "Furna de Cima",
+            "Forrador",
+            "Igrejinha",
+            "Lombo de Macar",
+            "Palmeira",
+            "Pedro Matos",
+            "Picoteiro",
+            "Tamborim",
+            "Figueiral de São João",
+            "Ladeira",
+            "Fajã de Mato de Baixo",
+            "Fajã de Mato de Cima",
+            "Pé Descida de Fajã de Matos",
+            "Boca Ruim",
+            "Chã de Banca"
           ]
         },
         "Corvo": {
@@ -1181,7 +4732,25 @@
             "Rua do Figueiral",
             "Rua das Figueiras",
             "Rua do Figueiral",
-            "Rua Principal"
+            "Rua Principal",
+            "Almeirim",
+            "Beco de Porto",
+            "Corda Simao",
+            "Descanso",
+            "Dogolho",
+            "Figueiral de Cima",
+            "Lombo de Joao Papa",
+            "Manuel Fico",
+            "Rua Escolastica",
+            "Terrinha Vermelha",
+            "Topo de Djack",
+            "Topo de Vista",
+            "Travessa",
+            "Travessod",
+            "Lombo Guerra",
+            "Selada de Boaventura",
+            "Selada de Roxo",
+            "Cha de Augusto"
           ]
         },
         "Fontainhas": {
@@ -1189,7 +4758,16 @@
             "Rua das Fontainhas",
             "Rua da Fonte",
             "Rua das Águas",
-            "Rua Principal"
+            "Rua Principal",
+            "Aranhas",
+            "Corvo",
+            "Fontainhas",
+            "Forminguinhas",
+            "Lombo",
+            "Mane Corre",
+            "Selada",
+            "Ladeira",
+            "Lombinho de Mar"
           ]
         },
         "Lomba da Preguiça": {
@@ -1223,6 +4801,462 @@
             "Rua da Cruz",
             "Rua Principal"
           ]
+        },
+        "Faja Domingas Benta": {
+          "ruas": [
+            "Cha de Enrique",
+            "Cha de Margaridinha",
+            "Faja de Baixo",
+            "Faja de Cima",
+            "Faja Domingas Benta",
+            "Lombo Pedrante",
+            "Marradouro",
+            "Ribeirinha Curta",
+            "Varzinha",
+            "Vinha"
+          ]
+        },
+        "Lombo Branco": {
+          "ruas": [
+            "Almeirim",
+            "Ciano",
+            "Cruz",
+            "Da Graca",
+            "Lombo de Santo",
+            "Lourenca",
+            "Ribeira do Braz",
+            "Tabuleiro"
+          ]
+        },
+        "Lugar de Guene": {
+          "ruas": [
+            "Agua Nascida",
+            "Cavouco de Cosco",
+            "Cavouco de Dongo",
+            "Cavouco Perigrina",
+            "Cha de Arroz",
+            "Longueira",
+            "Lugar de Guene",
+            "Ribeirinha de Jorge",
+            "Selada Ribeirinha de Jorge",
+            "Penoso",
+            "Ladeirinha",
+            "Bica",
+            "Selada",
+            "Subida Manuel Luis"
+          ]
+        },
+        "Monte Joana": {
+          "ruas": [
+            "Aboboda",
+            "Matinho de Baixo",
+            "Matinho de Cima",
+            "Monte Joana",
+            "Monte Joana de Baixo",
+            "Ribeira das Burnas",
+            "Ribeirao Grande",
+            "Monte Joana de Cima",
+            "Matinho Leste"
+          ]
+        },
+        "Pinhao": {
+          "ruas": [
+            "Cha de Barro",
+            "Chanzinha",
+            "Cidreira",
+            "Covoada",
+            "Cruz",
+            "Duque",
+            "Grossa",
+            "Ilheu Grande",
+            "Lombo",
+            "Lombo da Cruz",
+            "Lombo de Castanha",
+            "Lombo Mangue Afonso",
+            "Malhada",
+            "Manuel Antonio",
+            "Merada de Fora",
+            "Selada das Pedras",
+            "Seladinha",
+            "Tambor",
+            "Travessa",
+            "Pé de Topo",
+            "Esmalhada",
+            "Covoada de Grossa",
+            "Fonte Vermelho"
+          ]
+        },
+        "Sinagoga": {
+          "ruas": [
+            "Cabo da Ribeira",
+            "Cha das Furnas",
+            "Esponjeiros",
+            "Lombinho",
+            "Sinagoga",
+            "Tchetchenia"
+          ]
+        },
+        "Vila Ribeira Grande (US)": {
+          "ruas": [
+            "Ladeira",
+            "Penha de Franca",
+            "Povoacao",
+            "Santa Barbara",
+            "Tarrafal",
+            "Rua D'horta",
+            "Avenida Luxembourg",
+            "Terreiro"
+          ]
+        },
+        "Vila Ribeira Grande (RU)": {
+          "ruas": [
+            "Afonso Martinho",
+            "Boca de Cavouco",
+            "Boca Ribeira Duque",
+            "Cruz",
+            "Entulho",
+            "Estraga",
+            "Fachoca",
+            "Faja de Tanque",
+            "Joao Dias",
+            "Ladeirona",
+            "Lombo de Fachoca",
+            "Mao P'ra Traz",
+            "Pe de Cruz",
+            "Ribeira de Duque",
+            "Tanque",
+            "Alto de São Miguel",
+            "Lombo de Ribeira Duque",
+            "Lombo Cruz"
+          ]
+        },
+        "Xoxo": {
+          "ruas": [
+            "Agua de Rabo Curto",
+            "Estancia Velha",
+            "Joao Gue",
+            "Lombinho",
+            "Lombo de Beatriz",
+            "Lombo de Joaquina",
+            "Lombo de Pico",
+            "Lombo de Bastiao",
+            "Losna",
+            "Pe Descida",
+            "Rabo Curto",
+            "Topo",
+            "Vanante",
+            "Xoxo"
+          ]
+        },
+        "Boca de Ambas Ribeiras": {
+          "ruas": [
+            "Cha Boca de Ambas Ribeiras",
+            "Cha de Fusil",
+            "Joao Gomes",
+            "Ponta Maio",
+            "Boca Ambas Ribeiras"
+          ]
+        },
+        "Boca de Coruja": {
+          "ruas": [
+            "Beco",
+            "Boca de Coruja",
+            "Canto de Espanha",
+            "Canto Silveira",
+            "Cavouco Grande",
+            "Cavouco Marta",
+            "Cha de Luis Marta",
+            "Coruja",
+            "Covadinha de Coruja",
+            "Ladeira das Canas",
+            "Lingua D'agua",
+            "Lombo",
+            "Manuel Santo",
+            "Sisteve",
+            "Tarafe de Mosquitos",
+            "Ponte Canal",
+            "Barreiro",
+            "Lombinho de Linadro",
+            "Beco Carlos Gomes",
+            "Cha"
+          ]
+        },
+        "Boca de Joao Afonso": {
+          "ruas": [
+            "Almer",
+            "Boaventura",
+            "Boca de Joao Afonso",
+            "Cha Lourenco",
+            "Curralinho",
+            "Demoeiro",
+            "Lombinho",
+            "Lombo de Bruno",
+            "Lombo Cantina",
+            "Lombo Serafim",
+            "Manuel Ribeiro",
+            "Pe Descida Joao Afonso",
+            "Saida",
+            "Chã de Papaia",
+            "Ribeira de Brazida",
+            "Lombo de Patricia",
+            "Caibos",
+            "Cha de Coelho",
+            "Cha de Machado",
+            "Cha de Negro",
+            "Faja de Pedro Mendes",
+            "Faja dos Bois",
+            "Faja dos Cumes",
+            "Funcho",
+            "Fundo de Casaca",
+            "Goncalinho",
+            "Lombo de Pedra",
+            "Lombo Sancha",
+            "Bordeira",
+            "Chã Machinha"
+          ]
+        },
+        "Caibros": {
+          "ruas": [
+            "Alumeiro",
+            "Cha de Lombinho",
+            "Cha de Tapume",
+            "Esdrogal",
+            "Faja de Mauricio",
+            "Fajanzinha",
+            "Lombo de Fajanziha",
+            "Lombo Diogo",
+            "Ponta",
+            "Rochinha",
+            "Tapume",
+            "Torinho",
+            "Varo",
+            "Barranco",
+            "Cavoco D'hortinha",
+            "Lombo de Boi",
+            "Chã Manuel de Santo",
+            "Fajã de Tourinho",
+            "Lombo Sancho",
+            "Limoeiro",
+            "Ponta de Fajazinha"
+          ]
+        },
+        "Corda Ii": {
+          "ruas": [
+            "Agua dos Bois",
+            "Bardo de Ferro",
+            "Cabouco de Pedra",
+            "Cha de Corda",
+            "Cha de Galinha",
+            "Cha de Mato",
+            "Cha de Mato de Cima",
+            "Cha de Sabonete",
+            "Covoada",
+            "Covadinha",
+            "Covoada Larga",
+            "Esponjeiro",
+            "Gaido",
+            "Lagedo Vermelho",
+            "Lombo de Agua dos Bois",
+            "Lombo Largo",
+            "Matinho Joao Afonso",
+            "Pedra Laja",
+            "Poco de Corda",
+            "Quintal",
+            "Raizes",
+            "Ribeira Dragoeiro",
+            "Ribeirao Grande",
+            "Ribeirao Largo",
+            "Rua de Papa Fria",
+            "Seladinha de Corda",
+            "Ribeira Merada",
+            "Escovadinha",
+            "Matim",
+            "Lombo de Pedra",
+            "Cha de Holanda"
+          ]
+        },
+        "Lagoa Iii": {
+          "ruas": [
+            "Covada D'água",
+            "Lagoinha",
+            "Matinho",
+            "Ribeirão Esfigueiras",
+            "Ribeirão Grande",
+            "Recanto de Ribeirão Largo",
+            "Ribeirinha",
+            "Covão de Lagoa",
+            "Covoada Funda",
+            "Lombo de Covoada Funda",
+            "Cruz de João Herodes",
+            "Figueirinha",
+            "Fundão de Lagoa",
+            "Lombo de Covão de Lagoa",
+            "Campainha",
+            "Lagoa",
+            "Cha Branca Gateia",
+            "Tril"
+          ]
+        },
+        "Lombo Santa": {
+          "ruas": [
+            "Cha de Belinha",
+            "Dongonha",
+            "Ladeira de Garca",
+            "Lombo Santa",
+            "Lombinho Branco",
+            "Losnas de Ribeira Grande",
+            "Silvão"
+          ]
+        },
+        "Ribeirao": {
+          "ruas": [
+            "Caforinha",
+            "Campo de Cao",
+            "Cha de Fazenda",
+            "Cha de Papaia",
+            "Cha de Vianiche",
+            "Fundo de Tanque",
+            "Lombinho Branco",
+            "Lombo Branco",
+            "Lombo de Cantina",
+            "Lombo de Gamboesa",
+            "Ponta de Barreiro",
+            "Lombo de Calção",
+            "Lombo Cansado",
+            "Ponta de Sintra",
+            "Espongeiro",
+            "Lombo Nigrim",
+            "Chã de Labrado",
+            "Pedra de Passarinho",
+            "Estrela",
+            "Lombo Vermelho",
+            "Gudinho",
+            "Camilo",
+            "Chã Viana",
+            "Cruz",
+            "Nitche",
+            "Lagedo",
+            "Ponta Ribeirão de Baixo",
+            "Covoadinha"
+          ]
+        },
+        "Cha de Igreja": {
+          "ruas": [
+            "Cha de Cavalo",
+            "Cha de Cima",
+            "Cha de Igreja",
+            "Cruzinha de Garca",
+            "Curral de Mocho",
+            "Faja Grande",
+            "Lombo Clara de Mocho",
+            "Ribeira do Inferno",
+            "Selada de Mocho",
+            "Fundo de Mocho",
+            "Lombo de João Pedro",
+            "Cruzinha",
+            "Covoada",
+            "Cruz",
+            "Cabouco de Tarefe",
+            "Fundo de Cavalo",
+            "Ladeira"
+          ]
+        },
+        "Figueiras": {
+          "ruas": [
+            "Figueiras de Cima",
+            "Fundas de Baixo",
+            "Lombo de Galinha",
+            "Joana Deque",
+            "Meio de Espanha",
+            "Os Lombos",
+            "Selada de Chapa",
+            "Moroços",
+            "Cancela",
+            "Covoada",
+            "Furnas de Sal",
+            "Lombo Casinha D'onor",
+            "Meio D'gores"
+          ]
+        },
+        "Garca de Cima": {
+          "ruas": [
+            "Boca de Endriano",
+            "Branquinha",
+            "Cabecadas",
+            "Cabo da Ribeira",
+            "Cha de Ascencio de Horta",
+            "Cha de Cima",
+            "Cha de Figueira",
+            "Cha de Guim",
+            "Cha Luis",
+            "Chanzinha de Cabecadas",
+            "Chanzinha de Hortas",
+            "Covoada",
+            "Enchado",
+            "Endriano",
+            "Esponjeiro",
+            "Faja de Matos",
+            "Faja Grande",
+            "Fanado",
+            "Fundo",
+            "Fundo Chica",
+            "Fundo Estevao",
+            "Guimileiro",
+            "Lombinho",
+            "Lombo Amaro",
+            "Lombo da Cruz",
+            "Lombo de Cacaio",
+            "Lombo Endriano",
+            "Lombo de Tilandia de F. Matos",
+            "Lombo de Tilandia de Manta Velha",
+            "Lombo Geada",
+            "Lombo Joaninha",
+            "Lombo Mario",
+            "Lombo Nico",
+            "Manta Velha de Fajã de Matos",
+            "Portalinho de Cabecadas",
+            "Portalinho de Horta",
+            "Portalinho de Manta Velha",
+            "Lombo de Niche",
+            "Chã de Bento",
+            "Chã de Nove",
+            "Lombo de Guim",
+            "Gude",
+            "Pilão",
+            "Chã de Cavalo",
+            "Chãzinha",
+            "Portalinho",
+            "Enxode",
+            "Cavoco de João Veríssimo",
+            "Hortas da Garça",
+            "Chã de Goteira",
+            "Lombo Matias",
+            "Marcelo",
+            "Lombo Pelado",
+            "Lombo Isidora",
+            "Lombo Joao da Ninho"
+          ]
+        },
+        "Lagoa I": {
+          "ruas": [
+            "Espadana"
+          ]
+        },
+        "Ribeira Alta": {
+          "ruas": [
+            "Cabo da Ribeira",
+            "Cha de Santo",
+            "Cha de Beana",
+            "Cha de Mar",
+            "Cha de Paulo",
+            "Cha Queimado",
+            "Descida",
+            "Varzinha",
+            "Chãzinha",
+            "Lombo de Santo",
+            "Lombo",
+            "Pé da Vinha"
+          ]
         }
       }
     },
@@ -1234,7 +5268,10 @@
             "Rua da Igreja",
             "Rua da Câmara",
             "Rua Principal",
-            "Rua do Vale"
+            "Rua do Vale",
+            "Barraca",
+            "Ribeira das Pombas",
+            "Tarafe"
           ]
         },
         "Coculi": {
@@ -1250,7 +5287,22 @@
             "Rua do Eito",
             "Rua da Fonte",
             "Rua do Vale",
-            "Rua Principal"
+            "Rua Principal",
+            "Boca de Cavouco",
+            "Boca de Figueiral",
+            "Borranca",
+            "Catife",
+            "Cova de Boi",
+            "Eito de Baixo",
+            "Eito de Cima",
+            "Esdrogal",
+            "Fundo Café",
+            "Horta das Canas",
+            "Lombo de Cima",
+            "Lombo de Eito",
+            "Lombo de Mariana",
+            "Majajaca",
+            "Pedra das Mocas"
           ]
         },
         "Lombo Comprido": {
@@ -1266,7 +5318,239 @@
             "Rua do Pico da Cruz",
             "Rua do Pico",
             "Rua da Cruz",
-            "Rua Principal"
+            "Rua Principal",
+            "Barbelao",
+            "Branquinho",
+            "Cha de Camoca",
+            "Cha de Losna",
+            "Cova do Engenheiro",
+            "Covada de Laranja",
+            "Estancia de Pedra",
+            "Gretao",
+            "Ladeira das Pedras",
+            "El Borto",
+            "Lombo de Erva Doce",
+            "Lombo de Pedrinho",
+            "Lombo Frederico",
+            "Morro Branco",
+            "Morro Preto",
+            "Pero Dias",
+            "Pico da Cruz",
+            "Queimado",
+            "Seladinha de Lenhal",
+            "Sem Voz",
+            "Covada",
+            "Lombo Carrasco",
+            "Caixa",
+            "Selada Estraga",
+            "Croque",
+            "Covadinha",
+            "Pedra Frada"
+          ]
+        },
+        "Cabo da Ribeira": {
+          "ruas": [
+            "Cha de Fazenda",
+            "Cha de Manuel dos Santos",
+            "Cha de Mato",
+            "Cha de Padre de Baixo",
+            "Cha de Padre de Cima",
+            "Chanzinha",
+            "Cinta de Covao",
+            "Cova",
+            "Covao",
+            "Igrejinha",
+            "Ladeira",
+            "Ladeira Fumaca",
+            "Lombo de Gaspar",
+            "Pico de Antonio",
+            "Ribeira Maria dos Reis",
+            "Ribeira Seca",
+            "Tabuleiro de Baixo",
+            "Tabuleiro de Cima",
+            "Teixeiro",
+            "Volta Ate",
+            "Porta do Polyvalente",
+            "Cinta de Covão",
+            "Chanzinha",
+            "Chã Correia",
+            "Ribeira de Feitor",
+            "Chã Bule",
+            "Chã Valentim",
+            "Morro de Vento",
+            "Cabo da Ribeira",
+            "Cavouquinho"
+          ]
+        },
+        "Campo de Cao": {
+          "ruas": [
+            "Campo de Cao",
+            "Cha de Joaquim",
+            "Cha de Erva",
+            "Chão de João Vaz",
+            "Dragoeiro",
+            "Gregório Gonçalves",
+            "Joanico",
+            "Lombinho",
+            "Lombo de Gaspar",
+            "Lombo de Joane",
+            "Lombo Laranjeira",
+            "Nike",
+            "Passagem",
+            "Poio de Padre",
+            "Sao Tome",
+            "Rocha Grande",
+            "Teixeiro",
+            "Lombo Comprido"
+          ]
+        },
+        "Ribeiraozinho": {
+          "ruas": [
+            "Ribeirãozinho de Baixo",
+            "Ribeirãozinho de Cima",
+            "Tanque de Escada"
+          ]
+        },
+        "Santa Isabel": {
+          "ruas": [
+            "Ondrinho",
+            "Borda de Figueiral",
+            "Cha de Felice",
+            "Covadinha",
+            "Cruz",
+            "Lombo Santa Maria",
+            "Merada Nova",
+            "Pedra Frade",
+            "Ribeira da Besta",
+            "Ribeira da Estrada",
+            "Rocheado",
+            "Tabuleiro",
+            "Tapume",
+            "Estraga",
+            "Lombo Corod",
+            "Chã de Quima",
+            "Chã de Gadei",
+            "Taverna",
+            "Santa Isabel Da-la",
+            "Chã de Canda",
+            "Lombo Nha Rosária",
+            "Chã de Caninho"
+          ]
+        },
+        "Vila das Pombas (RS)": {
+          "ruas": [
+            "Faja das Pombas"
+          ]
+        },
+        "Vila das Pombas (US)": {
+          "ruas": [
+            "Coice das Pombas",
+            "Pombas",
+            "Estancia",
+            "Passo",
+            "Paul de Baixo",
+            "Vicente",
+            "Faja das Pombas",
+            "Furnalha",
+            "Boavista",
+            "Cavouco de Vicente",
+            "Chã de Margarida",
+            "Mon de Baixo",
+            "Largo de Igreja"
+          ]
+        },
+        "Figueiral": {
+          "ruas": [
+            "Bacota",
+            "Batatal",
+            "Cabo de Figueiral",
+            "Canto de Vinha",
+            "Cha Clara",
+            "Cha de Canela",
+            "Chupadouro",
+            "Espanadeiro",
+            "Junta",
+            "Lombinho Baixo",
+            "Lombinho de Cima",
+            "Lombo de Luzia",
+            "Lombo Morro",
+            "Quintal",
+            "Recanto",
+            "Ribeirao de Agua",
+            "Seladinha",
+            "Santana",
+            "Varzea de Baixo",
+            "Varzea de Cima",
+            "Monteiro",
+            "Lombo de Feijoal Branco",
+            "Lombo de Cinta",
+            "Lombo de Julio"
+          ]
+        },
+        "Janela": {
+          "ruas": [
+            "Aguada de Janela",
+            "Alcaide",
+            "Arrimangado",
+            "Banda Baixo",
+            "Barro Alto",
+            "Bardo Rocha",
+            "Bordeira",
+            "Cabo da Ribeira",
+            "Cavouco de Silvao",
+            "Cha de Baixo",
+            "Cha de Balchorim",
+            "Covoada das Pedras",
+            "Entretopo",
+            "Faja de Janela",
+            "Fajanzinha",
+            "Ladeira Casinha",
+            "Lombo Bordeira",
+            "Lombo Cancela",
+            "Lombo Cantreira",
+            "Lombo Comprido",
+            "Lombo Curral",
+            "Lombo das Tintas",
+            "Lombo de Canequinha",
+            "Lombo Palmario",
+            "Lombo Pelado",
+            "Lombo Ribeira",
+            "Lombo Tanquim",
+            "Meio de Piolho",
+            "Meio dos Topos",
+            "Penedo",
+            "Pontinha",
+            "Praia de Gi",
+            "Tanque",
+            "Varzea",
+            "Farol",
+            "Lombo de Santa",
+            "Chã de Tia Eliza",
+            "Chãzinha",
+            "Boca da Ribeira",
+            "Lombinho de Pau",
+            "Lombo Pelod de Baixo",
+            "As Peras",
+            "Lombo Pelod de Cima",
+            "Chã de Carneiro",
+            "Testa",
+            "Lombo de Cinza",
+            "Porton de Varzinha",
+            "Espedrinha",
+            "Ribeira de Mato",
+            "Cabeceira de Horta",
+            "Pernal de Lombo",
+            "Borda Rocha de Lombo",
+            "Lombo Cabo de Ribeira",
+            "Ribeira de Antonio",
+            "Gud Piolho",
+            "Ribeira",
+            "Ladeirinha",
+            "Cruzinha",
+            "Cinta Vermelha",
+            "Cha Mae Paula",
+            "Covoada D'aguada",
+            "Guarda Antonio D'maia"
           ]
         }
       }
@@ -1304,7 +5588,15 @@
             "Rua do Curral das Vacas",
             "Rua do Curral",
             "Rua das Vacas",
-            "Rua Principal"
+            "Rua Principal",
+            "Cabo da Ribeira",
+            "Cha Funda",
+            "Covoada Larga",
+            "Curral das Vacas",
+            "Curral das Vacas de Baixo",
+            "Curral das Vacas de Cima",
+            "Cruz de Curral das Vacas",
+            "Figueira Quintina"
           ]
         },
         "Janela": {
@@ -1339,11 +5631,439 @@
             "Rua Principal",
             "Rua do Monte"
           ]
+        },
+        "Agua dos Velhos": {
+          "ruas": [
+            "Covoada Dragoeiro",
+            "Estancia Nova",
+            "Lombo dos Cabritos",
+            "Lombo Vermelho",
+            "Agua dos Velhos"
+          ]
+        },
+        "Catano": {
+          "ruas": [
+            "As Lajas",
+            "Cha de Erva",
+            "Cha de Pedro",
+            "Lombo Pelado",
+            "Seladinha",
+            "Varginha",
+            "Catano"
+          ]
+        },
+        "Cha de Morte": {
+          "ruas": [
+            "Cabeceira",
+            "Cavouco Silva",
+            "Cha de Alecrim",
+            "Cha de Morte",
+            "Cha de Seladinha",
+            "Coice de Cha de Morte",
+            "Ribeiraozinho"
+          ]
+        },
+        "Cirio": {
+          "ruas": [
+            "Cha de Curral",
+            "Cirio",
+            "Frede Cirio",
+            "Ladeira de Frede",
+            "Queimado Cirio",
+            "Seladinho de Cirio",
+            "Tapume",
+            "Chã de Alexandre",
+            "Frede e Ladeira de Frede",
+            "Quemada",
+            "Seladinha",
+            "Chã Manuel Inacio Frede",
+            "Ladeira Queimada"
+          ]
+        },
+        "Lagoa Ii": {
+          "ruas": [
+            "Morro de Ribeira Fria",
+            "Pinto",
+            "Tenente",
+            "Chã Branca",
+            "Borda de Espadana",
+            "Cabo de Campo",
+            "Fundo America",
+            "Chã Lagoa",
+            "Lagoa",
+            "Cebola",
+            "Branco",
+            "Tortolho",
+            "Compainha",
+            "Chã Branca de Pinto",
+            "Ninho de Corvo",
+            "Taboadinho",
+            "Fundo Lagoinha"
+          ]
+        },
+        "Lagoa": {
+          "ruas": [
+            "Carpinteiro",
+            "Chã de Cochete",
+            "Chã de Lagoa",
+            "Chã de Vinha",
+            "Chã de Atum",
+            "Chã de Queimado",
+            "Chã Ze Fernando",
+            "Fundo de América",
+            "Lagoa",
+            "Ponta de Atum",
+            "Chã de Caetano",
+            "Covão de Lagoa",
+            "Figueirinha",
+            "Lagoa de Cima"
+          ]
+        },
+        "Lajedo": {
+          "ruas": [
+            "Boca de Mina",
+            "Cavouco de Alecrim",
+            "Cha Banca",
+            "Cha de Sem Comer",
+            "Covoada",
+            "Covoada Branca",
+            "Frente Guilherme",
+            "Ponte Sul",
+            "Varzea Lajedo/lajedo",
+            "Vascona",
+            "Cancela",
+            "Zé Agrião",
+            "Chã Caneca",
+            "José Barranco",
+            "Chã de Mato"
+          ]
+        },
+        "Lombo das Lancas": {
+          "ruas": [
+            "Lombo das Lancas"
+          ]
+        },
+        "Lombo de Figueira": {
+          "ruas": [
+            "Agua das Caldeiras",
+            "Borda de Cova",
+            "Cha de Grama",
+            "Cha de Tampa",
+            "Covadinha",
+            "Covoada de Conce",
+            "Lajedo",
+            "Lombinho de Cinza",
+            "Lombo das Figueiras",
+            "Lombo Tortolho",
+            "Mesa",
+            "Topinho",
+            "Valeta",
+            "Pedra Rachada"
+          ]
+        },
+        "Manuel Lopes": {
+          "ruas": [
+            "Manuel Lopes",
+            "Titano",
+            "Dogoi",
+            "Seladinha",
+            "Chã de Casa",
+            "Pito Canhote",
+            "Lar",
+            "Chã de Baixo"
+          ]
+        },
+        "Mato Estreito": {
+          "ruas": [
+            "Luis Spencer",
+            "Mato Estreito",
+            "Queimado"
+          ]
+        },
+        "Morro Vento": {
+          "ruas": [
+            "Cha de Figueirinha",
+            "Cruz",
+            "Curral da Russa",
+            "Esponjeiro",
+            "Fundo de Vaca",
+            "Pedra Jacinto",
+            "Recanto",
+            "Ribeira de Pai",
+            "Ribeira do Poio",
+            "Topinho",
+            "Travessa de Triz",
+            "Morro de Vento"
+          ]
+        },
+        "Pedra de Jorge": {
+          "ruas": [
+            "Pedra de Jorge",
+            "Chã de Parede",
+            "Lombo Tapume"
+          ]
+        },
+        "Joao Bento / Ribeira dos Bodes": {
+          "ruas": [
+            "Covoada",
+            "Cha de Casa",
+            "Lombo",
+            "Poio",
+            "Seladinha",
+            "Chã de Foxe",
+            "Chã de Joana",
+            "Chã de João Bento",
+            "Ferrador",
+            "Chã de Tapume",
+            "Recantinho"
+          ]
+        },
+        "Ribeira Fria": {
+          "ruas": [
+            "Cabo da Ribeira",
+            "Cavouco",
+            "Cha de Besta",
+            "Cha de Mindelo",
+            "Cha de Tambarina",
+            "Cruz",
+            "Joao Dias",
+            "Lezardo",
+            "Lombo Tanque",
+            "Selada",
+            "Varzea de Tapume",
+            "Vila Nova",
+            "Ribeirinha Curta",
+            "Chã de Salina",
+            "Fonte Cruz"
+          ]
+        },
+        "Ribeira Torta": {
+          "ruas": [
+            "Ribeira Torta"
+          ]
+        },
+        "Ribeirao Fundo": {
+          "ruas": [
+            "Covoada",
+            "Covoada de Surrao",
+            "Covoada de Mangacao",
+            "Lombo das Casinhas",
+            "Lombo de Franguinho",
+            "Ribeirao Fundo de Baixo",
+            "Selada Vermelha",
+            "Teste Palha",
+            "Lombo de Franklin",
+            "Ribeirão Fundo de Cima",
+            "Chã de Mangação"
+          ]
+        },
+        "Tabuga": {
+          "ruas": [
+            "Cavouco",
+            "Cha de Casa",
+            "Cha de Joaozinho",
+            "Cha de Rosinha",
+            "Cha de Vaca",
+            "Lombinho Branco",
+            "Tabuleirinho",
+            "Tabuga de Baixo",
+            "Tabuga de Cima"
+          ]
+        },
+        "Tarrafal de M. Trigo": {
+          "ruas": [
+            "Agostinho Pereira",
+            "Cabouco de Tarafe",
+            "Cha de Preguica",
+            "Covao",
+            "Cutelo",
+            "Ladeira",
+            "Lombo de Cal",
+            "Praia",
+            "Pé de Tambarina",
+            "For Cal",
+            "Selada"
+          ]
+        },
+        "Vila do Porto Novo (US)": {
+          "ruas": [
+            "Abufador",
+            "Alto de Peixinho",
+            "Armazem",
+            "Bairro",
+            "Berlim",
+            "Branquinho",
+            "Cha de Camoca",
+            "Covoada",
+            "Italia",
+            "Lombinho",
+            "Lombo Branco",
+            "Lombo de Meio",
+            "Morro Braz",
+            "Pozolana",
+            "Ribeira Corujinha",
+            "Sao Tome",
+            "Curralete",
+            "Alto São Tomé",
+            "Chã de Itália",
+            "Chã de Matinho"
+          ]
+        },
+        "Casa do Meio": {
+          "ruas": [
+            "Chã das Pipas",
+            "Oreleano",
+            "Casa de Meio"
+          ]
+        },
+        "Água das Caldeiras": {
+          "ruas": [
+            "Água das Caldeiras"
+          ]
+        },
+        "Alto Mira": {
+          "ruas": [
+            "Burra",
+            "Cavouco Podre",
+            "Cha Bonita",
+            "Cha Daurinca",
+            "Cha de Baixo",
+            "Cha de Cima",
+            "Cha de Dragoeiro",
+            "Cha de Figueira",
+            "Cha Fora",
+            "Cha Gorado",
+            "Cha Gregorio",
+            "Cha Queimado",
+            "Cha Santana",
+            "Chanzinha",
+            "Covoada Desenfado",
+            "Covoada Purgueira",
+            "Desencaminhadinha",
+            "Dominguinhas",
+            "Faial",
+            "Horta Traz",
+            "Lombo Tanque",
+            "Mingalao",
+            "Seladinha",
+            "Calhau Lima",
+            "Gorado",
+            "Lombo Gorado",
+            "Oliveiro",
+            "Covoada",
+            "Queimado",
+            "Lombo D'ombrose/lombinho",
+            "Ladeira",
+            "Bordeira"
+          ]
+        },
+        "Cha de Branquinho": {
+          "ruas": [
+            "Cha de Alto Mira",
+            "Cha de Branquinho",
+            "Clementino",
+            "Covoada Branca",
+            "Covoada de Vassoura",
+            "Chã Ligeirao"
+          ]
+        },
+        "Cha de Norte": {
+          "ruas": [
+            "Boca de Cavouco",
+            "Bordeira",
+            "Chã / Lombinho",
+            "Agua das Patas",
+            "Agua Margosa",
+            "Aldeia",
+            "Cha de Cruz",
+            "Cha de Fernando",
+            "Cha de Manuelinho",
+            "Cha Dura",
+            "Cha Queimado",
+            "Figueirinha",
+            "Pascoal Alves",
+            "Tabuadinho / Chã Feijoal",
+            "Morrinho Dégua",
+            "Chã de Joaquim"
+          ]
+        },
+        "Jorge Luis": {
+          "ruas": [
+            "Cavouco",
+            "Cavouco de Agua",
+            "Cha de Beatriz",
+            "Cha de Estevao",
+            "Cha de Jacinta",
+            "Couvada",
+            "Fundo Jorge Luis",
+            "Miguel Pires",
+            "Lombo Tanquim",
+            "Lombo Touro",
+            "Lombo Velho",
+            "Pau Bonito",
+            "Selada",
+            "Seladinha"
+          ]
+        },
+        "Martiene": {
+          "ruas": [
+            "Cabecada Martiene",
+            "Carvo Eilinho",
+            "Cha de Tambeque",
+            "Cha de Tourim",
+            "Cha Fundo",
+            "Esponjeiro",
+            "Estreito Martiene",
+            "Lombo Covoada",
+            "Pe de Coco",
+            "Pedra Pilao",
+            "Varzinha",
+            "Sarrana",
+            "Tchã D'sarrana",
+            "Lombo",
+            "Tchãn",
+            "Frederic",
+            "Lombo D'antónia",
+            "Ribeira",
+            "Estreito",
+            "Casa Nova",
+            "Selada",
+            "Bordeira"
+          ]
+        },
+        "Monte Trigo": {
+          "ruas": [
+            "Monte Trigo"
+          ]
+        },
+        "Ribeira da Cruz": {
+          "ruas": [
+            "Cavouquinho",
+            "Cha Branca",
+            "Cha de Passao",
+            "Ladeira",
+            "Lombo Pelado",
+            "Morro da Russa",
+            "Ponta de Parede",
+            "Ponta Lombinho",
+            "Tabuado",
+            "Lagedos",
+            "Chão João Carlos",
+            "Bombe",
+            "Chã Recha",
+            "Chã Chiqueiro",
+            "Lombo Igreja",
+            "Lombo Seladinha",
+            "Lombo Chã D'aventura",
+            "Lourenço Marco",
+            "Chã Salvador",
+            "Lombo Lagarto"
+          ]
         }
       }
     }
   },
-  "Nicolau": {
+  "São Nicolau": {
     "Ribeira Brava": {
       "zonas": {
         "Ribeira Brava": {
@@ -1361,7 +6081,17 @@
             "Rua do Cachaço",
             "Rua da Fonte",
             "Rua do Monte",
-            "Rua Principal"
+            "Rua Principal",
+            "Cachaco",
+            "Fundo Pedro Clara",
+            "Assomada",
+            "Degredo",
+            "Lombo",
+            "Fundo Antolopo",
+            "Cruzitinha",
+            "Figueiras Altas",
+            "Monte Gordo",
+            "Guda"
           ]
         },
         "Caleijão": {
@@ -1369,7 +6099,20 @@
             "Rua do Caleijão",
             "Rua da Fonte",
             "Rua do Vale",
-            "Rua Principal"
+            "Rua Principal",
+            "Assomada de Vila",
+            "Caleijao",
+            "Marica",
+            "Pico Torto",
+            "Tome Pires",
+            "Travessa Tome Pires",
+            "Cabeco de Caleijão",
+            "Água Canal",
+            "Chã",
+            "Horta Nova",
+            "Morrinho",
+            "Campo Preguiça",
+            "Alto Consolado"
           ]
         },
         "Carril": {
@@ -1393,7 +6136,16 @@
             "Rua da Fajã",
             "Rua da Praia",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Canto Faja",
+            "Cha Manclara",
+            "Pico Agudo",
+            "Ladeira Estrada",
+            "Lombo da Graça",
+            "Caldeira Quente",
+            "Cabeço de Morro Homem",
+            "Canal de Nica",
+            "Chafariz"
           ]
         },
         "Juncalinho": {
@@ -1401,7 +6153,9 @@
             "Rua do Juncalinho",
             "Rua do Junco",
             "Rua da Fonte",
-            "Rua Principal"
+            "Rua Principal",
+            "Juncalinho",
+            "Spencer"
           ]
         },
         "Preguiça": {
@@ -1409,7 +6163,260 @@
             "Rua da Preguiça",
             "Rua do Porto",
             "Rua da Praia",
-            "Rua Principal"
+            "Rua Principal",
+            "Ali de Baixo",
+            "Monte Videu",
+            "Forte",
+            "Preguiça"
+          ]
+        },
+        "Covoada": {
+          "ruas": [
+            "Cabeço",
+            "Covoada",
+            "Topo",
+            "Santo António",
+            "Portal",
+            "Ladeira",
+            "Lombo Covoada",
+            "Chãzinha",
+            "Passo Covoada",
+            "Lalai",
+            "Dominguinha",
+            "Joia",
+            "Cinta",
+            "Alto João Manuel"
+          ]
+        },
+        "Estancia de Braz": {
+          "ruas": [
+            "Alto",
+            "Borda da Ribeirinha",
+            "Horta Nova",
+            "Ladeira Grande",
+            "Largo Chafariz",
+            "Largo Djidja",
+            "Montreiro",
+            "Ponte",
+            "Batel",
+            "Chã de Cobra",
+            "Chã de Bote",
+            "Estância de Braz",
+            "Ponta de Salina",
+            "Cintinha"
+          ]
+        },
+        "Faja de Baixo": {
+          "ruas": [
+            "Faja de Baixo",
+            "Furado",
+            "Morre Homem",
+            "Ribeira dos Bichos",
+            "Trago",
+            "Garçoto",
+            "Chã de Barata",
+            "Janona",
+            "Sangala",
+            "Buracão",
+            "Pontão",
+            "Cabeço Morre Homem",
+            "Pelourinho",
+            "Lombo de Fundo",
+            "Galeria",
+            "Canto Matias Gomes",
+            "Assomada"
+          ]
+        },
+        "Queimadas": {
+          "ruas": [
+            "Moral",
+            "Queimadas de Baixo",
+            "Terra Branca",
+            "Terra Quebrada",
+            "Trás de Lombo",
+            "Lombo",
+            "Cerrado",
+            "Conceição"
+          ]
+        },
+        "Ribeira Funda": {
+          "ruas": [
+            "Alto Cantreira",
+            "Camarões",
+            "Michinha",
+            "Monte Baixo",
+            "Testa"
+          ]
+        },
+        "Agua das Patas": {
+          "ruas": [
+            "Agua das Patas",
+            "Alto de Esquinha",
+            "Coxo de Agua. das Patas",
+            "Canal",
+            "Topo",
+            "Horta de Cima / Horta Grande",
+            "Cabeço de Agua das Patas",
+            "Mãe Velha",
+            "Pico Agudo",
+            "Capinho"
+          ]
+        },
+        "Belem": {
+          "ruas": [
+            "Belem de Baixo",
+            "Belem de Cima",
+            "Cha de Lancha",
+            "Lem Corvo",
+            "Topo de Agua",
+            "Zurique",
+            "Belém"
+          ]
+        },
+        "Boqueirao": {
+          "ruas": [
+            "Boqueirao",
+            "Lombo de Boqueirão",
+            "Lombo Roberto"
+          ]
+        },
+        "Campinho": {
+          "ruas": [
+            "Campinho",
+            "Campinho Norte",
+            "Campinho Sul",
+            "Cruzeta",
+            "Fabateira",
+            "Alto Miguel António",
+            "Bela Sombra",
+            "Estábua",
+            "Boca de Carvao",
+            "Furna",
+            "Maré Branco",
+            "Lombo Branco"
+          ]
+        },
+        "Carrical": {
+          "ruas": [
+            "Carrical",
+            "R. Alto"
+          ]
+        },
+        "Carvoeiros": {
+          "ruas": [
+            "Carvoeiros",
+            "Monte Baixo",
+            "Chã",
+            "Monte Cima",
+            "Ribeirãozinho"
+          ]
+        },
+        "Coelha": {
+          "ruas": [
+            "Covoada Cardo",
+            "Deligencia",
+            "Ribeira de Baquer",
+            "Coelha"
+          ]
+        },
+        "Figueira de Cocho": {
+          "ruas": [
+            "Casinhas",
+            "Figueira Cocho",
+            "Pataresa"
+          ]
+        },
+        "Lompelado": {
+          "ruas": [
+            "Assomada Gamboesa",
+            "Cha Tadeia",
+            "Cruz de Roque",
+            "Gamboesa D'agua",
+            "Goiabeira",
+            "Laranjalinho",
+            "Lombo Pelado de Baixo",
+            "Lombo Pelado de Cima",
+            "Peneda",
+            "Trago",
+            "Chã Manclara",
+            "Pianção",
+            "Ladegira Grande"
+          ]
+        },
+        "Morro": {
+          "ruas": [
+            "Assomada Dragoeiro",
+            "Cabeca de Vaca",
+            "Margosa",
+            "Morro",
+            "Nortinho",
+            "Recanto",
+            "Ribeira Seca"
+          ]
+        },
+        "Morro Alto": {
+          "ruas": [
+            "Morro Alto"
+          ]
+        },
+        "Morro Braz": {
+          "ruas": [
+            "Chã de Cantinho",
+            "Estancinha",
+            "Mangrande",
+            "Alto de Caneca",
+            "Palinha",
+            "Pandulha",
+            "Alto Caneca",
+            "Morro Bráz"
+          ]
+        },
+        "Talho": {
+          "ruas": [
+            "Cigana",
+            "Ensosso",
+            "Faiel",
+            "Fundo Figueira",
+            "Maria Palinha",
+            "Mofina",
+            "Palso",
+            "Pombas",
+            "Rabona",
+            "Ribeira das Vacas",
+            "Ribeirao",
+            "Talho / Chã de Talho",
+            "Chã Colinha",
+            "Ponta Leste",
+            "Caboquim",
+            "Barreiro"
+          ]
+        },
+        "Vila da Ribeira Brava (US)": {
+          "ruas": [
+            "Centro / Vila",
+            "Chanzinha",
+            "Estancia de Baixo",
+            "Ladeira",
+            "Lombinho",
+            "Monte Alegre",
+            "Sao Joao",
+            "Ribeirinha",
+            "Alto Caneca",
+            "Manuel António",
+            "Capon",
+            "Rochinha",
+            "Penedo",
+            "Crontcha",
+            "Marica",
+            "Lapa",
+            "Maimona",
+            "Pandulha",
+            "Lombona",
+            "Fronteira",
+            "Mermorial",
+            "Passagem",
+            "Alto Mira",
+            "Meio Estancia"
           ]
         }
       }
@@ -1439,7 +6446,26 @@
             "Rua do Cabeçalinho",
             "Rua da Cabeça",
             "Rua do Monte",
-            "Rua Principal"
+            "Rua Principal",
+            "Cachacinho",
+            "Caldeira",
+            "Chamico",
+            "Chamico de Cima",
+            "Chamico de Baixo",
+            "Chã de Caldeira",
+            "Assomada Cabecalinho",
+            "Ribeira de Fonte",
+            "Estancha",
+            "Chã",
+            "Lombo Cabecalinho",
+            "Missemirinha",
+            "Lombo Ferreira",
+            "Coxo de Cabeçalinho",
+            "Curva de Barraquinha",
+            "Lombo Colo/lombo Loteiro",
+            "Mato Fort",
+            "Titeia",
+            "Alto Cacáco"
           ]
         },
         "Fajã de Baixo": {
@@ -1466,6 +6492,32 @@
             "Rua dos Pescadores",
             "Rua Principal"
           ]
+        },
+        "Fontainhas": {
+          "ruas": []
+        },
+        "Fragata": {
+          "ruas": [
+            "Cruzinha",
+            "Fragatona",
+            "Geronimo",
+            "Santa Barbara"
+          ]
+        },
+        "Hortela": {
+          "ruas": []
+        },
+        "Palhal": {
+          "ruas": []
+        },
+        "Ribeira dos Calhaus": {
+          "ruas": []
+        },
+        "Ribeira Prata": {
+          "ruas": []
+        },
+        "Vila do Tarrafal (URBANO)": {
+          "ruas": []
         }
       }
     }
