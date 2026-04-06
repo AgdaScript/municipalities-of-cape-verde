@@ -66,6 +66,14 @@ app.get('/health', (req, res) => {
   res.json({ status: 'ok', timestamp: new Date().toISOString() });
 });
 
+// eslint-disable-next-line no-unused-vars
+app.use((err, req, res, next) => {
+  const status = err.statusCode || 500;
+  const message = err.message || 'An unexpected error occurred.';
+  console.error(`[${err.name || 'Error'}] ${message}`);
+  res.status(status).json({ error: err.name || 'InternalServerError', message });
+});
+
 app.listen(PORT, () => {
   console.log(`API running at http://localhost:${PORT}`);
   console.log(`Swagger docs: http://localhost:${PORT}/api-docs`);
