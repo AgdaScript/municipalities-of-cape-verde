@@ -21,11 +21,28 @@ function findKey(obj, searchName) {
   return Object.keys(obj).find((key) => normalize(key) === normalized) || null;
 }
 
+class DataLoadError extends Error {
+  constructor(message) {
+    super(message);
+    this.name = 'DataLoadError';
+    this.statusCode = 500;
+  }
+}
+
 function loadData() {
   if (!data) {
     const path = join(__dirname, '..', '..', 'municipalities-of-cape-verde.json');
-    const raw = readFileSync(path, 'utf-8');
-    data = JSON.parse(raw);
+    try {
+      const raw = readFileSync(path, 'utf-8');
+      data = JSON.parse(raw);
+    } catch (cause) {
+      const isParseError = cause instanceof SyntaxError;
+      throw new DataLoadError(
+        isParseError
+          ? 'Data file contains malformed JSON and could not be parsed.'
+          : 'Data file is missing or unreadable. The API is temporarily unavailable.',
+      );
+    }
   }
   return data;
 }
