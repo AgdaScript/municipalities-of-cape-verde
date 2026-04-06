@@ -1,4 +1,4 @@
-# Cape Verde Municipalities API
+# Cape Verde Municipalities API!
 
 REST API for querying islands, municipalities, zones and streets of Cape Verde, documented with Swagger/OpenAPI 3.0.
 
